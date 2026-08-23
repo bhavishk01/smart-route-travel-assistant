@@ -1,12 +1,14 @@
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
+const tripRoutes = require('./routes/tripRoutes');
 require('dotenv').config();
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use('/api/trips', tripRoutes);
 
 app.get('/api/health', (req, res) => {
     res.json({
