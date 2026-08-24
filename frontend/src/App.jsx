@@ -9,6 +9,7 @@ function App() {
     roundTrip: true,
     numberOfTravellers: 1,
     vehicleType: 'car',
+    fuelType: 'petrol',
     mileage: 15,
     fuelPrice: 100,
     requiresStay: false,
@@ -59,6 +60,15 @@ function App() {
     setLoading(false);
   }
 
+  function getMileageLabel() {
+    return formData.fuelType === 'electric' ? 'Mileage (km/kWh)' : 'Mileage (km/l)';
+  }
+
+  function getFuelPriceLabel() {
+    if (formData.fuelType === 'electric') return 'Electricity Price (per kWh)';
+    return 'Fuel Price (per litre)';
+  }
+
   return (
     <div style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: '500px' }}>
       <h1>Smart Route Travel Assistant</h1>
@@ -97,12 +107,22 @@ function App() {
         </div>
 
         <div>
-          <label>Mileage (km/l)</label>
+          <label>Fuel Type</label>
+          <select name="fuelType" value={formData.fuelType} onChange={handleChange}>
+            <option value="petrol">Petrol</option>
+            <option value="diesel">Diesel</option>
+            <option value="cng">CNG</option>
+            <option value="electric">Electric</option>
+          </select>
+        </div>
+
+        <div>
+          <label>{getMileageLabel()}</label>
           <input type="number" name="mileage" value={formData.mileage} onChange={handleChange} />
         </div>
 
         <div>
-          <label>Fuel Price (per litre)</label>
+          <label>{getFuelPriceLabel()}</label>
           <input type="number" name="fuelPrice" value={formData.fuelPrice} onChange={handleChange} />
         </div>
 
@@ -131,6 +151,13 @@ function App() {
           <h2>Route</h2>
           <p>Distance: {(result.route.distanceMeters / 1000).toFixed(1)} km</p>
           <p>Duration: {(result.route.durationSeconds / 3600).toFixed(1)} hours</p>
+
+          <h2>Estimated Cost</h2>
+          <p>Fuel: ₹{result.cost.estimatedFuelCost}</p>
+          <p>Stay: ₹{result.cost.estimatedStayCost}</p>
+          <p>Total: ₹{result.cost.estimatedTotalCost}</p>
+          <p>Per Person: ₹{result.cost.estimatedCostPerPerson}</p>
+          <p style={{ fontSize: '0.85rem', color: '#666' }}>{result.cost.note}</p>
         </div>
       )}
     </div>

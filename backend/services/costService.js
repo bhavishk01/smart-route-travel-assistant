@@ -35,10 +35,11 @@ function calculateCost(tripDetails, route, recommendedStays) {
     const costPerPerson = totalCost / tripDetails.numberOfTravellers;
 
     return {
-        fuelCost: Number(fuelCost.toFixed(2)),
-        stayCost: Number(stayCost.toFixed(2)),
-        totalCost: Number(totalCost.toFixed(2)),
-        costPerPerson: Number(costPerPerson.toFixed(2)),
+        estimatedFuelCost: Number(fuelCost.toFixed(2)),
+        estimatedStayCost: Number(stayCost.toFixed(2)),
+        estimatedTotalCost: Number(totalCost.toFixed(2)),
+        estimatedCostPerPerson: Number(costPerPerson.toFixed(2)),
+        note: 'Costs are estimates based on the fuel price and stay rates you provided/found, and may vary with real-time changes.',
     };
 }
 

@@ -27,6 +27,11 @@ const tripSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    fuelType: {
+        type: String,
+        required: true,
+        enum: ['petrol', 'diesel', 'cng', 'electric'],
+    },
     mileage: {
         type: Number,
         required: true,

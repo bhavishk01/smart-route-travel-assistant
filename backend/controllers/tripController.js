@@ -21,6 +21,10 @@ function validateTripInput(body) {
     if (!body.vehicleType || typeof body.vehicleType !== 'string') {
         errors.push('vehicleType is required');
     }
+    const validFuelTypes = ['petrol', 'diesel', 'cng', 'electric'];
+    if (!body.fuelType || !validFuelTypes.includes(body.fuelType)) {
+        errors.push('fuelType must be one of: petrol, diesel, cng, electric');
+    }
     if (!body.mileage || body.mileage <= 0) {
         errors.push('mileage must be greater than 0');
     }
