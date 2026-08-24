@@ -1,0 +1,2538 @@
+[
+  {
+    "stayId": "osm-247177830",
+    "name": "SREC Ladies Hostel",
+    "type": "Hostel",
+    "longitude": 76.9645328,
+    "latitude": 11.100144,
+    "pricePerNight": 1384
+  },
+  {
+    "stayId": "osm-247177849",
+    "name": "SREC Boys Hostel",
+    "type": "Hostel",
+    "longitude": 76.9683793,
+    "latitude": 11.1010721,
+    "pricePerNight": 3876
+  },
+  {
+    "stayId": "osm-278667870",
+    "name": "Savoy Hotel",
+    "type": "Hotel",
+    "longitude": 76.6933561,
+    "latitude": 11.4150602,
+    "pricePerNight": 2285
+  },
+  {
+    "stayId": "osm-278937352",
+    "name": "Kings Cliffe",
+    "type": "Guest House",
+    "longitude": 76.6982983,
+    "latitude": 11.420113,
+    "pricePerNight": 5852
+  },
+  {
+    "stayId": "osm-279131899",
+    "name": "Destiny",
+    "type": "Guest House",
+    "longitude": 76.6000125,
+    "latitude": 11.322362,
+    "pricePerNight": 3918
+  },
+  {
+    "stayId": "osm-279231337",
+    "name": "Sullivan Court",
+    "type": "Hotel",
+    "longitude": 76.711119,
+    "latitude": 11.4078935,
+    "pricePerNight": 5746
+  },
+  {
+    "stayId": "osm-280187183",
+    "name": "Ooty Gate",
+    "type": "Hotel",
+    "longitude": 76.7130939,
+    "latitude": 11.4082292,
+    "pricePerNight": 2138
+  },
+  {
+    "stayId": "osm-280187185",
+    "name": "Preethi paradise",
+    "type": "Hotel",
+    "longitude": 76.71199,
+    "latitude": 11.4094569,
+    "pricePerNight": 3022
+  },
+  {
+    "stayId": "osm-282437665",
+    "name": "Vivek Tourist Home",
+    "type": "Hotel",
+    "longitude": 76.7992606,
+    "latitude": 11.3452569,
+    "pricePerNight": 5705
+  },
+  {
+    "stayId": "osm-282674695",
+    "name": "Hotel TamilNadu _ ooty",
+    "type": "Hotel",
+    "longitude": 76.7067023,
+    "latitude": 11.4117615,
+    "pricePerNight": 1852
+  },
+  {
+    "stayId": "osm-283634741",
+    "name": "Sterling Resorts Elkhill",
+    "type": "Guest House",
+    "longitude": 76.7031209,
+    "latitude": 11.3970023,
+    "pricePerNight": 1611
+  },
+  {
+    "stayId": "osm-287835456",
+    "name": "Abayaranyam",
+    "type": "Guest House",
+    "longitude": 76.5235016,
+    "latitude": 11.5365598,
+    "pricePerNight": 5195
+  },
+  {
+    "stayId": "osm-288088583",
+    "name": "Kerala club",
+    "type": "Guest House",
+    "longitude": 76.9736138,
+    "latitude": 11.0078414,
+    "pricePerNight": 3130
+  },
+  {
+    "stayId": "osm-321418345",
+    "name": "Hotel Nahar",
+    "type": "Hotel",
+    "longitude": 76.7085499,
+    "latitude": 11.4080347,
+    "pricePerNight": 5463
+  },
+  {
+    "stayId": "osm-321420784",
+    "name": "TTDC Hotel Tamil Nadu Coimbatore",
+    "type": "Hotel",
+    "longitude": 76.9684019,
+    "latitude": 11.0136119,
+    "pricePerNight": 5807
+  },
+  {
+    "stayId": "osm-321420815",
+    "name": "Hotel Alankar",
+    "type": "Hotel",
+    "longitude": 76.9661668,
+    "latitude": 11.009903,
+    "pricePerNight": 2002
+  },
+  {
+    "stayId": "osm-321420821",
+    "name": "Heritage Inn",
+    "type": "Hotel",
+    "longitude": 76.9668505,
+    "latitude": 11.0104497,
+    "pricePerNight": 1494
+  },
+  {
+    "stayId": "osm-321420827",
+    "name": "Hotel City Tower",
+    "type": "Hotel",
+    "longitude": 76.9664184,
+    "latitude": 11.0104805,
+    "pricePerNight": 3033
+  },
+  {
+    "stayId": "osm-330705481",
+    "name": "Hotel CAG Pride",
+    "type": "Hotel",
+    "longitude": 76.970776,
+    "latitude": 11.0163385,
+    "pricePerNight": 2382
+  },
+  {
+    "stayId": "osm-343693450",
+    "name": "Vijayalakshmi Apts",
+    "type": "Hostel",
+    "longitude": 76.94436,
+    "latitude": 11.01993,
+    "pricePerNight": 3495
+  },
+  {
+    "stayId": "osm-344407960",
+    "name": "Deja Vu",
+    "type": "Hotel",
+    "longitude": 76.9855718,
+    "latitude": 11.0108435,
+    "pricePerNight": 3929
+  },
+  {
+    "stayId": "osm-368190939",
+    "name": "Geni Club",
+    "type": "Hotel",
+    "longitude": 77.0276054,
+    "latitude": 11.0304643,
+    "pricePerNight": 3593
+  },
+  {
+    "stayId": "osm-371433210",
+    "name": "St. Margarets Holiday Home",
+    "type": "Guest House",
+    "longitude": 76.6895797,
+    "latitude": 11.4153165,
+    "pricePerNight": 2670
+  },
+  {
+    "stayId": "osm-378184919",
+    "name": "L&T Holiday home",
+    "type": "Guest House",
+    "longitude": 76.7075685,
+    "latitude": 11.4220446,
+    "pricePerNight": 2352
+  },
+  {
+    "stayId": "osm-390131177",
+    "name": "Pai Vista",
+    "type": "Hotel",
+    "longitude": 76.6593011,
+    "latitude": 12.3110701,
+    "pricePerNight": 1430
+  },
+  {
+    "stayId": "osm-393870792",
+    "name": "Darshan",
+    "type": "Hotel",
+    "longitude": 76.6871862,
+    "latitude": 11.4066918,
+    "pricePerNight": 5080
+  },
+  {
+    "stayId": "osm-398990449",
+    "name": "Jungle Retreat",
+    "type": "Guest House",
+    "longitude": 76.6509068,
+    "latitude": 11.5277627,
+    "pricePerNight": 5329
+  },
+  {
+    "stayId": "osm-410803781",
+    "name": "Royal Orchid Brindavan",
+    "type": "Hotel",
+    "longitude": 76.5734033,
+    "latitude": 12.4196368,
+    "pricePerNight": 2917
+  },
+  {
+    "stayId": "osm-540645461",
+    "name": "Metropole",
+    "type": "Hotel",
+    "longitude": 76.6440802,
+    "latitude": 12.3114826,
+    "pricePerNight": 3127
+  },
+  {
+    "stayId": "osm-540645893",
+    "name": "Regaalis, Mysore",
+    "type": "Hotel",
+    "longitude": 76.6430331,
+    "latitude": 12.3117845,
+    "pricePerNight": 4363
+  },
+  {
+    "stayId": "osm-541313398",
+    "name": "Hotel Guru Residency",
+    "type": "Hotel",
+    "longitude": 76.6427366,
+    "latitude": 12.3127083,
+    "pricePerNight": 4737
+  },
+  {
+    "stayId": "osm-541329537",
+    "name": "Hotel Ramanashree",
+    "type": "Hotel",
+    "longitude": 76.6598093,
+    "latitude": 12.3080613,
+    "pricePerNight": 3360
+  },
+  {
+    "stayId": "osm-633121758",
+    "name": "Bombay Tiffanys",
+    "type": "Hotel",
+    "longitude": 76.6531011,
+    "latitude": 12.3123503,
+    "pricePerNight": 2716
+  },
+  {
+    "stayId": "osm-638109667",
+    "name": "Monarch",
+    "type": "Hotel",
+    "longitude": 76.6993189,
+    "latitude": 11.4202025,
+    "pricePerNight": 1671
+  },
+  {
+    "stayId": "osm-647850322",
+    "name": "Hotel New Shilpashri Bar and Restaurant",
+    "type": "Hotel",
+    "longitude": 76.6542796,
+    "latitude": 12.3110043,
+    "pricePerNight": 1293
+  },
+  {
+    "stayId": "osm-647850323",
+    "name": "Chandra Palace",
+    "type": "Hotel",
+    "longitude": 76.6538693,
+    "latitude": 12.3128041,
+    "pricePerNight": 4139
+  },
+  {
+    "stayId": "osm-660608312",
+    "name": "Charing Cross",
+    "type": "Hotel",
+    "longitude": 76.7084252,
+    "latitude": 11.4133521,
+    "pricePerNight": 4134
+  },
+  {
+    "stayId": "osm-803389796",
+    "name": "Residency Hotel",
+    "type": "Hotel",
+    "longitude": 76.9801062,
+    "latitude": 11.0096228,
+    "pricePerNight": 3865
+  },
+  {
+    "stayId": "osm-1039492975",
+    "name": "Vignesh Towers",
+    "type": "Guest House",
+    "longitude": 76.982528,
+    "latitude": 11.0417086,
+    "pricePerNight": 1922
+  },
+  {
+    "stayId": "osm-1039493019",
+    "name": "Surya Ladies Hostel",
+    "type": "Hostel",
+    "longitude": 76.979545,
+    "latitude": 11.0389557,
+    "pricePerNight": 3757
+  },
+  {
+    "stayId": "osm-1039716925",
+    "name": "Vignesh Towers",
+    "type": "Guest House",
+    "longitude": 76.9825965,
+    "latitude": 11.0419725,
+    "pricePerNight": 2021
+  },
+  {
+    "stayId": "osm-1039752453",
+    "name": "Kyathadevara Gudi Wilderness Camp",
+    "type": "Guest House",
+    "longitude": 77.1221252,
+    "latitude": 11.9040454,
+    "pricePerNight": 3728
+  },
+  {
+    "stayId": "osm-1065137570",
+    "name": "Hotel RRR",
+    "type": "Hotel",
+    "longitude": 76.6587377,
+    "latitude": 12.3086026,
+    "pricePerNight": 4498
+  },
+  {
+    "stayId": "osm-1135609518",
+    "name": "Evolve Back, Kabini",
+    "type": "Hotel",
+    "longitude": 76.2665016,
+    "latitude": 11.926504,
+    "pricePerNight": 5456
+  },
+  {
+    "stayId": "osm-1153301920",
+    "name": "Sri Uma Maheswara Lodge",
+    "type": "Hotel",
+    "longitude": 76.6578378,
+    "latitude": 12.31096,
+    "pricePerNight": 3309
+  },
+  {
+    "stayId": "osm-1153301956",
+    "name": "Mysore Comforts",
+    "type": "Hotel",
+    "longitude": 76.6507364,
+    "latitude": 12.3060376,
+    "pricePerNight": 2770
+  },
+  {
+    "stayId": "osm-1153369471",
+    "name": "MRT Yatri Nivas",
+    "type": "Hotel",
+    "longitude": 76.6578212,
+    "latitude": 12.3103941,
+    "pricePerNight": 3245
+  },
+  {
+    "stayId": "osm-1153369558",
+    "name": "Karnataka Tourist Center",
+    "type": "Hotel",
+    "longitude": 76.6576189,
+    "latitude": 12.3103101,
+    "pricePerNight": 1791
+  },
+  {
+    "stayId": "osm-1153369589",
+    "name": "Shreyas Lodge",
+    "type": "Hotel",
+    "longitude": 76.6579416,
+    "latitude": 12.3103309,
+    "pricePerNight": 3260
+  },
+  {
+    "stayId": "osm-1165014851",
+    "name": "Blue Hill Lodge",
+    "type": "Hotel",
+    "longitude": 76.4920506,
+    "latitude": 11.501575,
+    "pricePerNight": 4197
+  },
+  {
+    "stayId": "osm-1311589321",
+    "name": "Taj Garden Retreat",
+    "type": "Hotel",
+    "longitude": 76.8008578,
+    "latitude": 11.3456103,
+    "pricePerNight": 1757
+  },
+  {
+    "stayId": "osm-1392358224",
+    "name": "Royal Challet Hotel",
+    "type": "Hotel",
+    "longitude": 76.6448316,
+    "latitude": 12.2681286,
+    "pricePerNight": 3290
+  },
+  {
+    "stayId": "osm-1449396683",
+    "name": "Lymond House",
+    "type": "Guest House",
+    "longitude": 76.6944022,
+    "latitude": 11.4141314,
+    "pricePerNight": 5287
+  },
+  {
+    "stayId": "osm-1450248319",
+    "name": "Sujatha Residency",
+    "type": "Hotel",
+    "longitude": 76.6477973,
+    "latitude": 12.3290856,
+    "pricePerNight": 2077
+  },
+  {
+    "stayId": "osm-1469093655",
+    "name": "EMS Mayura",
+    "type": "Hotel",
+    "longitude": 76.9381071,
+    "latitude": 11.3001154,
+    "pricePerNight": 2449
+  },
+  {
+    "stayId": "osm-1470787170",
+    "name": "Soorya International Hotel",
+    "type": "Hotel",
+    "longitude": 76.9370278,
+    "latitude": 11.3039598,
+    "pricePerNight": 2960
+  },
+  {
+    "stayId": "osm-1473263696",
+    "name": "GV International Lodge",
+    "type": "Guest House",
+    "longitude": 76.9414311,
+    "latitude": 11.3006567,
+    "pricePerNight": 5601
+  },
+  {
+    "stayId": "osm-1490973572",
+    "name": "Hive Service Apartment",
+    "type": "Guest House",
+    "longitude": 76.997194,
+    "latitude": 11.012718,
+    "pricePerNight": 3958
+  },
+  {
+    "stayId": "osm-1596093377",
+    "name": "Hotel Grand Palace",
+    "type": "Hotel",
+    "longitude": 76.9625545,
+    "latitude": 11.0187947,
+    "pricePerNight": 2651
+  },
+  {
+    "stayId": "osm-1636850568",
+    "name": "Jade Garden",
+    "type": "Hotel",
+    "longitude": 76.6403651,
+    "latitude": 12.3008074,
+    "pricePerNight": 5840
+  },
+  {
+    "stayId": "osm-1638073734",
+    "name": "Parklane Hotel",
+    "type": "Hotel",
+    "longitude": 76.6583683,
+    "latitude": 12.3086497,
+    "pricePerNight": 3929
+  },
+  {
+    "stayId": "osm-1645794657",
+    "name": "Royal Inn",
+    "type": "Hotel",
+    "longitude": 76.6286062,
+    "latitude": 12.3515413,
+    "pricePerNight": 4484
+  },
+  {
+    "stayId": "osm-1649140635",
+    "name": "Radisson Blu Plaza Hotel",
+    "type": "Hotel",
+    "longitude": 76.6655704,
+    "latitude": 12.2981407,
+    "pricePerNight": 2087
+  },
+  {
+    "stayId": "osm-1656551377",
+    "name": "Punjabi dhaba",
+    "type": "Hotel",
+    "longitude": 76.9844266,
+    "latitude": 11.0808365,
+    "pricePerNight": 4478
+  },
+  {
+    "stayId": "osm-1659014527",
+    "name": "Ganesh Hotel",
+    "type": "Hotel",
+    "longitude": 76.6583818,
+    "latitude": 12.310275,
+    "pricePerNight": 4249
+  },
+  {
+    "stayId": "osm-1664334100",
+    "name": "New Moon's Mirror Resort",
+    "type": "Hotel",
+    "longitude": 76.6371629,
+    "latitude": 11.6974594,
+    "pricePerNight": 3490
+  },
+  {
+    "stayId": "osm-1664341063",
+    "name": "Sylvan Lodge",
+    "type": "Hotel",
+    "longitude": 76.5866084,
+    "latitude": 11.5800493,
+    "pricePerNight": 5280
+  },
+  {
+    "stayId": "osm-1664473029",
+    "name": "Brookdale Village Resort",
+    "type": "Hotel",
+    "longitude": 76.574777,
+    "latitude": 11.4674156,
+    "pricePerNight": 2867
+  },
+  {
+    "stayId": "osm-1664493283",
+    "name": "Preethi Palace",
+    "type": "Hotel",
+    "longitude": 76.7090719,
+    "latitude": 11.4106693,
+    "pricePerNight": 5806
+  },
+  {
+    "stayId": "osm-1664495123",
+    "name": "Hotel Venus",
+    "type": "Hotel",
+    "longitude": 76.7111,
+    "latitude": 11.41025,
+    "pricePerNight": 5756
+  },
+  {
+    "stayId": "osm-1670004234",
+    "name": "Hotel Dasparakash Akshaya",
+    "type": "Hotel",
+    "longitude": 76.6539708,
+    "latitude": 12.3118335,
+    "pricePerNight": 3120
+  },
+  {
+    "stayId": "osm-1674636478",
+    "name": "Madhva Boys' Hostel",
+    "type": "Hostel",
+    "longitude": 76.6448529,
+    "latitude": 12.29066,
+    "pricePerNight": 3851
+  },
+  {
+    "stayId": "osm-1674637603",
+    "name": "Sankethi Boys' Hostel",
+    "type": "Hostel",
+    "longitude": 76.6451185,
+    "latitude": 12.2905185,
+    "pricePerNight": 2275
+  },
+  {
+    "stayId": "osm-1680049127",
+    "name": "Hotel Karpagam",
+    "type": "Hotel",
+    "longitude": 76.9659961,
+    "latitude": 11.0104945,
+    "pricePerNight": 2217
+  },
+  {
+    "stayId": "osm-1681456791",
+    "name": "Suvarna Residency",
+    "type": "Motel",
+    "longitude": 76.6260993,
+    "latitude": 12.2867027,
+    "pricePerNight": 1914
+  },
+  {
+    "stayId": "osm-1683123643",
+    "name": "gangotri sunrise",
+    "type": "Hotel",
+    "longitude": 76.6981837,
+    "latitude": 11.4138832,
+    "pricePerNight": 5700
+  },
+  {
+    "stayId": "osm-1683123644",
+    "name": "Hotel Jayasanthi",
+    "type": "Hotel",
+    "longitude": 76.6975783,
+    "latitude": 11.413711,
+    "pricePerNight": 3621
+  },
+  {
+    "stayId": "osm-1683123670",
+    "name": "welbeck residency",
+    "type": "Hotel",
+    "longitude": 76.6981291,
+    "latitude": 11.4136125,
+    "pricePerNight": 2038
+  },
+  {
+    "stayId": "osm-1683131138",
+    "name": "comfort inn",
+    "type": "Hotel",
+    "longitude": 76.6973582,
+    "latitude": 11.4136797,
+    "pricePerNight": 5122
+  },
+  {
+    "stayId": "osm-1683131139",
+    "name": "hill breeze",
+    "type": "Hotel",
+    "longitude": 76.6974299,
+    "latitude": 11.4134262,
+    "pricePerNight": 3355
+  },
+  {
+    "stayId": "osm-1684281484",
+    "name": "Classic Residency",
+    "type": "Guest House",
+    "longitude": 76.6936524,
+    "latitude": 11.4125398,
+    "pricePerNight": 1323
+  },
+  {
+    "stayId": "osm-1684526914",
+    "name": "Rainbow Cottages",
+    "type": "Guest House",
+    "longitude": 76.7000128,
+    "latitude": 11.4138881,
+    "pricePerNight": 1295
+  },
+  {
+    "stayId": "osm-1684526916",
+    "name": "Rainbow Cottages",
+    "type": "Guest House",
+    "longitude": 76.6997528,
+    "latitude": 11.4140695,
+    "pricePerNight": 4532
+  },
+  {
+    "stayId": "osm-1684529738",
+    "name": "Gangothri",
+    "type": "Hotel",
+    "longitude": 76.6977982,
+    "latitude": 11.4137207,
+    "pricePerNight": 5411
+  },
+  {
+    "stayId": "osm-1798917854",
+    "name": "Quorum",
+    "type": "Hotel",
+    "longitude": 76.6405996,
+    "latitude": 12.3124209,
+    "pricePerNight": 2216
+  },
+  {
+    "stayId": "osm-1808467421",
+    "name": "Santrupthi Homestay",
+    "type": "Guest House",
+    "longitude": 76.6315057,
+    "latitude": 12.3209572,
+    "pricePerNight": 2903
+  },
+  {
+    "stayId": "osm-1818604065",
+    "name": "Windflower Spa and Resorts",
+    "type": "Hotel",
+    "longitude": 76.670955,
+    "latitude": 12.2917329,
+    "pricePerNight": 5274
+  },
+  {
+    "stayId": "osm-1842326955",
+    "name": "Pepper Grove",
+    "type": "Hotel",
+    "longitude": 76.2494616,
+    "latitude": 11.6507669,
+    "pricePerNight": 5900
+  },
+  {
+    "stayId": "osm-2153183695",
+    "name": "City Palace",
+    "type": "Hotel",
+    "longitude": 76.6931157,
+    "latitude": 11.4040741,
+    "pricePerNight": 5965
+  },
+  {
+    "stayId": "osm-2153184293",
+    "name": "Reflections Guest House",
+    "type": "Hotel",
+    "longitude": 76.6923392,
+    "latitude": 11.4041947,
+    "pricePerNight": 3612
+  },
+  {
+    "stayId": "osm-2153184294",
+    "name": "Sweekar",
+    "type": "Hotel",
+    "longitude": 76.6977571,
+    "latitude": 11.400923,
+    "pricePerNight": 1204
+  },
+  {
+    "stayId": "osm-2195979819",
+    "name": "Amiritha Lodge",
+    "type": "Guest House",
+    "longitude": 76.9382438,
+    "latitude": 11.3034713,
+    "pricePerNight": 3611
+  },
+  {
+    "stayId": "osm-2195979820",
+    "name": "Ellamma Lodge",
+    "type": "Guest House",
+    "longitude": 76.9382127,
+    "latitude": 11.3042136,
+    "pricePerNight": 3408
+  },
+  {
+    "stayId": "osm-2195979822",
+    "name": "Hotel Mayura",
+    "type": "Hotel",
+    "longitude": 76.9387056,
+    "latitude": 11.3001621,
+    "pricePerNight": 4648
+  },
+  {
+    "stayId": "osm-2195979828",
+    "name": "Lakshmi Lodge",
+    "type": "Guest House",
+    "longitude": 76.9386598,
+    "latitude": 11.3009241,
+    "pricePerNight": 1472
+  },
+  {
+    "stayId": "osm-2195979829",
+    "name": "Lauveri Lodge",
+    "type": "Guest House",
+    "longitude": 76.9367082,
+    "latitude": 11.30377,
+    "pricePerNight": 5668
+  },
+  {
+    "stayId": "osm-2195979830",
+    "name": "Manees Lodge",
+    "type": "Guest House",
+    "longitude": 76.9382617,
+    "latitude": 11.3032608,
+    "pricePerNight": 5679
+  },
+  {
+    "stayId": "osm-2195979831",
+    "name": "Nanda Lodge",
+    "type": "Guest House",
+    "longitude": 76.9379104,
+    "latitude": 11.3031291,
+    "pricePerNight": 1393
+  },
+  {
+    "stayId": "osm-2195979833",
+    "name": "Soorya Lodge",
+    "type": "Guest House",
+    "longitude": 76.9386078,
+    "latitude": 11.3011755,
+    "pricePerNight": 1382
+  },
+  {
+    "stayId": "osm-2195979834",
+    "name": "VIP Lodge",
+    "type": "Guest House",
+    "longitude": 76.9382863,
+    "latitude": 11.3037761,
+    "pricePerNight": 5769
+  },
+  {
+    "stayId": "osm-2232361185",
+    "name": "Aishwarya Residency",
+    "type": "Hotel",
+    "longitude": 76.6581867,
+    "latitude": 12.315877,
+    "pricePerNight": 2356
+  },
+  {
+    "stayId": "osm-2376659471",
+    "name": "Blue Bird",
+    "type": "Hotel",
+    "longitude": 76.714537,
+    "latitude": 11.403264,
+    "pricePerNight": 1568
+  },
+  {
+    "stayId": "osm-2376659472",
+    "name": "Cottage Lakshmi",
+    "type": "Hotel",
+    "longitude": 76.7060063,
+    "latitude": 11.4137263,
+    "pricePerNight": 1964
+  },
+  {
+    "stayId": "osm-2376659473",
+    "name": "Devis Tourist Inn",
+    "type": "Hostel",
+    "longitude": 76.7056668,
+    "latitude": 11.4063606,
+    "pricePerNight": 3481
+  },
+  {
+    "stayId": "osm-2376659474",
+    "name": "Golden City",
+    "type": "Hotel",
+    "longitude": 76.7107645,
+    "latitude": 11.4107777,
+    "pricePerNight": 3335
+  },
+  {
+    "stayId": "osm-2376659475",
+    "name": "Good Times Cottage",
+    "type": "Hotel",
+    "longitude": 76.7059421,
+    "latitude": 11.4137291,
+    "pricePerNight": 2741
+  },
+  {
+    "stayId": "osm-2376659476",
+    "name": "Greens Lodge",
+    "type": "Hotel",
+    "longitude": 76.7077017,
+    "latitude": 11.4089427,
+    "pricePerNight": 5287
+  },
+  {
+    "stayId": "osm-2376659477",
+    "name": "Hotel Avani Lodge",
+    "type": "Hotel",
+    "longitude": 76.706479,
+    "latitude": 11.407377,
+    "pricePerNight": 4794
+  },
+  {
+    "stayId": "osm-2376659478",
+    "name": "Hotel Blur Hilla",
+    "type": "Hotel",
+    "longitude": 76.7078565,
+    "latitude": 11.4113535,
+    "pricePerNight": 1895
+  },
+  {
+    "stayId": "osm-2376659479",
+    "name": "Hotel FMJ",
+    "type": "Hotel",
+    "longitude": 76.714984,
+    "latitude": 11.4023182,
+    "pricePerNight": 3465
+  },
+  {
+    "stayId": "osm-2376659480",
+    "name": "Hotel Glanton Manor",
+    "type": "Hotel",
+    "longitude": 76.7110791,
+    "latitude": 11.4102996,
+    "pricePerNight": 5724
+  },
+  {
+    "stayId": "osm-2376659481",
+    "name": "Hotel Nilgiri Natraj",
+    "type": "Hotel",
+    "longitude": 76.7072868,
+    "latitude": 11.4079023,
+    "pricePerNight": 3219
+  },
+  {
+    "stayId": "osm-2376659482",
+    "name": "Hotel Sanjay",
+    "type": "Hotel",
+    "longitude": 76.7088138,
+    "latitude": 11.4122174,
+    "pricePerNight": 5057
+  },
+  {
+    "stayId": "osm-2376659483",
+    "name": "Hotel Sri",
+    "type": "Hotel",
+    "longitude": 76.7154134,
+    "latitude": 11.4037433,
+    "pricePerNight": 2535
+  },
+  {
+    "stayId": "osm-2376659484",
+    "name": "Maruthi Cottages",
+    "type": "Hotel",
+    "longitude": 76.7049373,
+    "latitude": 11.4130941,
+    "pricePerNight": 5429
+  },
+  {
+    "stayId": "osm-2376659485",
+    "name": "Meadows Residency",
+    "type": "Hotel",
+    "longitude": 76.7108111,
+    "latitude": 11.4108747,
+    "pricePerNight": 3939
+  },
+  {
+    "stayId": "osm-2376659486",
+    "name": "Ooty Nest",
+    "type": "Hotel",
+    "longitude": 76.7138491,
+    "latitude": 11.4080188,
+    "pricePerNight": 5077
+  },
+  {
+    "stayId": "osm-2376659487",
+    "name": "Orchid Inn",
+    "type": "Hotel",
+    "longitude": 76.7145981,
+    "latitude": 11.4031127,
+    "pricePerNight": 1552
+  },
+  {
+    "stayId": "osm-2376659488",
+    "name": "Pebrock Residency",
+    "type": "Hotel",
+    "longitude": 76.7145246,
+    "latitude": 11.4066656,
+    "pricePerNight": 1344
+  },
+  {
+    "stayId": "osm-2376659489",
+    "name": "Rathna Residency",
+    "type": "Hotel",
+    "longitude": 76.7062322,
+    "latitude": 11.4066335,
+    "pricePerNight": 4971
+  },
+  {
+    "stayId": "osm-2376659490",
+    "name": "Royal Sand",
+    "type": "Hotel",
+    "longitude": 76.7147114,
+    "latitude": 11.4036227,
+    "pricePerNight": 4513
+  },
+  {
+    "stayId": "osm-2376659491",
+    "name": "Sideway Cottage",
+    "type": "Hotel",
+    "longitude": 76.7153989,
+    "latitude": 11.4025609,
+    "pricePerNight": 3676
+  },
+  {
+    "stayId": "osm-2376659492",
+    "name": "Sri Lakshmi Cottage",
+    "type": "Hotel",
+    "longitude": 76.7146398,
+    "latitude": 11.4039117,
+    "pricePerNight": 5645
+  },
+  {
+    "stayId": "osm-2376659494",
+    "name": "Sun Park",
+    "type": "Hotel",
+    "longitude": 76.7053103,
+    "latitude": 11.4151752,
+    "pricePerNight": 3823
+  },
+  {
+    "stayId": "osm-2376659495",
+    "name": "Sunshine Inn",
+    "type": "Hotel",
+    "longitude": 76.7153493,
+    "latitude": 11.4062055,
+    "pricePerNight": 3638
+  },
+  {
+    "stayId": "osm-2376662702",
+    "name": "Diamond",
+    "type": "Guest House",
+    "longitude": 76.7017629,
+    "latitude": 11.401545,
+    "pricePerNight": 4596
+  },
+  {
+    "stayId": "osm-2376662705",
+    "name": "Khrisna Cottages",
+    "type": "Guest House",
+    "longitude": 76.6896246,
+    "latitude": 11.4132407,
+    "pricePerNight": 1507
+  },
+  {
+    "stayId": "osm-2376662706",
+    "name": "Kings Residency",
+    "type": "Guest House",
+    "longitude": 76.6919558,
+    "latitude": 11.4129448,
+    "pricePerNight": 1602
+  },
+  {
+    "stayId": "osm-2376662708",
+    "name": "R.M. Cottages",
+    "type": "Guest House",
+    "longitude": 76.6899793,
+    "latitude": 11.4132507,
+    "pricePerNight": 4939
+  },
+  {
+    "stayId": "osm-2376662709",
+    "name": "Rbi Holiday Home",
+    "type": "Hotel",
+    "longitude": 76.6985942,
+    "latitude": 11.399137,
+    "pricePerNight": 2682
+  },
+  {
+    "stayId": "osm-2376662710",
+    "name": "Royal Mist",
+    "type": "Hotel",
+    "longitude": 76.6922973,
+    "latitude": 11.4128371,
+    "pricePerNight": 1624
+  },
+  {
+    "stayId": "osm-2407835647",
+    "name": "Hotel Devishree Prasad",
+    "type": "Hotel",
+    "longitude": 76.2845856,
+    "latitude": 12.3090981,
+    "pricePerNight": 2167
+  },
+  {
+    "stayId": "osm-2417644285",
+    "name": "Mallikarjuna boarding and lodging",
+    "type": "Hotel",
+    "longitude": 76.291837,
+    "latitude": 12.308939,
+    "pricePerNight": 1427
+  },
+  {
+    "stayId": "osm-2447941599",
+    "name": "Gov Boys Hostel Kattemalalwadi",
+    "type": "Hostel",
+    "longitude": 76.291316,
+    "latitude": 12.35604,
+    "pricePerNight": 5882
+  },
+  {
+    "stayId": "osm-2614104608",
+    "name": "Wild Haven",
+    "type": "Guest House",
+    "longitude": 76.6925829,
+    "latitude": 11.5352748,
+    "pricePerNight": 1809
+  },
+  {
+    "stayId": "osm-2616016134",
+    "name": "SLV Bording & Lodging",
+    "type": "Motel",
+    "longitude": 76.3736713,
+    "latitude": 12.1918892,
+    "pricePerNight": 4215
+  },
+  {
+    "stayId": "osm-2620887349",
+    "name": "M. B. International",
+    "type": "Hotel",
+    "longitude": 76.6596091,
+    "latitude": 12.3183859,
+    "pricePerNight": 5563
+  },
+  {
+    "stayId": "osm-2623349400",
+    "name": "Hotel Silver Star",
+    "type": "Hotel",
+    "longitude": 76.6589358,
+    "latitude": 12.318868,
+    "pricePerNight": 3256
+  },
+  {
+    "stayId": "osm-2831401358",
+    "name": "Maharaja Hotel Mysore",
+    "type": "Hotel",
+    "longitude": 76.6596385,
+    "latitude": 12.3112197,
+    "pricePerNight": 5383
+  },
+  {
+    "stayId": "osm-2869682111",
+    "name": "Green wood inn",
+    "type": "Hotel",
+    "longitude": 76.6619921,
+    "latitude": 12.319111,
+    "pricePerNight": 4217
+  },
+  {
+    "stayId": "osm-2962631224",
+    "name": "The Green Hotel",
+    "type": "Hotel",
+    "longitude": 76.6366698,
+    "latitude": 12.3131046,
+    "pricePerNight": 5538
+  },
+  {
+    "stayId": "osm-2982356915",
+    "name": "The Grand Inn",
+    "type": "Hotel",
+    "longitude": 76.657859,
+    "latitude": 12.3111165,
+    "pricePerNight": 4075
+  },
+  {
+    "stayId": "osm-3116318840",
+    "name": "suresh hotel",
+    "type": "Hotel",
+    "longitude": 76.9483343,
+    "latitude": 11.0149682,
+    "pricePerNight": 5814
+  },
+  {
+    "stayId": "osm-3211789213",
+    "name": "Tea Nest",
+    "type": "Motel",
+    "longitude": 76.8153612,
+    "latitude": 11.3460291,
+    "pricePerNight": 3633
+  },
+  {
+    "stayId": "osm-3217567469",
+    "name": "Shiv Sagar",
+    "type": "Hotel",
+    "longitude": 76.6214719,
+    "latitude": 12.3024862,
+    "pricePerNight": 5805
+  },
+  {
+    "stayId": "osm-3272453676",
+    "name": "24 Mane Telugu Shetty Student Hostel",
+    "type": "Hostel",
+    "longitude": 76.6333887,
+    "latitude": 12.3058933,
+    "pricePerNight": 5377
+  },
+  {
+    "stayId": "osm-3272453677",
+    "name": "Jyotipana Ganiga Student Hostel",
+    "type": "Hostel",
+    "longitude": 76.6316872,
+    "latitude": 12.3052077,
+    "pricePerNight": 5627
+  },
+  {
+    "stayId": "osm-3390878929",
+    "name": "St. Philomena's Ladies Hostel",
+    "type": "Hostel",
+    "longitude": 76.6582053,
+    "latitude": 12.3333638,
+    "pricePerNight": 4804
+  },
+  {
+    "stayId": "osm-3784808867",
+    "name": "Khushi Resort",
+    "type": "Hotel",
+    "longitude": 76.6860216,
+    "latitude": 11.8020547,
+    "pricePerNight": 1353
+  },
+  {
+    "stayId": "osm-3865281549",
+    "name": "Nalapad Residency",
+    "type": "Hotel",
+    "longitude": 76.6469896,
+    "latitude": 12.3309435,
+    "pricePerNight": 3478
+  },
+  {
+    "stayId": "osm-3901557891",
+    "name": "Grange",
+    "type": "Hotel",
+    "longitude": 76.7116718,
+    "latitude": 11.4103826,
+    "pricePerNight": 2374
+  },
+  {
+    "stayId": "osm-3901557893",
+    "name": "Orchid Boutique",
+    "type": "Hotel",
+    "longitude": 76.810185,
+    "latitude": 11.3507256,
+    "pricePerNight": 4793
+  },
+  {
+    "stayId": "osm-3901557898",
+    "name": "Teanest Annexe",
+    "type": "Hotel",
+    "longitude": 76.8205426,
+    "latitude": 11.3444762,
+    "pricePerNight": 4527
+  },
+  {
+    "stayId": "osm-3987373395",
+    "name": "Grand Maurya Resort",
+    "type": "Hotel",
+    "longitude": 76.595544,
+    "latitude": 12.3344971,
+    "pricePerNight": 1331
+  },
+  {
+    "stayId": "osm-3990864293",
+    "name": "Chaliyar View Dormitery",
+    "type": "Hostel",
+    "longitude": 76.2342772,
+    "latitude": 11.2888733,
+    "pricePerNight": 5270
+  },
+  {
+    "stayId": "osm-4171440392",
+    "name": "Sri Latchumi Mess",
+    "type": "Hotel",
+    "longitude": 76.8004707,
+    "latitude": 11.3492492,
+    "pricePerNight": 1689
+  },
+  {
+    "stayId": "osm-4171440393",
+    "name": "Mirchi Restaurant",
+    "type": "Hotel",
+    "longitude": 76.7934998,
+    "latitude": 11.3622643,
+    "pricePerNight": 1236
+  },
+  {
+    "stayId": "osm-4171665592",
+    "name": "Ragavi Guest House",
+    "type": "Guest House",
+    "longitude": 76.800249,
+    "latitude": 11.3537527,
+    "pricePerNight": 2826
+  },
+  {
+    "stayId": "osm-4181068390",
+    "name": "Amblee Holiday resort",
+    "type": "Hotel",
+    "longitude": 76.6786734,
+    "latitude": 12.4172913,
+    "pricePerNight": 5288
+  },
+  {
+    "stayId": "osm-4189170408",
+    "name": "Hotel Saravana Bhavan",
+    "type": "Hotel",
+    "longitude": 76.9822134,
+    "latitude": 11.2779167,
+    "pricePerNight": 4803
+  },
+  {
+    "stayId": "osm-4263833389",
+    "name": "Chital 1",
+    "type": "Guest House",
+    "longitude": 76.6294834,
+    "latitude": 11.6667798,
+    "pricePerNight": 3485
+  },
+  {
+    "stayId": "osm-4267589115",
+    "name": "Chital 2",
+    "type": "Guest House",
+    "longitude": 76.6298998,
+    "latitude": 11.6666514,
+    "pricePerNight": 3977
+  },
+  {
+    "stayId": "osm-4273587294",
+    "name": "Black Thunder Resorts Pvt Ltd",
+    "type": "Hotel",
+    "longitude": 76.9102472,
+    "latitude": 11.3294138,
+    "pricePerNight": 3982
+  },
+  {
+    "stayId": "osm-4303164749",
+    "name": "Pepper Trail",
+    "type": "Hotel",
+    "longitude": 76.2568084,
+    "latitude": 11.6608005,
+    "pricePerNight": 5122
+  },
+  {
+    "stayId": "osm-4337886289",
+    "name": "Kavita home",
+    "type": "Guest House",
+    "longitude": 76.8962544,
+    "latitude": 11.0393137,
+    "pricePerNight": 3764
+  },
+  {
+    "stayId": "osm-4348358551",
+    "name": "White Parrot",
+    "type": "Hotel",
+    "longitude": 76.6446391,
+    "latitude": 12.3293897,
+    "pricePerNight": 2640
+  },
+  {
+    "stayId": "osm-4365684590",
+    "name": "Nana's Place",
+    "type": "Guest House",
+    "longitude": 76.6473542,
+    "latitude": 12.3043553,
+    "pricePerNight": 2766
+  },
+  {
+    "stayId": "osm-4400995690",
+    "name": "Fortune JP Palace",
+    "type": "Hotel",
+    "longitude": 76.6630743,
+    "latitude": 12.3184352,
+    "pricePerNight": 3530
+  },
+  {
+    "stayId": "osm-4402079987",
+    "name": "OYO Homes Race Course",
+    "type": "Hotel",
+    "longitude": 76.9858523,
+    "latitude": 11.0049649,
+    "pricePerNight": 5000
+  },
+  {
+    "stayId": "osm-4445028791",
+    "name": "palaru,ponnaiyaru,kaveri hostels,gct",
+    "type": "Hostel",
+    "longitude": 76.9363797,
+    "latitude": 11.0201165,
+    "pricePerNight": 1653
+  },
+  {
+    "stayId": "osm-4445057789",
+    "name": "thamirabarani hostel,gct",
+    "type": "Hostel",
+    "longitude": 76.9342821,
+    "latitude": 11.0197513,
+    "pricePerNight": 5466
+  },
+  {
+    "stayId": "osm-4445057889",
+    "name": "vaigai hostel",
+    "type": "Hostel",
+    "longitude": 76.9349592,
+    "latitude": 11.0196957,
+    "pricePerNight": 5515
+  },
+  {
+    "stayId": "osm-4445057990",
+    "name": "bhavani hostel, gct",
+    "type": "Hostel",
+    "longitude": 76.9352756,
+    "latitude": 11.019381,
+    "pricePerNight": 5033
+  },
+  {
+    "stayId": "osm-4445059989",
+    "name": "HMR hotel",
+    "type": "Hotel",
+    "longitude": 76.95235,
+    "latitude": 11.0067443,
+    "pricePerNight": 3059
+  },
+  {
+    "stayId": "osm-4460010191",
+    "name": "Hotel Airlines",
+    "type": "Hotel",
+    "longitude": 76.6401445,
+    "latitude": 12.3005288,
+    "pricePerNight": 3589
+  },
+  {
+    "stayId": "osm-4551478447",
+    "name": "Anas Bin Hamza House",
+    "type": "Guest House",
+    "longitude": 76.3028346,
+    "latitude": 11.248104,
+    "pricePerNight": 4116
+  },
+  {
+    "stayId": "osm-4736587626",
+    "name": "Sree Ganesh Prasad Lodge",
+    "type": "Hostel",
+    "longitude": 76.649545,
+    "latitude": 12.3098969,
+    "pricePerNight": 5926
+  },
+  {
+    "stayId": "osm-4809187121",
+    "name": "Hotel Darshan Palace",
+    "type": "Hotel",
+    "longitude": 76.6636041,
+    "latitude": 12.3029882,
+    "pricePerNight": 2709
+  },
+  {
+    "stayId": "osm-4826292146",
+    "name": "Highland",
+    "type": "Hotel",
+    "longitude": 76.7317749,
+    "latitude": 11.4180902,
+    "pricePerNight": 5609
+  },
+  {
+    "stayId": "osm-4848868923",
+    "name": "Yuvraj Landmark",
+    "type": "Hotel",
+    "longitude": 76.6505589,
+    "latitude": 12.3060781,
+    "pricePerNight": 3180
+  },
+  {
+    "stayId": "osm-4880408597",
+    "name": "Kluney Manor",
+    "type": "Hotel",
+    "longitude": 76.6982535,
+    "latitude": 11.3975273,
+    "pricePerNight": 4371
+  },
+  {
+    "stayId": "osm-5038018222",
+    "name": "Hotel Maurya",
+    "type": "Hotel",
+    "longitude": 76.6531514,
+    "latitude": 12.3110927,
+    "pricePerNight": 1912
+  },
+  {
+    "stayId": "osm-5044488624",
+    "name": "The Peepal Tree, Kabini",
+    "type": "Hotel",
+    "longitude": 76.2889267,
+    "latitude": 11.925397,
+    "pricePerNight": 2427
+  },
+  {
+    "stayId": "osm-5081389456",
+    "name": "Oyo Rooms",
+    "type": "Hotel",
+    "longitude": 76.65748,
+    "latitude": 12.320061,
+    "pricePerNight": 1695
+  },
+  {
+    "stayId": "osm-5172494420",
+    "name": "Samasth",
+    "type": "Hotel",
+    "longitude": 76.6535881,
+    "latitude": 12.3116678,
+    "pricePerNight": 5106
+  },
+  {
+    "stayId": "osm-5181153021",
+    "name": "Masala Guesthouse",
+    "type": "Guest House",
+    "longitude": 76.6454113,
+    "latitude": 12.2972329,
+    "pricePerNight": 5366
+  },
+  {
+    "stayId": "osm-5209173515",
+    "name": "Red Fort Hostel",
+    "type": "Hostel",
+    "longitude": 76.9400469,
+    "latitude": 11.0095957,
+    "pricePerNight": 1603
+  },
+  {
+    "stayId": "osm-5242678321",
+    "name": "Mysore Bed and Breakfast",
+    "type": "Hotel",
+    "longitude": 76.685066,
+    "latitude": 12.3052145,
+    "pricePerNight": 1663
+  },
+  {
+    "stayId": "osm-5244267523",
+    "name": "Mannars Deluxe Lodge",
+    "type": "Hotel",
+    "longitude": 76.6575924,
+    "latitude": 12.3108923,
+    "pricePerNight": 5570
+  },
+  {
+    "stayId": "osm-5252054146",
+    "name": "Hotel Stay by the Way",
+    "type": "Hotel",
+    "longitude": 76.6065904,
+    "latitude": 12.3520494,
+    "pricePerNight": 2559
+  },
+  {
+    "stayId": "osm-5258856231",
+    "name": "The Nest Inn",
+    "type": "Hostel",
+    "longitude": 76.6386915,
+    "latitude": 11.5672712,
+    "pricePerNight": 1744
+  },
+  {
+    "stayId": "osm-5259483075",
+    "name": "Sri Guru Inn",
+    "type": "Hotel",
+    "longitude": 76.9632258,
+    "latitude": 11.0165257,
+    "pricePerNight": 4571
+  },
+  {
+    "stayId": "osm-5273064626",
+    "name": "PWD Rest House Sulthan Bathery",
+    "type": "Guest House",
+    "longitude": 76.2604639,
+    "latitude": 11.6626836,
+    "pricePerNight": 5822
+  },
+  {
+    "stayId": "osm-5273073776",
+    "name": "Jubilee",
+    "type": "Hotel",
+    "longitude": 76.254372,
+    "latitude": 11.6625196,
+    "pricePerNight": 4373
+  },
+  {
+    "stayId": "osm-5273267722",
+    "name": "Hotel Mint Flower",
+    "type": "Hotel",
+    "longitude": 76.2625132,
+    "latitude": 11.6648424,
+    "pricePerNight": 5979
+  },
+  {
+    "stayId": "osm-5273267724",
+    "name": "Alfa Tourist Home",
+    "type": "Hotel",
+    "longitude": 76.262741,
+    "latitude": 11.6656611,
+    "pricePerNight": 4578
+  },
+  {
+    "stayId": "osm-5277960530",
+    "name": "Dream Birds Rooms and Dormitory",
+    "type": "Hotel",
+    "longitude": 76.2512365,
+    "latitude": 11.6615494,
+    "pricePerNight": 2383
+  },
+  {
+    "stayId": "osm-5286934438",
+    "name": "Pepper Trail",
+    "type": "Hotel",
+    "longitude": 76.2571674,
+    "latitude": 11.6627313,
+    "pricePerNight": 2905
+  },
+  {
+    "stayId": "osm-5287706621",
+    "name": "Kissing Trees Homestay",
+    "type": "Guest House",
+    "longitude": 76.392432,
+    "latitude": 12.415005,
+    "pricePerNight": 4220
+  },
+  {
+    "stayId": "osm-5300435768",
+    "name": "Amma canteen",
+    "type": "Hotel",
+    "longitude": 76.956686,
+    "latitude": 11.0045936,
+    "pricePerNight": 5957
+  },
+  {
+    "stayId": "osm-5363812983",
+    "name": "Hotel Sumudra Mysore",
+    "type": "Hotel",
+    "longitude": 76.6615253,
+    "latitude": 12.3187366,
+    "pricePerNight": 3909
+  },
+  {
+    "stayId": "osm-5646145170",
+    "name": "M.X. Lodge",
+    "type": "Hotel",
+    "longitude": 77.0295003,
+    "latitude": 11.0013636,
+    "pricePerNight": 1582
+  },
+  {
+    "stayId": "osm-5673210222",
+    "name": "International Youth Hostel",
+    "type": "Hostel",
+    "longitude": 76.6244485,
+    "latitude": 12.3277181,
+    "pricePerNight": 1805
+  },
+  {
+    "stayId": "osm-5678749909",
+    "name": "Hill view cottage",
+    "type": "Motel",
+    "longitude": 76.704341,
+    "latitude": 11.4146291,
+    "pricePerNight": 4113
+  },
+  {
+    "stayId": "osm-5773582343",
+    "name": "Sankethi Boys Hostel",
+    "type": "Hostel",
+    "longitude": 76.6363097,
+    "latitude": 12.2895708,
+    "pricePerNight": 3165
+  },
+  {
+    "stayId": "osm-5773582344",
+    "name": "Sankethi Girls Hostel",
+    "type": "Hostel",
+    "longitude": 76.6357555,
+    "latitude": 12.2885924,
+    "pricePerNight": 2561
+  },
+  {
+    "stayId": "osm-5915168886",
+    "name": "Shoba hotel",
+    "type": "Hotel",
+    "longitude": 76.9587236,
+    "latitude": 11.2427838,
+    "pricePerNight": 1407
+  },
+  {
+    "stayId": "osm-6114452767",
+    "name": "Subbian mess",
+    "type": "Hotel",
+    "longitude": 76.9306892,
+    "latitude": 11.2951775,
+    "pricePerNight": 3428
+  },
+  {
+    "stayId": "osm-6117494750",
+    "name": "Sripad's",
+    "type": "Guest House",
+    "longitude": 76.6281357,
+    "latitude": 12.3377104,
+    "pricePerNight": 4689
+  },
+  {
+    "stayId": "osm-6117496107",
+    "name": "Hotel Hanumanthu Original 1930",
+    "type": "Hotel",
+    "longitude": 76.6525783,
+    "latitude": 12.3180148,
+    "pricePerNight": 2704
+  },
+  {
+    "stayId": "osm-6220049985",
+    "name": "Kaveri",
+    "type": "Hotel",
+    "longitude": 76.6506485,
+    "latitude": 12.3039903,
+    "pricePerNight": 4808
+  },
+  {
+    "stayId": "osm-6237779940",
+    "name": "Zostel Mysore",
+    "type": "Hostel",
+    "longitude": 76.6344855,
+    "latitude": 12.3225856,
+    "pricePerNight": 1655
+  },
+  {
+    "stayId": "osm-6289226685",
+    "name": "Bhagyalakshmi Deluxe Hotel",
+    "type": "Hotel",
+    "longitude": 76.6526219,
+    "latitude": 12.3120033,
+    "pricePerNight": 1682
+  },
+  {
+    "stayId": "osm-6362904185",
+    "name": "Buskar's Guesthouse",
+    "type": "Guest House",
+    "longitude": 76.6407358,
+    "latitude": 12.2962315,
+    "pricePerNight": 2943
+  },
+  {
+    "stayId": "osm-6367812190",
+    "name": "Sasthapuri hotels",
+    "type": "Hotel",
+    "longitude": 76.4939735,
+    "latitude": 11.4983105,
+    "pricePerNight": 2399
+  },
+  {
+    "stayId": "osm-7006807722",
+    "name": "Sonder",
+    "type": "Hostel",
+    "longitude": 76.6390422,
+    "latitude": 12.3249225,
+    "pricePerNight": 1634
+  },
+  {
+    "stayId": "osm-7050279650",
+    "name": "Karapur Hotel",
+    "type": "Hotel",
+    "longitude": 76.2551881,
+    "latitude": 11.9458304,
+    "pricePerNight": 3931
+  },
+  {
+    "stayId": "osm-7096720185",
+    "name": "Hotel Preethi International",
+    "type": "Hotel",
+    "longitude": 76.6591652,
+    "latitude": 12.3175271,
+    "pricePerNight": 1509
+  },
+  {
+    "stayId": "osm-7117361785",
+    "name": "Roopa",
+    "type": "Hotel",
+    "longitude": 76.6597044,
+    "latitude": 12.3085054,
+    "pricePerNight": 2078
+  },
+  {
+    "stayId": "osm-7123699234",
+    "name": "hotel milath",
+    "type": "Hotel",
+    "longitude": 76.2542442,
+    "latitude": 11.5854728,
+    "pricePerNight": 2401
+  },
+  {
+    "stayId": "osm-7123699235",
+    "name": "orchid hotel and bakkery",
+    "type": "Hotel",
+    "longitude": 76.2542849,
+    "latitude": 11.585686,
+    "pricePerNight": 5308
+  },
+  {
+    "stayId": "osm-7202918785",
+    "name": "Kashinathan Homestay",
+    "type": "Guest House",
+    "longitude": 76.2231554,
+    "latitude": 11.6333762,
+    "pricePerNight": 5005
+  },
+  {
+    "stayId": "osm-7227658349",
+    "name": "Corner Bunker",
+    "type": "Hostel",
+    "longitude": 76.6398727,
+    "latitude": 12.3253203,
+    "pricePerNight": 4068
+  },
+  {
+    "stayId": "osm-7365863098",
+    "name": "Hill Blooms",
+    "type": "Hotel",
+    "longitude": 76.2882383,
+    "latitude": 11.6739893,
+    "pricePerNight": 2665
+  },
+  {
+    "stayId": "osm-7449685494",
+    "name": "Plaza",
+    "type": "Hotel",
+    "longitude": 76.2387118,
+    "latitude": 11.2855774,
+    "pricePerNight": 5833
+  },
+  {
+    "stayId": "osm-7452477497",
+    "name": "Elite",
+    "type": "Hotel",
+    "longitude": 76.2365476,
+    "latitude": 11.2836106,
+    "pricePerNight": 5238
+  },
+  {
+    "stayId": "osm-7452505651",
+    "name": "Raydan",
+    "type": "Hotel",
+    "longitude": 76.2350441,
+    "latitude": 11.2831292,
+    "pricePerNight": 5741
+  },
+  {
+    "stayId": "osm-7462651415",
+    "name": "Hotel Devi Palace",
+    "type": "Hotel",
+    "longitude": 76.2272021,
+    "latitude": 11.2777098,
+    "pricePerNight": 3542
+  },
+  {
+    "stayId": "osm-7467078448",
+    "name": "Vanitha Hotel",
+    "type": "Hotel",
+    "longitude": 76.2272539,
+    "latitude": 11.2757184,
+    "pricePerNight": 2971
+  },
+  {
+    "stayId": "osm-7467084956",
+    "name": "Pravasi Fast Food",
+    "type": "Hotel",
+    "longitude": 76.2413376,
+    "latitude": 11.2839749,
+    "pricePerNight": 4397
+  },
+  {
+    "stayId": "osm-7475810035",
+    "name": "St .Mary's College Boys Hostel",
+    "type": "Hostel",
+    "longitude": 76.2661567,
+    "latitude": 11.6822407,
+    "pricePerNight": 2138
+  },
+  {
+    "stayId": "osm-7509601316",
+    "name": "Vanitha Hotel",
+    "type": "Hotel",
+    "longitude": 76.2424739,
+    "latitude": 11.1943137,
+    "pricePerNight": 2562
+  },
+  {
+    "stayId": "osm-7515391439",
+    "name": "kowat",
+    "type": "Hotel",
+    "longitude": 76.3117929,
+    "latitude": 11.6077213,
+    "pricePerNight": 2902
+  },
+  {
+    "stayId": "osm-7518219810",
+    "name": "Royal Bakes",
+    "type": "Hotel",
+    "longitude": 76.2983534,
+    "latitude": 11.6445279,
+    "pricePerNight": 3786
+  },
+  {
+    "stayId": "osm-7538262276",
+    "name": "Hotel Hotel",
+    "type": "Hotel",
+    "longitude": 76.7635641,
+    "latitude": 11.1115558,
+    "pricePerNight": 3611
+  },
+  {
+    "stayId": "osm-7659967485",
+    "name": "Tusk",
+    "type": "Hostel",
+    "longitude": 76.6294283,
+    "latitude": 12.3345386,
+    "pricePerNight": 5058
+  },
+  {
+    "stayId": "osm-7661678441",
+    "name": "Roopa Elite Hotel",
+    "type": "Hotel",
+    "longitude": 76.6299036,
+    "latitude": 12.3239073,
+    "pricePerNight": 1887
+  },
+  {
+    "stayId": "osm-7994210218",
+    "name": "Vimal Jyothi Women's Hostel",
+    "type": "Hostel",
+    "longitude": 76.2506913,
+    "latitude": 11.6608106,
+    "pricePerNight": 1995
+  },
+  {
+    "stayId": "osm-7994214381",
+    "name": "Mojo Bakery",
+    "type": "Hotel",
+    "longitude": 76.250268,
+    "latitude": 11.6609241,
+    "pricePerNight": 2502
+  },
+  {
+    "stayId": "osm-7997440065",
+    "name": "Georgia Sunshine Village",
+    "type": "Guest House",
+    "longitude": 77.1327513,
+    "latitude": 12.3118432,
+    "pricePerNight": 1439
+  },
+  {
+    "stayId": "osm-8196822513",
+    "name": "Hotel Maharaja",
+    "type": "Hotel",
+    "longitude": 76.6437474,
+    "latitude": 12.3047814,
+    "pricePerNight": 5048
+  },
+  {
+    "stayId": "osm-8196824673",
+    "name": "Royal Lodge",
+    "type": "Hotel",
+    "longitude": 76.65178,
+    "latitude": 12.296628,
+    "pricePerNight": 3767
+  },
+  {
+    "stayId": "osm-8196824698",
+    "name": "Hotel Tanishk",
+    "type": "Hotel",
+    "longitude": 76.7035538,
+    "latitude": 12.2958441,
+    "pricePerNight": 5944
+  },
+  {
+    "stayId": "osm-8196824714",
+    "name": "Hotel Chamundeshwari",
+    "type": "Hotel",
+    "longitude": 76.6046185,
+    "latitude": 12.2949785,
+    "pricePerNight": 2988
+  },
+  {
+    "stayId": "osm-8196824827",
+    "name": "Royal Hotel Mysore",
+    "type": "Hotel",
+    "longitude": 76.648112,
+    "latitude": 12.283312,
+    "pricePerNight": 5355
+  },
+  {
+    "stayId": "osm-8196824910",
+    "name": "Hotel Amoggh Palace",
+    "type": "Hotel",
+    "longitude": 76.657111,
+    "latitude": 12.26437,
+    "pricePerNight": 1734
+  },
+  {
+    "stayId": "osm-8196825239",
+    "name": "Hotel Kvc Holiday Inn",
+    "type": "Hotel",
+    "longitude": 76.5780011,
+    "latitude": 12.4112633,
+    "pricePerNight": 2875
+  },
+  {
+    "stayId": "osm-8196825608",
+    "name": "Hotel Swagth Hebbal Industry Mysore",
+    "type": "Hotel",
+    "longitude": 76.625377,
+    "latitude": 12.347829,
+    "pricePerNight": 3769
+  },
+  {
+    "stayId": "osm-8196825711",
+    "name": "Hotel Heera Palace",
+    "type": "Hotel",
+    "longitude": 76.6535322,
+    "latitude": 12.3385612,
+    "pricePerNight": 3147
+  },
+  {
+    "stayId": "osm-8196825820",
+    "name": "Hotel Devi Prasad",
+    "type": "Hotel",
+    "longitude": 76.4538239,
+    "latitude": 12.3367707,
+    "pricePerNight": 2461
+  },
+  {
+    "stayId": "osm-8196825968",
+    "name": "Regenta Central Herald Hotel",
+    "type": "Hotel",
+    "longitude": 76.6479645,
+    "latitude": 12.3314722,
+    "pricePerNight": 2755
+  },
+  {
+    "stayId": "osm-8196826722",
+    "name": "Hotel Adeline Mysore",
+    "type": "Hotel",
+    "longitude": 76.6454161,
+    "latitude": 12.3078766,
+    "pricePerNight": 2394
+  },
+  {
+    "stayId": "osm-8290352511",
+    "name": "HOTEL AMRATH",
+    "type": "Hotel",
+    "longitude": 76.3158542,
+    "latitude": 11.0078018,
+    "pricePerNight": 1511
+  },
+  {
+    "stayId": "osm-8293209602",
+    "name": "cherpushpam lodge and restuarant",
+    "type": "Motel",
+    "longitude": 76.2167335,
+    "latitude": 11.2694306,
+    "pricePerNight": 4888
+  },
+  {
+    "stayId": "osm-8293209615",
+    "name": "sagar hotel",
+    "type": "Hotel",
+    "longitude": 76.2162346,
+    "latitude": 11.2691746,
+    "pricePerNight": 5751
+  },
+  {
+    "stayId": "osm-8294062363",
+    "name": "ashwasa bhavan",
+    "type": "Guest House",
+    "longitude": 76.2063736,
+    "latitude": 11.2593314,
+    "pricePerNight": 4980
+  },
+  {
+    "stayId": "osm-8321808717",
+    "name": "Hotel",
+    "type": "Hotel",
+    "longitude": 76.2608349,
+    "latitude": 11.1894539,
+    "pricePerNight": 3714
+  },
+  {
+    "stayId": "osm-8406838550",
+    "name": "oyo",
+    "type": "Motel",
+    "longitude": 76.2300924,
+    "latitude": 11.6302935,
+    "pricePerNight": 3253
+  },
+  {
+    "stayId": "osm-8595994805",
+    "name": "tnau hostel",
+    "type": "Hostel",
+    "longitude": 76.9313221,
+    "latitude": 11.0143566,
+    "pricePerNight": 4892
+  },
+  {
+    "stayId": "osm-8875359827",
+    "name": "smoothie",
+    "type": "Hotel",
+    "longitude": 76.2233749,
+    "latitude": 11.0901116,
+    "pricePerNight": 5272
+  },
+  {
+    "stayId": "osm-8889652081",
+    "name": "Hotel Asoka Samrat",
+    "type": "Hotel",
+    "longitude": 76.3066489,
+    "latitude": 11.3586163,
+    "pricePerNight": 1737
+  },
+  {
+    "stayId": "osm-8921240632",
+    "name": "Bapsys Biriyani Center",
+    "type": "Hotel",
+    "longitude": 76.2249432,
+    "latitude": 11.2750666,
+    "pricePerNight": 3589
+  },
+  {
+    "stayId": "osm-8949277818",
+    "name": "Chettiyarammel Hotel",
+    "type": "Hotel",
+    "longitude": 76.2345932,
+    "latitude": 11.1817597,
+    "pricePerNight": 5371
+  },
+  {
+    "stayId": "osm-8991839287",
+    "name": "Udupi Upahara",
+    "type": "Hotel",
+    "longitude": 76.6225622,
+    "latitude": 12.2759532,
+    "pricePerNight": 1763
+  },
+  {
+    "stayId": "osm-9022877801",
+    "name": "Government Tribal Hostal,Anappara",
+    "type": "Hostel",
+    "longitude": 76.2495795,
+    "latitude": 11.5979572,
+    "pricePerNight": 2478
+  },
+  {
+    "stayId": "osm-9237294502",
+    "name": "Karunanilaya Satyaseva Sisters",
+    "type": "Hostel",
+    "longitude": 76.65759,
+    "latitude": 12.344202,
+    "pricePerNight": 5182
+  },
+  {
+    "stayId": "osm-9325713721",
+    "name": "Narmada Hostel",
+    "type": "Hostel",
+    "longitude": 76.612143,
+    "latitude": 12.3100035,
+    "pricePerNight": 1278
+  },
+  {
+    "stayId": "osm-9325713722",
+    "name": "Ganga hostel",
+    "type": "Hostel",
+    "longitude": 76.6121802,
+    "latitude": 12.3089706,
+    "pricePerNight": 3450
+  },
+  {
+    "stayId": "osm-9325713723",
+    "name": "Godavari guest house",
+    "type": "Guest House",
+    "longitude": 76.612398,
+    "latitude": 12.3078702,
+    "pricePerNight": 5552
+  },
+  {
+    "stayId": "osm-9325713724",
+    "name": "Kaveri hostel",
+    "type": "Hostel",
+    "longitude": 76.611394,
+    "latitude": 12.3121419,
+    "pricePerNight": 5071
+  },
+  {
+    "stayId": "osm-9325713725",
+    "name": "Krishna hostel",
+    "type": "Hostel",
+    "longitude": 76.611989,
+    "latitude": 12.3108391,
+    "pricePerNight": 1607
+  },
+  {
+    "stayId": "osm-9587784517",
+    "name": "KSTDC Mayura Hotel and Restaurant",
+    "type": "Hotel",
+    "longitude": 77.140387,
+    "latitude": 11.9961445,
+    "pricePerNight": 4602
+  },
+  {
+    "stayId": "osm-9778896821",
+    "name": "Bismi Hotel",
+    "type": "Hotel",
+    "longitude": 76.2572827,
+    "latitude": 11.222323,
+    "pricePerNight": 4481
+  },
+  {
+    "stayId": "osm-9779036112",
+    "name": "Hotel Komala Bhavan",
+    "type": "Hotel",
+    "longitude": 76.2584697,
+    "latitude": 11.1905236,
+    "pricePerNight": 4793
+  },
+  {
+    "stayId": "osm-9779129489",
+    "name": "Fast Food Hotel",
+    "type": "Hotel",
+    "longitude": 76.2444979,
+    "latitude": 11.1942367,
+    "pricePerNight": 1449
+  },
+  {
+    "stayId": "osm-9824826145",
+    "name": "Central Government Touring Officers Guest House",
+    "type": "Guest House",
+    "longitude": 76.6807361,
+    "latitude": 12.3116152,
+    "pricePerNight": 5249
+  },
+  {
+    "stayId": "osm-9835826388",
+    "name": "MP Store",
+    "type": "Hotel",
+    "longitude": 76.3361825,
+    "latitude": 11.062654,
+    "pricePerNight": 2790
+  },
+  {
+    "stayId": "osm-9838389482",
+    "name": "PAROKOT",
+    "type": "Guest House",
+    "longitude": 76.3362017,
+    "latitude": 11.0614461,
+    "pricePerNight": 1878
+  },
+  {
+    "stayId": "osm-10003507982",
+    "name": "Chaliyar View Dormitory",
+    "type": "Hostel",
+    "longitude": 76.2345576,
+    "latitude": 11.2876211,
+    "pricePerNight": 1669
+  },
+  {
+    "stayId": "osm-10058071901",
+    "name": "Prematric Tribal Girls Hostel",
+    "type": "Hostel",
+    "longitude": 76.2361386,
+    "latitude": 11.2789467,
+    "pricePerNight": 3342
+  },
+  {
+    "stayId": "osm-10267012210",
+    "name": "Ayodhya Lodge",
+    "type": "Hotel",
+    "longitude": 76.6589244,
+    "latitude": 12.3140591,
+    "pricePerNight": 2639
+  },
+  {
+    "stayId": "osm-10589680805",
+    "name": "Shri Aprameya Resort",
+    "type": "Hotel",
+    "longitude": 76.8095951,
+    "latitude": 12.2499246,
+    "pricePerNight": 5163
+  },
+  {
+    "stayId": "osm-10709125706",
+    "name": "Sri Matha Lodge",
+    "type": "Guest House",
+    "longitude": 76.6798297,
+    "latitude": 12.4228809,
+    "pricePerNight": 2040
+  },
+  {
+    "stayId": "osm-10727144455",
+    "name": "Park Corner Guest House",
+    "type": "Guest House",
+    "longitude": 76.8017668,
+    "latitude": 11.355638,
+    "pricePerNight": 3578
+  },
+  {
+    "stayId": "osm-10790423284",
+    "name": "Avalon Stays Ooty",
+    "type": "Hotel",
+    "longitude": 76.6959238,
+    "latitude": 11.4131519,
+    "pricePerNight": 1533
+  },
+  {
+    "stayId": "osm-10895636343",
+    "name": "JR Residents Hostel",
+    "type": "Hostel",
+    "longitude": 77.0242897,
+    "latitude": 11.008378,
+    "pricePerNight": 2298
+  },
+  {
+    "stayId": "osm-11499557974",
+    "name": "The Dawn",
+    "type": "Hotel",
+    "longitude": 76.6542883,
+    "latitude": 12.3422007,
+    "pricePerNight": 1743
+  },
+  {
+    "stayId": "osm-12012848807",
+    "name": "Advaitha residency",
+    "type": "Hotel",
+    "longitude": 76.6495943,
+    "latitude": 12.3112926,
+    "pricePerNight": 3574
+  },
+  {
+    "stayId": "osm-12106272976",
+    "name": "Mahi's Gateway",
+    "type": "Hotel",
+    "longitude": 77.0465634,
+    "latitude": 11.0436147,
+    "pricePerNight": 4441
+  },
+  {
+    "stayId": "osm-12201843653",
+    "name": "Hotel Aryaas",
+    "type": "Hotel",
+    "longitude": 77.002354,
+    "latitude": 11.0685076,
+    "pricePerNight": 3611
+  },
+  {
+    "stayId": "osm-12333533223",
+    "name": "Vista Suites Dodabetta",
+    "type": "Hotel",
+    "longitude": 76.7295868,
+    "latitude": 11.4173844,
+    "pricePerNight": 4570
+  },
+  {
+    "stayId": "osm-12556648001",
+    "name": "Sri Bhunaveswari Military Hotel",
+    "type": "Hotel",
+    "longitude": 76.6840639,
+    "latitude": 12.4236536,
+    "pricePerNight": 5715
+  },
+  {
+    "stayId": "osm-12556648101",
+    "name": "Sriranga hotel",
+    "type": "Hotel",
+    "longitude": 76.6840391,
+    "latitude": 12.4235189,
+    "pricePerNight": 5313
+  },
+  {
+    "stayId": "osm-12718852861",
+    "name": "Theppakkadu Dormitory & Rooms",
+    "type": "Hotel",
+    "longitude": 76.5851679,
+    "latitude": 11.5809523,
+    "pricePerNight": 3033
+  },
+  {
+    "stayId": "osm-12876957232",
+    "name": "Southern Star",
+    "type": "Hotel",
+    "longitude": 76.6432866,
+    "latitude": 12.3117993,
+    "pricePerNight": 1654
+  },
+  {
+    "stayId": "osm-13336188649",
+    "name": "Gowli's Inn homestay",
+    "type": "Hotel",
+    "longitude": 76.7074403,
+    "latitude": 12.4034766,
+    "pricePerNight": 5721
+  },
+  {
+    "stayId": "osm-13375292597",
+    "name": "ಬೀಡು",
+    "type": "Hostel",
+    "longitude": 76.6304517,
+    "latitude": 12.3303331,
+    "pricePerNight": 2599
+  },
+  {
+    "stayId": "osm-13390091801",
+    "name": "Hamai Grand Home Stay",
+    "type": "Hotel",
+    "longitude": 76.2119818,
+    "latitude": 11.6190916,
+    "pricePerNight": 3646
+  },
+  {
+    "stayId": "osm-13422436743",
+    "name": "Roambay Gokulam",
+    "type": "Hostel",
+    "longitude": 76.6281594,
+    "latitude": 12.335215,
+    "pricePerNight": 3025
+  },
+  {
+    "stayId": "osm-13446539539",
+    "name": "Karpagam Residency",
+    "type": "Hotel",
+    "longitude": 76.7126337,
+    "latitude": 11.4031478,
+    "pricePerNight": 3542
+  },
+  {
+    "stayId": "osm-13607741687",
+    "name": "Aasife Biriyani",
+    "type": "Hotel",
+    "longitude": 77.0065883,
+    "latitude": 11.0245448,
+    "pricePerNight": 3967
+  },
+  {
+    "stayId": "osm-13623448577",
+    "name": "Hotel Mayura Cauvery",
+    "type": "Hotel",
+    "longitude": 76.5740455,
+    "latitude": 12.4202303,
+    "pricePerNight": 4548
+  },
+  {
+    "stayId": "osm-13625175929",
+    "name": "Rajmahal Deluxe Lodge",
+    "type": "Hotel",
+    "longitude": 76.6503175,
+    "latitude": 12.3061242,
+    "pricePerNight": 3305
+  },
+  {
+    "stayId": "osm-13625217424",
+    "name": "Hotel Lok Sagar",
+    "type": "Hotel",
+    "longitude": 76.6504902,
+    "latitude": 12.3060991,
+    "pricePerNight": 4180
+  },
+  {
+    "stayId": "osm-13644789118",
+    "name": "Boys Hostel Vaigai",
+    "type": "Hostel",
+    "longitude": 77.0263775,
+    "latitude": 11.1012503,
+    "pricePerNight": 3952
+  },
+  {
+    "stayId": "osm-13644789124",
+    "name": "Boys Hostel Siruvani",
+    "type": "Hostel",
+    "longitude": 77.0263698,
+    "latitude": 11.1014853,
+    "pricePerNight": 1757
+  },
+  {
+    "stayId": "osm-13644789126",
+    "name": "MS Hostel Block",
+    "type": "Hostel",
+    "longitude": 77.0267722,
+    "latitude": 11.1016337,
+    "pricePerNight": 5440
+  },
+  {
+    "stayId": "osm-13644789139",
+    "name": "Girls Hostel",
+    "type": "Hostel",
+    "longitude": 77.0280119,
+    "latitude": 11.1011868,
+    "pricePerNight": 4885
+  },
+  {
+    "stayId": "osm-13644804488",
+    "name": "Boys Hostel H Block",
+    "type": "Hostel",
+    "longitude": 77.027947,
+    "latitude": 11.1033717,
+    "pricePerNight": 4908
+  },
+  {
+    "stayId": "osm-13645076001",
+    "name": "Hotel vriksham thrivyn",
+    "type": "Motel",
+    "longitude": 77.0130962,
+    "latitude": 11.0948085,
+    "pricePerNight": 2470
+  },
+  {
+    "stayId": "osm-13680925303",
+    "name": "Agsara Home Stay",
+    "type": "Hostel",
+    "longitude": 76.9855115,
+    "latitude": 11.082923,
+    "pricePerNight": 2489
+  },
+  {
+    "stayId": "osm-13680929901",
+    "name": "Best O Nest PG",
+    "type": "Hostel",
+    "longitude": 77.011695,
+    "latitude": 11.0712923,
+    "pricePerNight": 1717
+  },
+  {
+    "stayId": "osm-13737442602",
+    "name": "Solitude by Nature Resorts and Stays",
+    "type": "Hotel",
+    "longitude": 76.8707666,
+    "latitude": 11.4332393,
+    "pricePerNight": 2366
+  },
+  {
+    "stayId": "osm-13938017951",
+    "name": "Kalanjan Green Nilagiri Villa",
+    "type": "Hotel",
+    "longitude": 76.6832706,
+    "latitude": 11.4034237,
+    "pricePerNight": 2232
+  },
+  {
+    "stayId": "osm-13963591601",
+    "name": "Comfort Wings Pg",
+    "type": "Hotel",
+    "longitude": 77.0252855,
+    "latitude": 11.0245093,
+    "pricePerNight": 5489
+  },
+  {
+    "stayId": "osm-14075956314",
+    "name": "Guesthouse (pink house)",
+    "type": "Guest House",
+    "longitude": 76.6279276,
+    "latitude": 12.3332625,
+    "pricePerNight": 4067
+  },
+  {
+    "stayId": "osm-14076618565",
+    "name": "Manasthala Mindful Living",
+    "type": "Guest House",
+    "longitude": 76.6301422,
+    "latitude": 12.3353796,
+    "pricePerNight": 3329
+  }
+]

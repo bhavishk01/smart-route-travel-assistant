@@ -1,0 +1,758 @@
+[
+  {
+    "placeId": "osm-249965733",
+    "name": "Honeymoon Boat House",
+    "category": "Attraction",
+    "longitude": 76.6803739,
+    "latitude": 11.4041834
+  },
+  {
+    "placeId": "osm-321416009",
+    "name": "Bison Point",
+    "category": "Viewpoint",
+    "longitude": 76.6893907,
+    "latitude": 11.4967864
+  },
+  {
+    "placeId": "osm-321417496",
+    "name": "Moyar Gorge",
+    "category": "Viewpoint",
+    "longitude": 76.631118,
+    "latitude": 11.6161121
+  },
+  {
+    "placeId": "osm-393869472",
+    "name": "Deer Park",
+    "category": "Attraction",
+    "longitude": 76.6898215,
+    "latitude": 11.4031401
+  },
+  {
+    "placeId": "osm-398968978",
+    "name": "Death of King",
+    "category": "Historic Site",
+    "longitude": 76.6788918,
+    "latitude": 11.5534648
+  },
+  {
+    "placeId": "osm-398969025",
+    "name": "Temple",
+    "category": "Historic Site",
+    "longitude": 76.6872537,
+    "latitude": 11.5688084
+  },
+  {
+    "placeId": "osm-398985432",
+    "name": "little Hindu Temple",
+    "category": "Historic Site",
+    "longitude": 76.7017969,
+    "latitude": 11.5209572
+  },
+  {
+    "placeId": "osm-398990396",
+    "name": "Tigers Rock",
+    "category": "Viewpoint",
+    "longitude": 76.653024,
+    "latitude": 11.5180699
+  },
+  {
+    "placeId": "osm-398994100",
+    "name": "Tiger Reservat",
+    "category": "Zoo",
+    "longitude": 76.6114879,
+    "latitude": 11.5667417
+  },
+  {
+    "placeId": "osm-411451909",
+    "name": "Ranganathittu Bird Sanctuary",
+    "category": "Attraction",
+    "longitude": 76.6553081,
+    "latitude": 12.4238524
+  },
+  {
+    "placeId": "osm-472269723",
+    "name": "Doddabetta Viewpoint",
+    "category": "Viewpoint",
+    "longitude": 76.7351621,
+    "latitude": 11.4000723
+  },
+  {
+    "placeId": "osm-542404091",
+    "name": "Kaveri Kala Kuteera",
+    "category": "Museum",
+    "longitude": 76.6321792,
+    "latitude": 12.2918606
+  },
+  {
+    "placeId": "osm-604968570",
+    "name": "Edakkal Caves",
+    "category": "Attraction",
+    "longitude": 76.2354803,
+    "latitude": 11.6266794
+  },
+  {
+    "placeId": "osm-623632105",
+    "name": "Nandi Statue",
+    "category": "Artwork",
+    "longitude": 76.6680017,
+    "latitude": 12.2794688
+  },
+  {
+    "placeId": "osm-654788379",
+    "name": "Anna Statue",
+    "category": "Artwork",
+    "longitude": 76.9703426,
+    "latitude": 11.0163056
+  },
+  {
+    "placeId": "osm-666631038",
+    "name": "Ranganatha Temple",
+    "category": "Historic Site",
+    "longitude": 76.67927,
+    "latitude": 12.4248759
+  },
+  {
+    "placeId": "osm-666715670",
+    "name": "Tipu Sultan's Death Place Memorial",
+    "category": "Historic Site",
+    "longitude": 76.6879016,
+    "latitude": 12.4251279
+  },
+  {
+    "placeId": "osm-803667795",
+    "name": "Periyar Statue",
+    "category": "Artwork",
+    "longitude": 76.9688689,
+    "latitude": 11.0171544
+  },
+  {
+    "placeId": "osm-803667863",
+    "name": "Rajaji Statue",
+    "category": "Attraction",
+    "longitude": 76.9687083,
+    "latitude": 11.0168812
+  },
+  {
+    "placeId": "osm-1153369645",
+    "name": "Narasimharaja Wodeyar",
+    "category": "Historic Site",
+    "longitude": 76.6558257,
+    "latitude": 12.3082788
+  },
+  {
+    "placeId": "osm-1165014824",
+    "name": "Telescope House",
+    "category": "Attraction",
+    "longitude": 76.7354661,
+    "latitude": 11.400931
+  },
+  {
+    "placeId": "osm-1166262780",
+    "name": "Thread Garden",
+    "category": "Attraction",
+    "longitude": 76.6879831,
+    "latitude": 11.4067875
+  },
+  {
+    "placeId": "osm-1575083830",
+    "name": "Chamundi Hill",
+    "category": "Viewpoint",
+    "longitude": 76.6703937,
+    "latitude": 12.2724017
+  },
+  {
+    "placeId": "osm-1664462134",
+    "name": "Frog Hill Viewpoint",
+    "category": "Viewpoint",
+    "longitude": 76.5273,
+    "latitude": 11.4903
+  },
+  {
+    "placeId": "osm-1664501449",
+    "name": "Wax Museum",
+    "category": "Museum",
+    "longitude": 76.7149351,
+    "latitude": 11.4043343
+  },
+  {
+    "placeId": "osm-1727492951",
+    "name": "Bharachukki viewpoint",
+    "category": "Viewpoint",
+    "longitude": 77.1831518,
+    "latitude": 12.2894085
+  },
+  {
+    "placeId": "osm-2117235844",
+    "name": "Theppakadu Elephant Camp",
+    "category": "Attraction",
+    "longitude": 76.5837446,
+    "latitude": 11.5791202
+  },
+  {
+    "placeId": "osm-2376662703",
+    "name": "Government Museum",
+    "category": "Museum",
+    "longitude": 76.6914353,
+    "latitude": 11.413229
+  },
+  {
+    "placeId": "osm-2564378891",
+    "name": "War Memorial",
+    "category": "Historic Site",
+    "longitude": 76.7913645,
+    "latitude": 11.363742
+  },
+  {
+    "placeId": "osm-2831394810",
+    "name": "Triveni Samgama",
+    "category": "Attraction",
+    "longitude": 76.7214697,
+    "latitude": 12.4078042
+  },
+  {
+    "placeId": "osm-3224357583",
+    "name": "Krishnaraja Wodeyar",
+    "category": "Historic Site",
+    "longitude": 76.6530657,
+    "latitude": 12.3087837
+  },
+  {
+    "placeId": "osm-3276157874",
+    "name": "Sand museum",
+    "category": "Museum",
+    "longitude": 76.6820189,
+    "latitude": 12.2950285
+  },
+  {
+    "placeId": "osm-3276157977",
+    "name": "Melody World Wax Museum",
+    "category": "Museum",
+    "longitude": 76.6777198,
+    "latitude": 12.3023964
+  },
+  {
+    "placeId": "osm-3300627908",
+    "name": "Indira Gandhi Rashtriya Manav Sangrahalaya",
+    "category": "Museum",
+    "longitude": 76.6576048,
+    "latitude": 12.314503
+  },
+  {
+    "placeId": "osm-3390746047",
+    "name": "KPC Glass House",
+    "category": "Attraction",
+    "longitude": 76.6480638,
+    "latitude": 12.310159
+  },
+  {
+    "placeId": "osm-3451521104",
+    "name": "Connolly's Plot",
+    "category": "Attraction",
+    "longitude": 76.2061306,
+    "latitude": 11.2688644
+  },
+  {
+    "placeId": "osm-3668309489",
+    "name": "Mahishasura",
+    "category": "Artwork",
+    "longitude": 76.6709592,
+    "latitude": 12.2750725
+  },
+  {
+    "placeId": "osm-3669879707",
+    "name": "Water Gate",
+    "category": "Historic Site",
+    "longitude": 76.6864812,
+    "latitude": 12.425707
+  },
+  {
+    "placeId": "osm-3669879712",
+    "name": "Ruins of Tippu Sultan's Palace",
+    "category": "Historic Site",
+    "longitude": 76.6839285,
+    "latitude": 12.4256223
+  },
+  {
+    "placeId": "osm-3695165434",
+    "name": "M. G. Ramachandran Statue",
+    "category": "Historic Site",
+    "longitude": 76.8733616,
+    "latitude": 11.4251793
+  },
+  {
+    "placeId": "osm-3725644175",
+    "name": "தேனீ அருங்காட்சியகம், ஊட்டி",
+    "category": "Museum",
+    "longitude": 76.6968956,
+    "latitude": 11.4131715
+  },
+  {
+    "placeId": "osm-3990825112",
+    "name": "Nedumkayam",
+    "category": "Attraction",
+    "longitude": 76.3381564,
+    "latitude": 11.2914618
+  },
+  {
+    "placeId": "osm-4101646591",
+    "name": "Sharada Public School",
+    "category": "Attraction",
+    "longitude": 76.5968754,
+    "latitude": 12.2855804
+  },
+  {
+    "placeId": "osm-4204178290",
+    "name": "Durairaja Spinning Mills Pvt Ltd Unit 2",
+    "category": "Artwork",
+    "longitude": 77.1213702,
+    "latitude": 11.2804452
+  },
+  {
+    "placeId": "osm-4204258889",
+    "name": "Ralliya Dam",
+    "category": "Viewpoint",
+    "longitude": 76.8020289,
+    "latitude": 11.4013801
+  },
+  {
+    "placeId": "osm-4266205495",
+    "name": "Chital Lantana Craft Center",
+    "category": "Artwork",
+    "longitude": 76.7036992,
+    "latitude": 11.6598538
+  },
+  {
+    "placeId": "osm-4393815946",
+    "name": "Watch Tower of Gaganachukki",
+    "category": "Viewpoint",
+    "longitude": 77.1677266,
+    "latitude": 12.2959827
+  },
+  {
+    "placeId": "osm-4570930891",
+    "name": "Mulli Road Shortcut",
+    "category": "Attraction",
+    "longitude": 76.5906004,
+    "latitude": 11.0922632
+  },
+  {
+    "placeId": "osm-4585165992",
+    "name": "Birds Watch Tower",
+    "category": "Attraction",
+    "longitude": 76.6762061,
+    "latitude": 12.3037314
+  },
+  {
+    "placeId": "osm-4585237546",
+    "name": "Mysore Cauvery silk",
+    "category": "Artwork",
+    "longitude": 76.6833,
+    "latitude": 12.291556
+  },
+  {
+    "placeId": "osm-4585237547",
+    "name": "Funway",
+    "category": "Attraction",
+    "longitude": 76.6830995,
+    "latitude": 12.2952847
+  },
+  {
+    "placeId": "osm-4601419290",
+    "name": "Lamb's Rock",
+    "category": "Viewpoint",
+    "longitude": 76.8368663,
+    "latitude": 11.3517443
+  },
+  {
+    "placeId": "osm-4934871031",
+    "name": "Pine forest",
+    "category": "Attraction",
+    "longitude": 76.6600105,
+    "latitude": 11.439855
+  },
+  {
+    "placeId": "osm-5235925922",
+    "name": "House of R. K. Narayan",
+    "category": "Museum",
+    "longitude": 76.6407055,
+    "latitude": 12.3279317
+  },
+  {
+    "placeId": "osm-5300220422",
+    "name": "Maliyekkal(H)",
+    "category": "Attraction",
+    "longitude": 76.3042041,
+    "latitude": 11.3115927
+  },
+  {
+    "placeId": "osm-5327496042",
+    "name": "Louis Pasteur Statue",
+    "category": "Historic Site",
+    "longitude": 76.8009326,
+    "latitude": 11.3551884
+  },
+  {
+    "placeId": "osm-5521784028",
+    "name": "Pykara Waterfalls",
+    "category": "Attraction",
+    "longitude": 76.6047378,
+    "latitude": 11.4724972
+  },
+  {
+    "placeId": "osm-5725420221",
+    "name": "Thomas Inman's Dungeon",
+    "category": "Historic Site",
+    "longitude": 76.6899899,
+    "latitude": 12.4248975
+  },
+  {
+    "placeId": "osm-5725420321",
+    "name": "Armoury House",
+    "category": "Historic Site",
+    "longitude": 76.6886281,
+    "latitude": 12.4203482
+  },
+  {
+    "placeId": "osm-5727601821",
+    "name": "Armoury House",
+    "category": "Historic Site",
+    "longitude": 76.6771174,
+    "latitude": 12.4243742
+  },
+  {
+    "placeId": "osm-5871738165",
+    "name": "Phantom Rock",
+    "category": "Attraction",
+    "longitude": 76.2031316,
+    "latitude": 11.6372602
+  },
+  {
+    "placeId": "osm-5875389385",
+    "name": "John Sullivan Memorial",
+    "category": "Attraction",
+    "longitude": 76.8563394,
+    "latitude": 11.4407315
+  },
+  {
+    "placeId": "osm-6341290685",
+    "name": "Neelimala viewpoint",
+    "category": "Viewpoint",
+    "longitude": 76.2278983,
+    "latitude": 11.5334912
+  },
+  {
+    "placeId": "osm-6372190285",
+    "name": "Old Town Mysore",
+    "category": "Attraction",
+    "longitude": 76.6524446,
+    "latitude": 12.3166096
+  },
+  {
+    "placeId": "osm-6756920457",
+    "name": "Meenmutty Falls",
+    "category": "Attraction",
+    "longitude": 76.2366763,
+    "latitude": 11.5284064
+  },
+  {
+    "placeId": "osm-7053814891",
+    "name": "Great living chola temples",
+    "category": "Historic Site",
+    "longitude": 77.1441138,
+    "latitude": 12.2597005
+  },
+  {
+    "placeId": "osm-7070366031",
+    "name": "Ketti valley panchayat",
+    "category": "Historic Site",
+    "longitude": 76.7427674,
+    "latitude": 11.3783456
+  },
+  {
+    "placeId": "osm-7076853485",
+    "name": "Bird Sanctuary",
+    "category": "Attraction",
+    "longitude": 76.6563783,
+    "latitude": 12.2847302
+  },
+  {
+    "placeId": "osm-7144159385",
+    "name": "Sandalwood Oil Factory",
+    "category": "Museum",
+    "longitude": 76.6383724,
+    "latitude": 12.2806165
+  },
+  {
+    "placeId": "osm-7369827785",
+    "name": "സൈലന്റ് വാലി ദേശീയോദ്യാനം - அமைதி பள்ளத்தாக்கு தேசியப் பூங்கா",
+    "category": "Attraction",
+    "longitude": 76.4247418,
+    "latitude": 11.1371687
+  },
+  {
+    "placeId": "osm-7468090502",
+    "name": "Amida Castle",
+    "category": "Historic Site",
+    "longitude": 76.2518541,
+    "latitude": 11.633426
+  },
+  {
+    "placeId": "osm-7485188691",
+    "name": "ambam kunnu beeraan aulia maqam",
+    "category": "Historic Site",
+    "longitude": 76.5095852,
+    "latitude": 11.0133187
+  },
+  {
+    "placeId": "osm-7509597973",
+    "name": "Vaniyambalam Para",
+    "category": "Attraction",
+    "longitude": 76.2570968,
+    "latitude": 11.1982666
+  },
+  {
+    "placeId": "osm-7514406087",
+    "name": "Vaniyambalam town squre",
+    "category": "Attraction",
+    "longitude": 76.2602775,
+    "latitude": 11.1896635
+  },
+  {
+    "placeId": "osm-7994194480",
+    "name": "Jain Temple",
+    "category": "Historic Site",
+    "longitude": 76.2507426,
+    "latitude": 11.6602112
+  },
+  {
+    "placeId": "osm-8614987919",
+    "name": "Zarava",
+    "category": "Artwork",
+    "longitude": 76.6253051,
+    "latitude": 12.3255587
+  },
+  {
+    "placeId": "osm-8715119594",
+    "name": "Jain temple",
+    "category": "Historic Site",
+    "longitude": 76.250593,
+    "latitude": 11.6601695
+  },
+  {
+    "placeId": "osm-8991839281",
+    "name": "Vivekananda Statue",
+    "category": "Artwork",
+    "longitude": 76.6230776,
+    "latitude": 12.2764027
+  },
+  {
+    "placeId": "osm-9324321416",
+    "name": "Buddha",
+    "category": "Artwork",
+    "longitude": 76.6200474,
+    "latitude": 12.3168648
+  },
+  {
+    "placeId": "osm-9324323742",
+    "name": "Nalvadi Krishnaraja Wodeyar",
+    "category": "Artwork",
+    "longitude": 76.6396233,
+    "latitude": 12.3079571
+  },
+  {
+    "placeId": "osm-9324349617",
+    "name": "Dr. B. R. Ambedkar",
+    "category": "Artwork",
+    "longitude": 76.6240171,
+    "latitude": 12.3116238
+  },
+  {
+    "placeId": "osm-9904157592",
+    "name": "William Baillie Memorial",
+    "category": "Historic Site",
+    "longitude": 76.7149874,
+    "latitude": 12.4123046
+  },
+  {
+    "placeId": "osm-10302145557",
+    "name": "Kakana Kote Safari Centre",
+    "category": "Attraction",
+    "longitude": 76.256641,
+    "latitude": 12.0137525
+  },
+  {
+    "placeId": "osm-11043950405",
+    "name": "Muthanga Wildlife Sanctuary",
+    "category": "Attraction",
+    "longitude": 76.3681632,
+    "latitude": 11.673781
+  },
+  {
+    "placeId": "osm-11044630006",
+    "name": "Silent Valley National Park",
+    "category": "Attraction",
+    "longitude": 76.429112,
+    "latitude": 11.1300782
+  },
+  {
+    "placeId": "osm-11044640306",
+    "name": "Wayanad Wildlife Sanctuary",
+    "category": "Attraction",
+    "longitude": 76.2436909,
+    "latitude": 11.7645326
+  },
+  {
+    "placeId": "osm-11083898836",
+    "name": "Chaliyar parakkadavu",
+    "category": "Attraction",
+    "longitude": 76.224443,
+    "latitude": 11.2824195
+  },
+  {
+    "placeId": "osm-11083912851",
+    "name": "Tribal statue",
+    "category": "Artwork",
+    "longitude": 76.2505776,
+    "latitude": 11.2986048
+  },
+  {
+    "placeId": "osm-11218453537",
+    "name": "Narasimukku View Point",
+    "category": "Attraction",
+    "longitude": 76.6456845,
+    "latitude": 11.1037088
+  },
+  {
+    "placeId": "osm-11488217582",
+    "name": "Tribal research centre museum",
+    "category": "Museum",
+    "longitude": 76.6625853,
+    "latitude": 11.3685578
+  },
+  {
+    "placeId": "osm-11704288319",
+    "name": "The Largest Tyre of India",
+    "category": "Attraction",
+    "longitude": 76.6518592,
+    "latitude": 12.3132167
+  },
+  {
+    "placeId": "osm-12000235169",
+    "name": "Payana Car Museum",
+    "category": "Museum",
+    "longitude": 76.6680101,
+    "latitude": 12.3898439
+  },
+  {
+    "placeId": "osm-12012801136",
+    "name": "Tribal museum",
+    "category": "Museum",
+    "longitude": 76.6635507,
+    "latitude": 11.3673218
+  },
+  {
+    "placeId": "osm-12012857074",
+    "name": "Street to Tribal museum",
+    "category": "Museum",
+    "longitude": 76.6609184,
+    "latitude": 11.3674184
+  },
+  {
+    "placeId": "osm-12327155402",
+    "name": "GeeDee Car Museum",
+    "category": "Museum",
+    "longitude": 76.9780888,
+    "latitude": 11.0072775
+  },
+  {
+    "placeId": "osm-12540697794",
+    "name": "Bandipur Safari Point",
+    "category": "Zoo",
+    "longitude": 76.6428474,
+    "latitude": 11.7157459
+  },
+  {
+    "placeId": "osm-12623939286",
+    "name": "Main Gate",
+    "category": "Historic Site",
+    "longitude": 76.6185762,
+    "latitude": 12.3367447
+  },
+  {
+    "placeId": "osm-12754786280",
+    "name": "Dr. Ambedkar Statue",
+    "category": "Artwork",
+    "longitude": 76.6607089,
+    "latitude": 12.3228285
+  },
+  {
+    "placeId": "osm-12756638545",
+    "name": "North Gate Palace View",
+    "category": "Viewpoint",
+    "longitude": 76.6557224,
+    "latitude": 12.3073526
+  },
+  {
+    "placeId": "osm-13434210508",
+    "name": "PSG GRD Museum of Science & Technology",
+    "category": "Museum",
+    "longitude": 77.0935081,
+    "latitude": 11.0663812
+  },
+  {
+    "placeId": "osm-13621217102",
+    "name": "2024 Wayanad landslides",
+    "category": "Attraction",
+    "longitude": 76.23267,
+    "latitude": 11.78178
+  },
+  {
+    "placeId": "osm-13621217105",
+    "name": "Adyanpara Falls",
+    "category": "Attraction",
+    "longitude": 76.203333,
+    "latitude": 11.354444
+  },
+  {
+    "placeId": "osm-13621219201",
+    "name": "Adyanpara Waterfalls",
+    "category": "Attraction",
+    "longitude": 76.2333,
+    "latitude": 11.2
+  },
+  {
+    "placeId": "osm-13644180512",
+    "name": "Mahaveera Circle",
+    "category": "Historic Site",
+    "longitude": 76.9371812,
+    "latitude": 11.9255071
+  },
+  {
+    "placeId": "osm-13644789123",
+    "name": "MAIN GATE",
+    "category": "Historic Site",
+    "longitude": 77.0259599,
+    "latitude": 11.1007757
+  },
+  {
+    "placeId": "osm-13739214654",
+    "name": "Ambedkar",
+    "category": "Artwork",
+    "longitude": 76.5806596,
+    "latitude": 12.3671733
+  },
+  {
+    "placeId": "osm-13953155901",
+    "name": "Alphonsa Statue",
+    "category": "Attraction",
+    "longitude": 76.2799237,
+    "latitude": 11.6583077
+  },
+  {
+    "placeId": "osm-13987649250",
+    "name": "Kavalappara Disaster Point",
+    "category": "Historic Site",
+    "longitude": 76.2368496,
+    "latitude": 11.4082009
+  }
+]
