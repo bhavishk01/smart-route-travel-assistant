@@ -1,5 +1,6 @@
 const routeService = require('./routeService');
 const recommendationEngine = require('./recommendationEngine');
+const costService = require('./costService');
 const { decodePolyline } = require('../utils/polyline');
 
 async function planTrip(tripDetails) {
@@ -16,11 +17,14 @@ async function planTrip(tripDetails) {
         recommendedStays = await recommendationEngine.findNearbyStays(destinationLat, destinationLng);
     }
 
+    const cost = costService.calculateCost(tripDetails, route, recommendedStays);
+
     return {
         trip: tripDetails,
         route,
         recommendedPlaces,
         recommendedStays,
+        cost,
     };
 }
 
