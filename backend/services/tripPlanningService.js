@@ -1,6 +1,7 @@
 const routeService = require('./routeService');
 const recommendationEngine = require('./recommendationEngine');
 const costService = require('./costService');
+const aiService = require('./aiService');
 const { decodePolyline } = require('../utils/polyline');
 
 async function planTrip(tripDetails) {
@@ -19,10 +20,19 @@ async function planTrip(tripDetails) {
 
     const cost = costService.calculateCost(tripDetails, route, recommendedStays);
 
+    let placesWithAiInfo = recommendedPlaces;
+
+    try {
+        placesWithAiInfo = await aiService.generateTouristInfo(recommendedPlaces);
+    } catch (error) {
+        console.error('AI Service failed:', error.message);
+        placesWithAiInfo = recommendedPlaces;
+    }
+
     return {
         trip: tripDetails,
         route,
-        recommendedPlaces,
+        recommendedPlaces: placesWithAiInfo,
         recommendedStays,
         cost,
     };
