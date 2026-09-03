@@ -1,4 +1,5 @@
 const { GoogleGenAI } = require('@google/genai');
+const touristKnowledgeRepository = require('../repositories/touristKnowledgeRepository');
 
 let ai = null;
 
@@ -9,14 +10,8 @@ function getClient() {
     return ai;
 }
 
-async function generateTouristInfo(places) {
-    const topPlaces = places.slice(0, 5);
-
-    if (topPlaces.length === 0) {
-        return [];
-    }
-
-    const placeList = topPlaces
+async function generateFromGemini(places) {
+    const placeList = places
         .map((place) => `${place.name} (${place.category})`)
         .join(', ');
 
@@ -33,23 +28,63 @@ async function generateTouristInfo(places) {
         rawText = rawText.replace(/```json|```/g, '').trim();
     }
 
-    let aiData;
-    try {
-        aiData = JSON.parse(rawText);
-    } catch (error) {
-        throw new Error('AI response was not valid JSON');
+    return JSON.parse(rawText);
+}
+
+async function generateTouristInfo(places) {
+    const topPlaces = places.slice(0, 5);
+
+    if (topPlaces.length === 0) {
+        return [];
     }
 
-    return topPlaces.map((place) => {
-        const match = aiData.find((item) => item.name === place.name);
-        return {
-            ...place,
-            history: match ? match.history : '',
-            description: match ? match.description : '',
-            travelTips: match ? match.travelTips : '',
-            bestVisitingTime: match ? match.bestVisitingTime : '',
-        };
-    });
+    const resultsByPlaceId = {};
+    const placesToGenerate = [];
+
+    for (const place of topPlaces) {
+        const cached = await touristKnowledgeRepository.findByPlaceId(place.placeId);
+        if (cached) {
+            console.log(`Cache hit: ${place.name}`);
+            resultsByPlaceId[place.placeId] = {
+                ...place,
+                history: cached.history,
+                description: cached.description,
+                travelTips: cached.travelTips,
+                bestVisitingTime: cached.bestVisitingTime,
+            };
+        } else {
+            console.log(`Cache miss: ${place.name}`);
+            placesToGenerate.push(place);
+        }
+    }
+
+    if (placesToGenerate.length > 0) {
+        const generated = await generateFromGemini(placesToGenerate);
+
+        for (const place of placesToGenerate) {
+            const match = generated.find((item) => item.name === place.name);
+            const enrichedPlace = {
+                ...place,
+                history: match ? match.history : '',
+                description: match ? match.description : '',
+                travelTips: match ? match.travelTips : '',
+                bestVisitingTime: match ? match.bestVisitingTime : '',
+            };
+            resultsByPlaceId[place.placeId] = enrichedPlace;
+
+            await touristKnowledgeRepository.save({
+                placeId: place.placeId,
+                name: place.name,
+                category: place.category,
+                history: enrichedPlace.history,
+                description: enrichedPlace.description,
+                travelTips: enrichedPlace.travelTips,
+                bestVisitingTime: enrichedPlace.bestVisitingTime,
+            });
+        }
+    }
+
+    return topPlaces.map((place) => resultsByPlaceId[place.placeId]);
 }
 
 module.exports = { generateTouristInfo };
