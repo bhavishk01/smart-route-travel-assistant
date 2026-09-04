@@ -23,9 +23,9 @@ async function planTrip(tripDetails) {
     let placesWithAiInfo = recommendedPlaces;
 
     try {
-        placesWithAiInfo = await aiService.generateTouristInfo(recommendedPlaces);
+        placesWithAiInfo = await aiService.generateTouristInfo(recommendedPlaces, tripDetails.destination);
     } catch (error) {
-        console.error('AI Service failed:', error.message);
+        console.error('AI Service failed:', error.message, error.cause || '');
         placesWithAiInfo = recommendedPlaces;
     }
 
