@@ -27,6 +27,8 @@ async function run() {
                     name: place.name,
                     category: place.category,
                     location: { type: 'Point', coordinates: [place.longitude, place.latitude] },
+                    verified: place.verified,
+                    tagRichness: place.tagRichness,
                 },
                 { upsert: true }
             );

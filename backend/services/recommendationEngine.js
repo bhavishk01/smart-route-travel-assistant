@@ -2,8 +2,13 @@ const touristPlaceService = require('./touristPlaceService');
 const { haversineDistanceKm, getBoundingBox, getPointBoundingBox } = require('../utils/geoUtils');
 const stayService = require('./stayService');
 
-const CORRIDOR_RADIUS_KM = 5;
 const BOUNDING_BOX_BUFFER_KM = 10;
+const BASE_CORRIDOR_KM = 5;
+const MAX_CORRIDOR_KM = 15;
+const CORRIDOR_STEP_KM = 5;
+const MIN_QUALITY_SCORE = 1;
+const DESIRED_CANDIDATE_COUNT = 5;
+const STAY_SEARCH_RADIUS_KM = 8;
 
 function distanceFromRoute(placeLat, placeLng, routePoints) {
     let minDistance = Infinity;
@@ -18,45 +23,67 @@ function distanceFromRoute(placeLat, placeLng, routePoints) {
     return minDistance;
 }
 
-async function findNearbyPlaces(routePoints) {
-    const box = getBoundingBox(routePoints, BOUNDING_BOX_BUFFER_KM);
-
-    const candidates = await touristPlaceService.getCandidatePlaces(
-        box.minLat,
-        box.maxLat,
-        box.minLng,
-        box.maxLng
-    );
-
-    const withDistance = candidates.map((place) => {
-        const [lng, lat] = place.location.coordinates;
-        const distanceKm = distanceFromRoute(lat, lng, routePoints);
-
-        return {
-            placeId: place.placeId,
-            name: place.name,
-            category: place.category,
-            rating: place.rating,
-            latitude: lat,
-            longitude: lng,
-            distanceFromRouteKm: Number(distanceKm.toFixed(2)),
-        };
-    });
-
-    const withinCorridor = withDistance.filter(
-        (place) => place.distanceFromRouteKm <= CORRIDOR_RADIUS_KM
-    );
-
-    withinCorridor.sort((a, b) => {
-        const scoreA = a.distanceFromRouteKm - a.rating * 0.5;
-        const scoreB = b.distanceFromRouteKm - b.rating * 0.5;
-        return scoreA - scoreB;
-    });
-
-    return withinCorridor;
+function qualityScore(place) {
+    return (place.verified ? 2 : 0) + place.tagRichness;
 }
 
-const STAY_SEARCH_RADIUS_KM = 8;
+function rankPlaces(places) {
+    return [...places].sort((a, b) => {
+        const scoreA = a.distanceFromRouteKm - qualityScore(a) * 0.5;
+        const scoreB = b.distanceFromRouteKm - qualityScore(b) * 0.5;
+        return scoreA - scoreB;
+    });
+}
+
+async function findNearbyPlaces(routePoints) {
+    let radius = BASE_CORRIDOR_KM;
+    let bestAttempt = [];
+
+    while (radius <= MAX_CORRIDOR_KM) {
+        const box = getBoundingBox(routePoints, BOUNDING_BOX_BUFFER_KM + radius);
+        const candidates = await touristPlaceService.getCandidatePlaces(
+            box.minLat,
+            box.maxLat,
+            box.minLng,
+            box.maxLng
+        );
+
+        const withDistance = candidates.map((place) => {
+            const [lng, lat] = place.location.coordinates;
+            const distanceKm = distanceFromRoute(lat, lng, routePoints);
+
+            return {
+                placeId: place.placeId,
+                name: place.name,
+                category: place.category,
+                rating: place.rating,
+                verified: place.verified,
+                tagRichness: place.tagRichness,
+                latitude: lat,
+                longitude: lng,
+                distanceFromRouteKm: Number(distanceKm.toFixed(2)),
+            };
+        });
+
+        const withinCorridor = withDistance.filter(
+            (place) => place.distanceFromRouteKm <= radius
+        );
+
+        const qualified = withinCorridor.filter(
+            (place) => qualityScore(place) >= MIN_QUALITY_SCORE
+        );
+
+        bestAttempt = withinCorridor;
+
+        if (qualified.length >= DESIRED_CANDIDATE_COUNT) {
+            return rankPlaces(qualified);
+        }
+
+        radius += CORRIDOR_STEP_KM;
+    }
+
+    return rankPlaces(bestAttempt);
+}
 
 async function findNearbyStays(destinationLat, destinationLng) {
     const box = getPointBoundingBox(destinationLat, destinationLng, STAY_SEARCH_RADIUS_KM);

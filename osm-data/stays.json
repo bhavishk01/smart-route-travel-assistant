@@ -5,7 +5,7 @@
     "type": "Hostel",
     "longitude": 76.9645328,
     "latitude": 11.100144,
-    "pricePerNight": 1384
+    "pricePerNight": 5986
   },
   {
     "stayId": "osm-247177849",
@@ -13,7 +13,7 @@
     "type": "Hostel",
     "longitude": 76.9683793,
     "latitude": 11.1010721,
-    "pricePerNight": 3876
+    "pricePerNight": 1586
   },
   {
     "stayId": "osm-278667870",
@@ -21,7 +21,7 @@
     "type": "Hotel",
     "longitude": 76.6933561,
     "latitude": 11.4150602,
-    "pricePerNight": 2285
+    "pricePerNight": 2443
   },
   {
     "stayId": "osm-278937352",
@@ -29,7 +29,7 @@
     "type": "Guest House",
     "longitude": 76.6982983,
     "latitude": 11.420113,
-    "pricePerNight": 5852
+    "pricePerNight": 4365
   },
   {
     "stayId": "osm-279131899",
@@ -37,7 +37,7 @@
     "type": "Guest House",
     "longitude": 76.6000125,
     "latitude": 11.322362,
-    "pricePerNight": 3918
+    "pricePerNight": 1411
   },
   {
     "stayId": "osm-279231337",
@@ -45,7 +45,7 @@
     "type": "Hotel",
     "longitude": 76.711119,
     "latitude": 11.4078935,
-    "pricePerNight": 5746
+    "pricePerNight": 1581
   },
   {
     "stayId": "osm-280187183",
@@ -53,7 +53,7 @@
     "type": "Hotel",
     "longitude": 76.7130939,
     "latitude": 11.4082292,
-    "pricePerNight": 2138
+    "pricePerNight": 2354
   },
   {
     "stayId": "osm-280187185",
@@ -61,7 +61,7 @@
     "type": "Hotel",
     "longitude": 76.71199,
     "latitude": 11.4094569,
-    "pricePerNight": 3022
+    "pricePerNight": 1471
   },
   {
     "stayId": "osm-282437665",
@@ -69,7 +69,7 @@
     "type": "Hotel",
     "longitude": 76.7992606,
     "latitude": 11.3452569,
-    "pricePerNight": 5705
+    "pricePerNight": 4297
   },
   {
     "stayId": "osm-282674695",
@@ -77,7 +77,7 @@
     "type": "Hotel",
     "longitude": 76.7067023,
     "latitude": 11.4117615,
-    "pricePerNight": 1852
+    "pricePerNight": 5560
   },
   {
     "stayId": "osm-283634741",
@@ -85,7 +85,7 @@
     "type": "Guest House",
     "longitude": 76.7031209,
     "latitude": 11.3970023,
-    "pricePerNight": 1611
+    "pricePerNight": 2940
   },
   {
     "stayId": "osm-287835456",
@@ -93,7 +93,7 @@
     "type": "Guest House",
     "longitude": 76.5235016,
     "latitude": 11.5365598,
-    "pricePerNight": 5195
+    "pricePerNight": 4157
   },
   {
     "stayId": "osm-288088583",
@@ -101,7 +101,7 @@
     "type": "Guest House",
     "longitude": 76.9736138,
     "latitude": 11.0078414,
-    "pricePerNight": 3130
+    "pricePerNight": 1989
   },
   {
     "stayId": "osm-321418345",
@@ -109,7 +109,7 @@
     "type": "Hotel",
     "longitude": 76.7085499,
     "latitude": 11.4080347,
-    "pricePerNight": 5463
+    "pricePerNight": 1230
   },
   {
     "stayId": "osm-321420784",
@@ -117,7 +117,7 @@
     "type": "Hotel",
     "longitude": 76.9684019,
     "latitude": 11.0136119,
-    "pricePerNight": 5807
+    "pricePerNight": 4222
   },
   {
     "stayId": "osm-321420815",
@@ -125,7 +125,7 @@
     "type": "Hotel",
     "longitude": 76.9661668,
     "latitude": 11.009903,
-    "pricePerNight": 2002
+    "pricePerNight": 5929
   },
   {
     "stayId": "osm-321420821",
@@ -133,7 +133,7 @@
     "type": "Hotel",
     "longitude": 76.9668505,
     "latitude": 11.0104497,
-    "pricePerNight": 1494
+    "pricePerNight": 3214
   },
   {
     "stayId": "osm-321420827",
@@ -141,7 +141,7 @@
     "type": "Hotel",
     "longitude": 76.9664184,
     "latitude": 11.0104805,
-    "pricePerNight": 3033
+    "pricePerNight": 5903
   },
   {
     "stayId": "osm-330705481",
@@ -149,7 +149,7 @@
     "type": "Hotel",
     "longitude": 76.970776,
     "latitude": 11.0163385,
-    "pricePerNight": 2382
+    "pricePerNight": 1274
   },
   {
     "stayId": "osm-343693450",
@@ -157,7 +157,7 @@
     "type": "Hostel",
     "longitude": 76.94436,
     "latitude": 11.01993,
-    "pricePerNight": 3495
+    "pricePerNight": 1204
   },
   {
     "stayId": "osm-344407960",
@@ -165,7 +165,7 @@
     "type": "Hotel",
     "longitude": 76.9855718,
     "latitude": 11.0108435,
-    "pricePerNight": 3929
+    "pricePerNight": 2311
   },
   {
     "stayId": "osm-368190939",
@@ -173,7 +173,7 @@
     "type": "Hotel",
     "longitude": 77.0276054,
     "latitude": 11.0304643,
-    "pricePerNight": 3593
+    "pricePerNight": 3613
   },
   {
     "stayId": "osm-371433210",
@@ -181,7 +181,7 @@
     "type": "Guest House",
     "longitude": 76.6895797,
     "latitude": 11.4153165,
-    "pricePerNight": 2670
+    "pricePerNight": 3471
   },
   {
     "stayId": "osm-378184919",
@@ -189,7 +189,7 @@
     "type": "Guest House",
     "longitude": 76.7075685,
     "latitude": 11.4220446,
-    "pricePerNight": 2352
+    "pricePerNight": 5889
   },
   {
     "stayId": "osm-390131177",
@@ -197,7 +197,7 @@
     "type": "Hotel",
     "longitude": 76.6593011,
     "latitude": 12.3110701,
-    "pricePerNight": 1430
+    "pricePerNight": 5359
   },
   {
     "stayId": "osm-393870792",
@@ -205,7 +205,7 @@
     "type": "Hotel",
     "longitude": 76.6871862,
     "latitude": 11.4066918,
-    "pricePerNight": 5080
+    "pricePerNight": 5869
   },
   {
     "stayId": "osm-398990449",
@@ -213,7 +213,7 @@
     "type": "Guest House",
     "longitude": 76.6509068,
     "latitude": 11.5277627,
-    "pricePerNight": 5329
+    "pricePerNight": 3359
   },
   {
     "stayId": "osm-410803781",
@@ -221,7 +221,7 @@
     "type": "Hotel",
     "longitude": 76.5734033,
     "latitude": 12.4196368,
-    "pricePerNight": 2917
+    "pricePerNight": 2324
   },
   {
     "stayId": "osm-540645461",
@@ -229,7 +229,7 @@
     "type": "Hotel",
     "longitude": 76.6440802,
     "latitude": 12.3114826,
-    "pricePerNight": 3127
+    "pricePerNight": 4666
   },
   {
     "stayId": "osm-540645893",
@@ -237,7 +237,7 @@
     "type": "Hotel",
     "longitude": 76.6430331,
     "latitude": 12.3117845,
-    "pricePerNight": 4363
+    "pricePerNight": 2600
   },
   {
     "stayId": "osm-541313398",
@@ -245,7 +245,7 @@
     "type": "Hotel",
     "longitude": 76.6427366,
     "latitude": 12.3127083,
-    "pricePerNight": 4737
+    "pricePerNight": 3028
   },
   {
     "stayId": "osm-541329537",
@@ -253,7 +253,7 @@
     "type": "Hotel",
     "longitude": 76.6598093,
     "latitude": 12.3080613,
-    "pricePerNight": 3360
+    "pricePerNight": 2756
   },
   {
     "stayId": "osm-633121758",
@@ -261,7 +261,7 @@
     "type": "Hotel",
     "longitude": 76.6531011,
     "latitude": 12.3123503,
-    "pricePerNight": 2716
+    "pricePerNight": 5758
   },
   {
     "stayId": "osm-638109667",
@@ -269,7 +269,7 @@
     "type": "Hotel",
     "longitude": 76.6993189,
     "latitude": 11.4202025,
-    "pricePerNight": 1671
+    "pricePerNight": 4810
   },
   {
     "stayId": "osm-647850322",
@@ -277,7 +277,7 @@
     "type": "Hotel",
     "longitude": 76.6542796,
     "latitude": 12.3110043,
-    "pricePerNight": 1293
+    "pricePerNight": 1430
   },
   {
     "stayId": "osm-647850323",
@@ -285,7 +285,7 @@
     "type": "Hotel",
     "longitude": 76.6538693,
     "latitude": 12.3128041,
-    "pricePerNight": 4139
+    "pricePerNight": 5856
   },
   {
     "stayId": "osm-660608312",
@@ -293,7 +293,7 @@
     "type": "Hotel",
     "longitude": 76.7084252,
     "latitude": 11.4133521,
-    "pricePerNight": 4134
+    "pricePerNight": 3127
   },
   {
     "stayId": "osm-803389796",
@@ -301,7 +301,7 @@
     "type": "Hotel",
     "longitude": 76.9801062,
     "latitude": 11.0096228,
-    "pricePerNight": 3865
+    "pricePerNight": 4362
   },
   {
     "stayId": "osm-1039492975",
@@ -309,7 +309,7 @@
     "type": "Guest House",
     "longitude": 76.982528,
     "latitude": 11.0417086,
-    "pricePerNight": 1922
+    "pricePerNight": 4300
   },
   {
     "stayId": "osm-1039493019",
@@ -317,7 +317,7 @@
     "type": "Hostel",
     "longitude": 76.979545,
     "latitude": 11.0389557,
-    "pricePerNight": 3757
+    "pricePerNight": 5455
   },
   {
     "stayId": "osm-1039716925",
@@ -325,7 +325,7 @@
     "type": "Guest House",
     "longitude": 76.9825965,
     "latitude": 11.0419725,
-    "pricePerNight": 2021
+    "pricePerNight": 4227
   },
   {
     "stayId": "osm-1039752453",
@@ -333,7 +333,7 @@
     "type": "Guest House",
     "longitude": 77.1221252,
     "latitude": 11.9040454,
-    "pricePerNight": 3728
+    "pricePerNight": 4913
   },
   {
     "stayId": "osm-1065137570",
@@ -341,7 +341,7 @@
     "type": "Hotel",
     "longitude": 76.6587377,
     "latitude": 12.3086026,
-    "pricePerNight": 4498
+    "pricePerNight": 5230
   },
   {
     "stayId": "osm-1135609518",
@@ -349,7 +349,7 @@
     "type": "Hotel",
     "longitude": 76.2665016,
     "latitude": 11.926504,
-    "pricePerNight": 5456
+    "pricePerNight": 5678
   },
   {
     "stayId": "osm-1153301920",
@@ -357,7 +357,7 @@
     "type": "Hotel",
     "longitude": 76.6578378,
     "latitude": 12.31096,
-    "pricePerNight": 3309
+    "pricePerNight": 3828
   },
   {
     "stayId": "osm-1153301956",
@@ -365,7 +365,7 @@
     "type": "Hotel",
     "longitude": 76.6507364,
     "latitude": 12.3060376,
-    "pricePerNight": 2770
+    "pricePerNight": 2644
   },
   {
     "stayId": "osm-1153369471",
@@ -373,7 +373,7 @@
     "type": "Hotel",
     "longitude": 76.6578212,
     "latitude": 12.3103941,
-    "pricePerNight": 3245
+    "pricePerNight": 4863
   },
   {
     "stayId": "osm-1153369558",
@@ -381,7 +381,7 @@
     "type": "Hotel",
     "longitude": 76.6576189,
     "latitude": 12.3103101,
-    "pricePerNight": 1791
+    "pricePerNight": 3706
   },
   {
     "stayId": "osm-1153369589",
@@ -389,7 +389,7 @@
     "type": "Hotel",
     "longitude": 76.6579416,
     "latitude": 12.3103309,
-    "pricePerNight": 3260
+    "pricePerNight": 4802
   },
   {
     "stayId": "osm-1165014851",
@@ -397,7 +397,7 @@
     "type": "Hotel",
     "longitude": 76.4920506,
     "latitude": 11.501575,
-    "pricePerNight": 4197
+    "pricePerNight": 5407
   },
   {
     "stayId": "osm-1311589321",
@@ -405,7 +405,7 @@
     "type": "Hotel",
     "longitude": 76.8008578,
     "latitude": 11.3456103,
-    "pricePerNight": 1757
+    "pricePerNight": 3345
   },
   {
     "stayId": "osm-1392358224",
@@ -413,7 +413,7 @@
     "type": "Hotel",
     "longitude": 76.6448316,
     "latitude": 12.2681286,
-    "pricePerNight": 3290
+    "pricePerNight": 4363
   },
   {
     "stayId": "osm-1449396683",
@@ -421,7 +421,7 @@
     "type": "Guest House",
     "longitude": 76.6944022,
     "latitude": 11.4141314,
-    "pricePerNight": 5287
+    "pricePerNight": 4407
   },
   {
     "stayId": "osm-1450248319",
@@ -429,7 +429,7 @@
     "type": "Hotel",
     "longitude": 76.6477973,
     "latitude": 12.3290856,
-    "pricePerNight": 2077
+    "pricePerNight": 4422
   },
   {
     "stayId": "osm-1469093655",
@@ -437,7 +437,7 @@
     "type": "Hotel",
     "longitude": 76.9381071,
     "latitude": 11.3001154,
-    "pricePerNight": 2449
+    "pricePerNight": 5858
   },
   {
     "stayId": "osm-1470787170",
@@ -445,7 +445,7 @@
     "type": "Hotel",
     "longitude": 76.9370278,
     "latitude": 11.3039598,
-    "pricePerNight": 2960
+    "pricePerNight": 3584
   },
   {
     "stayId": "osm-1473263696",
@@ -453,7 +453,7 @@
     "type": "Guest House",
     "longitude": 76.9414311,
     "latitude": 11.3006567,
-    "pricePerNight": 5601
+    "pricePerNight": 5255
   },
   {
     "stayId": "osm-1490973572",
@@ -461,7 +461,7 @@
     "type": "Guest House",
     "longitude": 76.997194,
     "latitude": 11.012718,
-    "pricePerNight": 3958
+    "pricePerNight": 1745
   },
   {
     "stayId": "osm-1596093377",
@@ -469,7 +469,7 @@
     "type": "Hotel",
     "longitude": 76.9625545,
     "latitude": 11.0187947,
-    "pricePerNight": 2651
+    "pricePerNight": 5673
   },
   {
     "stayId": "osm-1636850568",
@@ -477,7 +477,7 @@
     "type": "Hotel",
     "longitude": 76.6403651,
     "latitude": 12.3008074,
-    "pricePerNight": 5840
+    "pricePerNight": 3764
   },
   {
     "stayId": "osm-1638073734",
@@ -485,7 +485,7 @@
     "type": "Hotel",
     "longitude": 76.6583683,
     "latitude": 12.3086497,
-    "pricePerNight": 3929
+    "pricePerNight": 3221
   },
   {
     "stayId": "osm-1645794657",
@@ -493,7 +493,7 @@
     "type": "Hotel",
     "longitude": 76.6286062,
     "latitude": 12.3515413,
-    "pricePerNight": 4484
+    "pricePerNight": 2714
   },
   {
     "stayId": "osm-1649140635",
@@ -501,7 +501,7 @@
     "type": "Hotel",
     "longitude": 76.6655704,
     "latitude": 12.2981407,
-    "pricePerNight": 2087
+    "pricePerNight": 3438
   },
   {
     "stayId": "osm-1656551377",
@@ -509,7 +509,7 @@
     "type": "Hotel",
     "longitude": 76.9844266,
     "latitude": 11.0808365,
-    "pricePerNight": 4478
+    "pricePerNight": 3179
   },
   {
     "stayId": "osm-1659014527",
@@ -517,7 +517,7 @@
     "type": "Hotel",
     "longitude": 76.6583818,
     "latitude": 12.310275,
-    "pricePerNight": 4249
+    "pricePerNight": 4631
   },
   {
     "stayId": "osm-1664334100",
@@ -525,7 +525,7 @@
     "type": "Hotel",
     "longitude": 76.6371629,
     "latitude": 11.6974594,
-    "pricePerNight": 3490
+    "pricePerNight": 5955
   },
   {
     "stayId": "osm-1664341063",
@@ -533,7 +533,7 @@
     "type": "Hotel",
     "longitude": 76.5866084,
     "latitude": 11.5800493,
-    "pricePerNight": 5280
+    "pricePerNight": 2091
   },
   {
     "stayId": "osm-1664473029",
@@ -541,7 +541,7 @@
     "type": "Hotel",
     "longitude": 76.574777,
     "latitude": 11.4674156,
-    "pricePerNight": 2867
+    "pricePerNight": 3834
   },
   {
     "stayId": "osm-1664493283",
@@ -549,7 +549,7 @@
     "type": "Hotel",
     "longitude": 76.7090719,
     "latitude": 11.4106693,
-    "pricePerNight": 5806
+    "pricePerNight": 2766
   },
   {
     "stayId": "osm-1664495123",
@@ -557,7 +557,7 @@
     "type": "Hotel",
     "longitude": 76.7111,
     "latitude": 11.41025,
-    "pricePerNight": 5756
+    "pricePerNight": 3808
   },
   {
     "stayId": "osm-1670004234",
@@ -565,7 +565,7 @@
     "type": "Hotel",
     "longitude": 76.6539708,
     "latitude": 12.3118335,
-    "pricePerNight": 3120
+    "pricePerNight": 2917
   },
   {
     "stayId": "osm-1674636478",
@@ -573,7 +573,7 @@
     "type": "Hostel",
     "longitude": 76.6448529,
     "latitude": 12.29066,
-    "pricePerNight": 3851
+    "pricePerNight": 2190
   },
   {
     "stayId": "osm-1674637603",
@@ -581,7 +581,7 @@
     "type": "Hostel",
     "longitude": 76.6451185,
     "latitude": 12.2905185,
-    "pricePerNight": 2275
+    "pricePerNight": 1214
   },
   {
     "stayId": "osm-1680049127",
@@ -589,7 +589,7 @@
     "type": "Hotel",
     "longitude": 76.9659961,
     "latitude": 11.0104945,
-    "pricePerNight": 2217
+    "pricePerNight": 5751
   },
   {
     "stayId": "osm-1681456791",
@@ -597,7 +597,7 @@
     "type": "Motel",
     "longitude": 76.6260993,
     "latitude": 12.2867027,
-    "pricePerNight": 1914
+    "pricePerNight": 4271
   },
   {
     "stayId": "osm-1683123643",
@@ -605,7 +605,7 @@
     "type": "Hotel",
     "longitude": 76.6981837,
     "latitude": 11.4138832,
-    "pricePerNight": 5700
+    "pricePerNight": 5928
   },
   {
     "stayId": "osm-1683123644",
@@ -613,7 +613,7 @@
     "type": "Hotel",
     "longitude": 76.6975783,
     "latitude": 11.413711,
-    "pricePerNight": 3621
+    "pricePerNight": 2732
   },
   {
     "stayId": "osm-1683123670",
@@ -621,7 +621,7 @@
     "type": "Hotel",
     "longitude": 76.6981291,
     "latitude": 11.4136125,
-    "pricePerNight": 2038
+    "pricePerNight": 3594
   },
   {
     "stayId": "osm-1683131138",
@@ -629,7 +629,7 @@
     "type": "Hotel",
     "longitude": 76.6973582,
     "latitude": 11.4136797,
-    "pricePerNight": 5122
+    "pricePerNight": 3547
   },
   {
     "stayId": "osm-1683131139",
@@ -637,7 +637,7 @@
     "type": "Hotel",
     "longitude": 76.6974299,
     "latitude": 11.4134262,
-    "pricePerNight": 3355
+    "pricePerNight": 2068
   },
   {
     "stayId": "osm-1684281484",
@@ -645,7 +645,7 @@
     "type": "Guest House",
     "longitude": 76.6936524,
     "latitude": 11.4125398,
-    "pricePerNight": 1323
+    "pricePerNight": 1495
   },
   {
     "stayId": "osm-1684526914",
@@ -653,7 +653,7 @@
     "type": "Guest House",
     "longitude": 76.7000128,
     "latitude": 11.4138881,
-    "pricePerNight": 1295
+    "pricePerNight": 2434
   },
   {
     "stayId": "osm-1684526916",
@@ -661,7 +661,7 @@
     "type": "Guest House",
     "longitude": 76.6997528,
     "latitude": 11.4140695,
-    "pricePerNight": 4532
+    "pricePerNight": 5861
   },
   {
     "stayId": "osm-1684529738",
@@ -669,7 +669,7 @@
     "type": "Hotel",
     "longitude": 76.6977982,
     "latitude": 11.4137207,
-    "pricePerNight": 5411
+    "pricePerNight": 3065
   },
   {
     "stayId": "osm-1798917854",
@@ -677,7 +677,7 @@
     "type": "Hotel",
     "longitude": 76.6405996,
     "latitude": 12.3124209,
-    "pricePerNight": 2216
+    "pricePerNight": 4573
   },
   {
     "stayId": "osm-1808467421",
@@ -685,7 +685,7 @@
     "type": "Guest House",
     "longitude": 76.6315057,
     "latitude": 12.3209572,
-    "pricePerNight": 2903
+    "pricePerNight": 5217
   },
   {
     "stayId": "osm-1818604065",
@@ -693,7 +693,7 @@
     "type": "Hotel",
     "longitude": 76.670955,
     "latitude": 12.2917329,
-    "pricePerNight": 5274
+    "pricePerNight": 4392
   },
   {
     "stayId": "osm-1842326955",
@@ -701,7 +701,7 @@
     "type": "Hotel",
     "longitude": 76.2494616,
     "latitude": 11.6507669,
-    "pricePerNight": 5900
+    "pricePerNight": 5508
   },
   {
     "stayId": "osm-2153183695",
@@ -709,7 +709,7 @@
     "type": "Hotel",
     "longitude": 76.6931157,
     "latitude": 11.4040741,
-    "pricePerNight": 5965
+    "pricePerNight": 2290
   },
   {
     "stayId": "osm-2153184293",
@@ -717,7 +717,7 @@
     "type": "Hotel",
     "longitude": 76.6923392,
     "latitude": 11.4041947,
-    "pricePerNight": 3612
+    "pricePerNight": 4930
   },
   {
     "stayId": "osm-2153184294",
@@ -725,7 +725,7 @@
     "type": "Hotel",
     "longitude": 76.6977571,
     "latitude": 11.400923,
-    "pricePerNight": 1204
+    "pricePerNight": 4010
   },
   {
     "stayId": "osm-2195979819",
@@ -733,7 +733,7 @@
     "type": "Guest House",
     "longitude": 76.9382438,
     "latitude": 11.3034713,
-    "pricePerNight": 3611
+    "pricePerNight": 4954
   },
   {
     "stayId": "osm-2195979820",
@@ -741,7 +741,7 @@
     "type": "Guest House",
     "longitude": 76.9382127,
     "latitude": 11.3042136,
-    "pricePerNight": 3408
+    "pricePerNight": 4518
   },
   {
     "stayId": "osm-2195979822",
@@ -749,7 +749,7 @@
     "type": "Hotel",
     "longitude": 76.9387056,
     "latitude": 11.3001621,
-    "pricePerNight": 4648
+    "pricePerNight": 1536
   },
   {
     "stayId": "osm-2195979828",
@@ -757,7 +757,7 @@
     "type": "Guest House",
     "longitude": 76.9386598,
     "latitude": 11.3009241,
-    "pricePerNight": 1472
+    "pricePerNight": 3320
   },
   {
     "stayId": "osm-2195979829",
@@ -765,7 +765,7 @@
     "type": "Guest House",
     "longitude": 76.9367082,
     "latitude": 11.30377,
-    "pricePerNight": 5668
+    "pricePerNight": 3881
   },
   {
     "stayId": "osm-2195979830",
@@ -773,7 +773,7 @@
     "type": "Guest House",
     "longitude": 76.9382617,
     "latitude": 11.3032608,
-    "pricePerNight": 5679
+    "pricePerNight": 3486
   },
   {
     "stayId": "osm-2195979831",
@@ -781,7 +781,7 @@
     "type": "Guest House",
     "longitude": 76.9379104,
     "latitude": 11.3031291,
-    "pricePerNight": 1393
+    "pricePerNight": 3592
   },
   {
     "stayId": "osm-2195979833",
@@ -789,7 +789,7 @@
     "type": "Guest House",
     "longitude": 76.9386078,
     "latitude": 11.3011755,
-    "pricePerNight": 1382
+    "pricePerNight": 4319
   },
   {
     "stayId": "osm-2195979834",
@@ -797,7 +797,7 @@
     "type": "Guest House",
     "longitude": 76.9382863,
     "latitude": 11.3037761,
-    "pricePerNight": 5769
+    "pricePerNight": 5959
   },
   {
     "stayId": "osm-2232361185",
@@ -805,7 +805,7 @@
     "type": "Hotel",
     "longitude": 76.6581867,
     "latitude": 12.315877,
-    "pricePerNight": 2356
+    "pricePerNight": 2441
   },
   {
     "stayId": "osm-2376659471",
@@ -813,7 +813,7 @@
     "type": "Hotel",
     "longitude": 76.714537,
     "latitude": 11.403264,
-    "pricePerNight": 1568
+    "pricePerNight": 5065
   },
   {
     "stayId": "osm-2376659472",
@@ -821,7 +821,7 @@
     "type": "Hotel",
     "longitude": 76.7060063,
     "latitude": 11.4137263,
-    "pricePerNight": 1964
+    "pricePerNight": 4766
   },
   {
     "stayId": "osm-2376659473",
@@ -829,7 +829,7 @@
     "type": "Hostel",
     "longitude": 76.7056668,
     "latitude": 11.4063606,
-    "pricePerNight": 3481
+    "pricePerNight": 3693
   },
   {
     "stayId": "osm-2376659474",
@@ -837,7 +837,7 @@
     "type": "Hotel",
     "longitude": 76.7107645,
     "latitude": 11.4107777,
-    "pricePerNight": 3335
+    "pricePerNight": 3472
   },
   {
     "stayId": "osm-2376659475",
@@ -845,7 +845,7 @@
     "type": "Hotel",
     "longitude": 76.7059421,
     "latitude": 11.4137291,
-    "pricePerNight": 2741
+    "pricePerNight": 4433
   },
   {
     "stayId": "osm-2376659476",
@@ -853,7 +853,7 @@
     "type": "Hotel",
     "longitude": 76.7077017,
     "latitude": 11.4089427,
-    "pricePerNight": 5287
+    "pricePerNight": 1628
   },
   {
     "stayId": "osm-2376659477",
@@ -861,7 +861,7 @@
     "type": "Hotel",
     "longitude": 76.706479,
     "latitude": 11.407377,
-    "pricePerNight": 4794
+    "pricePerNight": 4561
   },
   {
     "stayId": "osm-2376659478",
@@ -869,7 +869,7 @@
     "type": "Hotel",
     "longitude": 76.7078565,
     "latitude": 11.4113535,
-    "pricePerNight": 1895
+    "pricePerNight": 2082
   },
   {
     "stayId": "osm-2376659479",
@@ -877,7 +877,7 @@
     "type": "Hotel",
     "longitude": 76.714984,
     "latitude": 11.4023182,
-    "pricePerNight": 3465
+    "pricePerNight": 1425
   },
   {
     "stayId": "osm-2376659480",
@@ -885,7 +885,7 @@
     "type": "Hotel",
     "longitude": 76.7110791,
     "latitude": 11.4102996,
-    "pricePerNight": 5724
+    "pricePerNight": 5067
   },
   {
     "stayId": "osm-2376659481",
@@ -893,7 +893,7 @@
     "type": "Hotel",
     "longitude": 76.7072868,
     "latitude": 11.4079023,
-    "pricePerNight": 3219
+    "pricePerNight": 2840
   },
   {
     "stayId": "osm-2376659482",
@@ -901,7 +901,7 @@
     "type": "Hotel",
     "longitude": 76.7088138,
     "latitude": 11.4122174,
-    "pricePerNight": 5057
+    "pricePerNight": 5673
   },
   {
     "stayId": "osm-2376659483",
@@ -909,7 +909,7 @@
     "type": "Hotel",
     "longitude": 76.7154134,
     "latitude": 11.4037433,
-    "pricePerNight": 2535
+    "pricePerNight": 4806
   },
   {
     "stayId": "osm-2376659484",
@@ -917,7 +917,7 @@
     "type": "Hotel",
     "longitude": 76.7049373,
     "latitude": 11.4130941,
-    "pricePerNight": 5429
+    "pricePerNight": 4585
   },
   {
     "stayId": "osm-2376659485",
@@ -925,7 +925,7 @@
     "type": "Hotel",
     "longitude": 76.7108111,
     "latitude": 11.4108747,
-    "pricePerNight": 3939
+    "pricePerNight": 3579
   },
   {
     "stayId": "osm-2376659486",
@@ -933,7 +933,7 @@
     "type": "Hotel",
     "longitude": 76.7138491,
     "latitude": 11.4080188,
-    "pricePerNight": 5077
+    "pricePerNight": 4662
   },
   {
     "stayId": "osm-2376659487",
@@ -941,7 +941,7 @@
     "type": "Hotel",
     "longitude": 76.7145981,
     "latitude": 11.4031127,
-    "pricePerNight": 1552
+    "pricePerNight": 3126
   },
   {
     "stayId": "osm-2376659488",
@@ -949,7 +949,7 @@
     "type": "Hotel",
     "longitude": 76.7145246,
     "latitude": 11.4066656,
-    "pricePerNight": 1344
+    "pricePerNight": 2100
   },
   {
     "stayId": "osm-2376659489",
@@ -957,7 +957,7 @@
     "type": "Hotel",
     "longitude": 76.7062322,
     "latitude": 11.4066335,
-    "pricePerNight": 4971
+    "pricePerNight": 3186
   },
   {
     "stayId": "osm-2376659490",
@@ -965,7 +965,7 @@
     "type": "Hotel",
     "longitude": 76.7147114,
     "latitude": 11.4036227,
-    "pricePerNight": 4513
+    "pricePerNight": 5452
   },
   {
     "stayId": "osm-2376659491",
@@ -973,7 +973,7 @@
     "type": "Hotel",
     "longitude": 76.7153989,
     "latitude": 11.4025609,
-    "pricePerNight": 3676
+    "pricePerNight": 5225
   },
   {
     "stayId": "osm-2376659492",
@@ -981,7 +981,7 @@
     "type": "Hotel",
     "longitude": 76.7146398,
     "latitude": 11.4039117,
-    "pricePerNight": 5645
+    "pricePerNight": 2744
   },
   {
     "stayId": "osm-2376659494",
@@ -989,7 +989,7 @@
     "type": "Hotel",
     "longitude": 76.7053103,
     "latitude": 11.4151752,
-    "pricePerNight": 3823
+    "pricePerNight": 1735
   },
   {
     "stayId": "osm-2376659495",
@@ -997,7 +997,7 @@
     "type": "Hotel",
     "longitude": 76.7153493,
     "latitude": 11.4062055,
-    "pricePerNight": 3638
+    "pricePerNight": 1597
   },
   {
     "stayId": "osm-2376662702",
@@ -1005,7 +1005,7 @@
     "type": "Guest House",
     "longitude": 76.7017629,
     "latitude": 11.401545,
-    "pricePerNight": 4596
+    "pricePerNight": 4039
   },
   {
     "stayId": "osm-2376662705",
@@ -1013,7 +1013,7 @@
     "type": "Guest House",
     "longitude": 76.6896246,
     "latitude": 11.4132407,
-    "pricePerNight": 1507
+    "pricePerNight": 3607
   },
   {
     "stayId": "osm-2376662706",
@@ -1021,7 +1021,7 @@
     "type": "Guest House",
     "longitude": 76.6919558,
     "latitude": 11.4129448,
-    "pricePerNight": 1602
+    "pricePerNight": 3001
   },
   {
     "stayId": "osm-2376662708",
@@ -1029,7 +1029,7 @@
     "type": "Guest House",
     "longitude": 76.6899793,
     "latitude": 11.4132507,
-    "pricePerNight": 4939
+    "pricePerNight": 5820
   },
   {
     "stayId": "osm-2376662709",
@@ -1037,7 +1037,7 @@
     "type": "Hotel",
     "longitude": 76.6985942,
     "latitude": 11.399137,
-    "pricePerNight": 2682
+    "pricePerNight": 1243
   },
   {
     "stayId": "osm-2376662710",
@@ -1045,7 +1045,7 @@
     "type": "Hotel",
     "longitude": 76.6922973,
     "latitude": 11.4128371,
-    "pricePerNight": 1624
+    "pricePerNight": 4239
   },
   {
     "stayId": "osm-2407835647",
@@ -1053,7 +1053,7 @@
     "type": "Hotel",
     "longitude": 76.2845856,
     "latitude": 12.3090981,
-    "pricePerNight": 2167
+    "pricePerNight": 1536
   },
   {
     "stayId": "osm-2417644285",
@@ -1061,7 +1061,7 @@
     "type": "Hotel",
     "longitude": 76.291837,
     "latitude": 12.308939,
-    "pricePerNight": 1427
+    "pricePerNight": 5782
   },
   {
     "stayId": "osm-2447941599",
@@ -1069,7 +1069,7 @@
     "type": "Hostel",
     "longitude": 76.291316,
     "latitude": 12.35604,
-    "pricePerNight": 5882
+    "pricePerNight": 4962
   },
   {
     "stayId": "osm-2614104608",
@@ -1077,7 +1077,7 @@
     "type": "Guest House",
     "longitude": 76.6925829,
     "latitude": 11.5352748,
-    "pricePerNight": 1809
+    "pricePerNight": 2784
   },
   {
     "stayId": "osm-2616016134",
@@ -1085,7 +1085,7 @@
     "type": "Motel",
     "longitude": 76.3736713,
     "latitude": 12.1918892,
-    "pricePerNight": 4215
+    "pricePerNight": 3899
   },
   {
     "stayId": "osm-2620887349",
@@ -1093,7 +1093,7 @@
     "type": "Hotel",
     "longitude": 76.6596091,
     "latitude": 12.3183859,
-    "pricePerNight": 5563
+    "pricePerNight": 5628
   },
   {
     "stayId": "osm-2623349400",
@@ -1101,7 +1101,7 @@
     "type": "Hotel",
     "longitude": 76.6589358,
     "latitude": 12.318868,
-    "pricePerNight": 3256
+    "pricePerNight": 2465
   },
   {
     "stayId": "osm-2831401358",
@@ -1109,7 +1109,7 @@
     "type": "Hotel",
     "longitude": 76.6596385,
     "latitude": 12.3112197,
-    "pricePerNight": 5383
+    "pricePerNight": 3649
   },
   {
     "stayId": "osm-2869682111",
@@ -1117,7 +1117,7 @@
     "type": "Hotel",
     "longitude": 76.6619921,
     "latitude": 12.319111,
-    "pricePerNight": 4217
+    "pricePerNight": 5894
   },
   {
     "stayId": "osm-2962631224",
@@ -1125,7 +1125,7 @@
     "type": "Hotel",
     "longitude": 76.6366698,
     "latitude": 12.3131046,
-    "pricePerNight": 5538
+    "pricePerNight": 4604
   },
   {
     "stayId": "osm-2982356915",
@@ -1133,7 +1133,7 @@
     "type": "Hotel",
     "longitude": 76.657859,
     "latitude": 12.3111165,
-    "pricePerNight": 4075
+    "pricePerNight": 3389
   },
   {
     "stayId": "osm-3116318840",
@@ -1141,7 +1141,7 @@
     "type": "Hotel",
     "longitude": 76.9483343,
     "latitude": 11.0149682,
-    "pricePerNight": 5814
+    "pricePerNight": 3590
   },
   {
     "stayId": "osm-3211789213",
@@ -1149,7 +1149,7 @@
     "type": "Motel",
     "longitude": 76.8153612,
     "latitude": 11.3460291,
-    "pricePerNight": 3633
+    "pricePerNight": 1408
   },
   {
     "stayId": "osm-3217567469",
@@ -1157,7 +1157,7 @@
     "type": "Hotel",
     "longitude": 76.6214719,
     "latitude": 12.3024862,
-    "pricePerNight": 5805
+    "pricePerNight": 4289
   },
   {
     "stayId": "osm-3272453676",
@@ -1165,7 +1165,7 @@
     "type": "Hostel",
     "longitude": 76.6333887,
     "latitude": 12.3058933,
-    "pricePerNight": 5377
+    "pricePerNight": 4226
   },
   {
     "stayId": "osm-3272453677",
@@ -1173,7 +1173,7 @@
     "type": "Hostel",
     "longitude": 76.6316872,
     "latitude": 12.3052077,
-    "pricePerNight": 5627
+    "pricePerNight": 3334
   },
   {
     "stayId": "osm-3390878929",
@@ -1181,7 +1181,7 @@
     "type": "Hostel",
     "longitude": 76.6582053,
     "latitude": 12.3333638,
-    "pricePerNight": 4804
+    "pricePerNight": 2196
   },
   {
     "stayId": "osm-3784808867",
@@ -1189,7 +1189,7 @@
     "type": "Hotel",
     "longitude": 76.6860216,
     "latitude": 11.8020547,
-    "pricePerNight": 1353
+    "pricePerNight": 1321
   },
   {
     "stayId": "osm-3865281549",
@@ -1197,7 +1197,7 @@
     "type": "Hotel",
     "longitude": 76.6469896,
     "latitude": 12.3309435,
-    "pricePerNight": 3478
+    "pricePerNight": 1810
   },
   {
     "stayId": "osm-3901557891",
@@ -1205,7 +1205,7 @@
     "type": "Hotel",
     "longitude": 76.7116718,
     "latitude": 11.4103826,
-    "pricePerNight": 2374
+    "pricePerNight": 3889
   },
   {
     "stayId": "osm-3901557893",
@@ -1213,7 +1213,7 @@
     "type": "Hotel",
     "longitude": 76.810185,
     "latitude": 11.3507256,
-    "pricePerNight": 4793
+    "pricePerNight": 4904
   },
   {
     "stayId": "osm-3901557898",
@@ -1221,7 +1221,7 @@
     "type": "Hotel",
     "longitude": 76.8205426,
     "latitude": 11.3444762,
-    "pricePerNight": 4527
+    "pricePerNight": 4572
   },
   {
     "stayId": "osm-3987373395",
@@ -1229,7 +1229,7 @@
     "type": "Hotel",
     "longitude": 76.595544,
     "latitude": 12.3344971,
-    "pricePerNight": 1331
+    "pricePerNight": 4177
   },
   {
     "stayId": "osm-3990864293",
@@ -1237,7 +1237,7 @@
     "type": "Hostel",
     "longitude": 76.2342772,
     "latitude": 11.2888733,
-    "pricePerNight": 5270
+    "pricePerNight": 3567
   },
   {
     "stayId": "osm-4171440392",
@@ -1245,7 +1245,7 @@
     "type": "Hotel",
     "longitude": 76.8004707,
     "latitude": 11.3492492,
-    "pricePerNight": 1689
+    "pricePerNight": 3525
   },
   {
     "stayId": "osm-4171440393",
@@ -1253,7 +1253,7 @@
     "type": "Hotel",
     "longitude": 76.7934998,
     "latitude": 11.3622643,
-    "pricePerNight": 1236
+    "pricePerNight": 4050
   },
   {
     "stayId": "osm-4171665592",
@@ -1261,7 +1261,7 @@
     "type": "Guest House",
     "longitude": 76.800249,
     "latitude": 11.3537527,
-    "pricePerNight": 2826
+    "pricePerNight": 2283
   },
   {
     "stayId": "osm-4181068390",
@@ -1269,7 +1269,7 @@
     "type": "Hotel",
     "longitude": 76.6786734,
     "latitude": 12.4172913,
-    "pricePerNight": 5288
+    "pricePerNight": 5670
   },
   {
     "stayId": "osm-4189170408",
@@ -1277,7 +1277,7 @@
     "type": "Hotel",
     "longitude": 76.9822134,
     "latitude": 11.2779167,
-    "pricePerNight": 4803
+    "pricePerNight": 3435
   },
   {
     "stayId": "osm-4263833389",
@@ -1285,7 +1285,7 @@
     "type": "Guest House",
     "longitude": 76.6294834,
     "latitude": 11.6667798,
-    "pricePerNight": 3485
+    "pricePerNight": 3365
   },
   {
     "stayId": "osm-4267589115",
@@ -1293,7 +1293,7 @@
     "type": "Guest House",
     "longitude": 76.6298998,
     "latitude": 11.6666514,
-    "pricePerNight": 3977
+    "pricePerNight": 1984
   },
   {
     "stayId": "osm-4273587294",
@@ -1301,7 +1301,7 @@
     "type": "Hotel",
     "longitude": 76.9102472,
     "latitude": 11.3294138,
-    "pricePerNight": 3982
+    "pricePerNight": 4942
   },
   {
     "stayId": "osm-4303164749",
@@ -1309,7 +1309,7 @@
     "type": "Hotel",
     "longitude": 76.2568084,
     "latitude": 11.6608005,
-    "pricePerNight": 5122
+    "pricePerNight": 1543
   },
   {
     "stayId": "osm-4337886289",
@@ -1317,7 +1317,7 @@
     "type": "Guest House",
     "longitude": 76.8962544,
     "latitude": 11.0393137,
-    "pricePerNight": 3764
+    "pricePerNight": 2476
   },
   {
     "stayId": "osm-4348358551",
@@ -1325,7 +1325,7 @@
     "type": "Hotel",
     "longitude": 76.6446391,
     "latitude": 12.3293897,
-    "pricePerNight": 2640
+    "pricePerNight": 5666
   },
   {
     "stayId": "osm-4365684590",
@@ -1333,7 +1333,7 @@
     "type": "Guest House",
     "longitude": 76.6473542,
     "latitude": 12.3043553,
-    "pricePerNight": 2766
+    "pricePerNight": 2245
   },
   {
     "stayId": "osm-4400995690",
@@ -1341,7 +1341,7 @@
     "type": "Hotel",
     "longitude": 76.6630743,
     "latitude": 12.3184352,
-    "pricePerNight": 3530
+    "pricePerNight": 5101
   },
   {
     "stayId": "osm-4402079987",
@@ -1349,7 +1349,7 @@
     "type": "Hotel",
     "longitude": 76.9858523,
     "latitude": 11.0049649,
-    "pricePerNight": 5000
+    "pricePerNight": 5759
   },
   {
     "stayId": "osm-4445028791",
@@ -1357,7 +1357,7 @@
     "type": "Hostel",
     "longitude": 76.9363797,
     "latitude": 11.0201165,
-    "pricePerNight": 1653
+    "pricePerNight": 3076
   },
   {
     "stayId": "osm-4445057789",
@@ -1365,7 +1365,7 @@
     "type": "Hostel",
     "longitude": 76.9342821,
     "latitude": 11.0197513,
-    "pricePerNight": 5466
+    "pricePerNight": 4989
   },
   {
     "stayId": "osm-4445057889",
@@ -1373,7 +1373,7 @@
     "type": "Hostel",
     "longitude": 76.9349592,
     "latitude": 11.0196957,
-    "pricePerNight": 5515
+    "pricePerNight": 5536
   },
   {
     "stayId": "osm-4445057990",
@@ -1381,7 +1381,7 @@
     "type": "Hostel",
     "longitude": 76.9352756,
     "latitude": 11.019381,
-    "pricePerNight": 5033
+    "pricePerNight": 4643
   },
   {
     "stayId": "osm-4445059989",
@@ -1389,7 +1389,7 @@
     "type": "Hotel",
     "longitude": 76.95235,
     "latitude": 11.0067443,
-    "pricePerNight": 3059
+    "pricePerNight": 1542
   },
   {
     "stayId": "osm-4460010191",
@@ -1397,7 +1397,7 @@
     "type": "Hotel",
     "longitude": 76.6401445,
     "latitude": 12.3005288,
-    "pricePerNight": 3589
+    "pricePerNight": 5643
   },
   {
     "stayId": "osm-4551478447",
@@ -1405,7 +1405,7 @@
     "type": "Guest House",
     "longitude": 76.3028346,
     "latitude": 11.248104,
-    "pricePerNight": 4116
+    "pricePerNight": 3269
   },
   {
     "stayId": "osm-4736587626",
@@ -1413,7 +1413,7 @@
     "type": "Hostel",
     "longitude": 76.649545,
     "latitude": 12.3098969,
-    "pricePerNight": 5926
+    "pricePerNight": 2469
   },
   {
     "stayId": "osm-4809187121",
@@ -1421,7 +1421,7 @@
     "type": "Hotel",
     "longitude": 76.6636041,
     "latitude": 12.3029882,
-    "pricePerNight": 2709
+    "pricePerNight": 5414
   },
   {
     "stayId": "osm-4826292146",
@@ -1429,7 +1429,7 @@
     "type": "Hotel",
     "longitude": 76.7317749,
     "latitude": 11.4180902,
-    "pricePerNight": 5609
+    "pricePerNight": 2507
   },
   {
     "stayId": "osm-4848868923",
@@ -1437,7 +1437,7 @@
     "type": "Hotel",
     "longitude": 76.6505589,
     "latitude": 12.3060781,
-    "pricePerNight": 3180
+    "pricePerNight": 4936
   },
   {
     "stayId": "osm-4880408597",
@@ -1445,7 +1445,7 @@
     "type": "Hotel",
     "longitude": 76.6982535,
     "latitude": 11.3975273,
-    "pricePerNight": 4371
+    "pricePerNight": 4698
   },
   {
     "stayId": "osm-5038018222",
@@ -1453,7 +1453,7 @@
     "type": "Hotel",
     "longitude": 76.6531514,
     "latitude": 12.3110927,
-    "pricePerNight": 1912
+    "pricePerNight": 5485
   },
   {
     "stayId": "osm-5044488624",
@@ -1461,7 +1461,7 @@
     "type": "Hotel",
     "longitude": 76.2889267,
     "latitude": 11.925397,
-    "pricePerNight": 2427
+    "pricePerNight": 1378
   },
   {
     "stayId": "osm-5081389456",
@@ -1469,7 +1469,7 @@
     "type": "Hotel",
     "longitude": 76.65748,
     "latitude": 12.320061,
-    "pricePerNight": 1695
+    "pricePerNight": 4687
   },
   {
     "stayId": "osm-5172494420",
@@ -1477,7 +1477,7 @@
     "type": "Hotel",
     "longitude": 76.6535881,
     "latitude": 12.3116678,
-    "pricePerNight": 5106
+    "pricePerNight": 2962
   },
   {
     "stayId": "osm-5181153021",
@@ -1485,7 +1485,7 @@
     "type": "Guest House",
     "longitude": 76.6454113,
     "latitude": 12.2972329,
-    "pricePerNight": 5366
+    "pricePerNight": 4918
   },
   {
     "stayId": "osm-5209173515",
@@ -1493,7 +1493,7 @@
     "type": "Hostel",
     "longitude": 76.9400469,
     "latitude": 11.0095957,
-    "pricePerNight": 1603
+    "pricePerNight": 1246
   },
   {
     "stayId": "osm-5242678321",
@@ -1501,7 +1501,7 @@
     "type": "Hotel",
     "longitude": 76.685066,
     "latitude": 12.3052145,
-    "pricePerNight": 1663
+    "pricePerNight": 2180
   },
   {
     "stayId": "osm-5244267523",
@@ -1509,7 +1509,7 @@
     "type": "Hotel",
     "longitude": 76.6575924,
     "latitude": 12.3108923,
-    "pricePerNight": 5570
+    "pricePerNight": 5078
   },
   {
     "stayId": "osm-5252054146",
@@ -1517,7 +1517,7 @@
     "type": "Hotel",
     "longitude": 76.6065904,
     "latitude": 12.3520494,
-    "pricePerNight": 2559
+    "pricePerNight": 5934
   },
   {
     "stayId": "osm-5258856231",
@@ -1525,7 +1525,7 @@
     "type": "Hostel",
     "longitude": 76.6386915,
     "latitude": 11.5672712,
-    "pricePerNight": 1744
+    "pricePerNight": 5314
   },
   {
     "stayId": "osm-5259483075",
@@ -1533,7 +1533,7 @@
     "type": "Hotel",
     "longitude": 76.9632258,
     "latitude": 11.0165257,
-    "pricePerNight": 4571
+    "pricePerNight": 3313
   },
   {
     "stayId": "osm-5273064626",
@@ -1541,7 +1541,7 @@
     "type": "Guest House",
     "longitude": 76.2604639,
     "latitude": 11.6626836,
-    "pricePerNight": 5822
+    "pricePerNight": 5488
   },
   {
     "stayId": "osm-5273073776",
@@ -1549,7 +1549,7 @@
     "type": "Hotel",
     "longitude": 76.254372,
     "latitude": 11.6625196,
-    "pricePerNight": 4373
+    "pricePerNight": 2905
   },
   {
     "stayId": "osm-5273267722",
@@ -1557,7 +1557,7 @@
     "type": "Hotel",
     "longitude": 76.2625132,
     "latitude": 11.6648424,
-    "pricePerNight": 5979
+    "pricePerNight": 5055
   },
   {
     "stayId": "osm-5273267724",
@@ -1565,7 +1565,7 @@
     "type": "Hotel",
     "longitude": 76.262741,
     "latitude": 11.6656611,
-    "pricePerNight": 4578
+    "pricePerNight": 2341
   },
   {
     "stayId": "osm-5277960530",
@@ -1573,7 +1573,7 @@
     "type": "Hotel",
     "longitude": 76.2512365,
     "latitude": 11.6615494,
-    "pricePerNight": 2383
+    "pricePerNight": 1589
   },
   {
     "stayId": "osm-5286934438",
@@ -1581,7 +1581,7 @@
     "type": "Hotel",
     "longitude": 76.2571674,
     "latitude": 11.6627313,
-    "pricePerNight": 2905
+    "pricePerNight": 2601
   },
   {
     "stayId": "osm-5287706621",
@@ -1589,7 +1589,7 @@
     "type": "Guest House",
     "longitude": 76.392432,
     "latitude": 12.415005,
-    "pricePerNight": 4220
+    "pricePerNight": 3905
   },
   {
     "stayId": "osm-5300435768",
@@ -1597,7 +1597,7 @@
     "type": "Hotel",
     "longitude": 76.956686,
     "latitude": 11.0045936,
-    "pricePerNight": 5957
+    "pricePerNight": 2728
   },
   {
     "stayId": "osm-5363812983",
@@ -1605,7 +1605,7 @@
     "type": "Hotel",
     "longitude": 76.6615253,
     "latitude": 12.3187366,
-    "pricePerNight": 3909
+    "pricePerNight": 3919
   },
   {
     "stayId": "osm-5646145170",
@@ -1613,7 +1613,7 @@
     "type": "Hotel",
     "longitude": 77.0295003,
     "latitude": 11.0013636,
-    "pricePerNight": 1582
+    "pricePerNight": 5579
   },
   {
     "stayId": "osm-5673210222",
@@ -1621,7 +1621,7 @@
     "type": "Hostel",
     "longitude": 76.6244485,
     "latitude": 12.3277181,
-    "pricePerNight": 1805
+    "pricePerNight": 2337
   },
   {
     "stayId": "osm-5678749909",
@@ -1629,7 +1629,7 @@
     "type": "Motel",
     "longitude": 76.704341,
     "latitude": 11.4146291,
-    "pricePerNight": 4113
+    "pricePerNight": 2831
   },
   {
     "stayId": "osm-5773582343",
@@ -1637,7 +1637,7 @@
     "type": "Hostel",
     "longitude": 76.6363097,
     "latitude": 12.2895708,
-    "pricePerNight": 3165
+    "pricePerNight": 1895
   },
   {
     "stayId": "osm-5773582344",
@@ -1645,7 +1645,7 @@
     "type": "Hostel",
     "longitude": 76.6357555,
     "latitude": 12.2885924,
-    "pricePerNight": 2561
+    "pricePerNight": 3089
   },
   {
     "stayId": "osm-5915168886",
@@ -1653,7 +1653,7 @@
     "type": "Hotel",
     "longitude": 76.9587236,
     "latitude": 11.2427838,
-    "pricePerNight": 1407
+    "pricePerNight": 3813
   },
   {
     "stayId": "osm-6114452767",
@@ -1661,7 +1661,7 @@
     "type": "Hotel",
     "longitude": 76.9306892,
     "latitude": 11.2951775,
-    "pricePerNight": 3428
+    "pricePerNight": 2291
   },
   {
     "stayId": "osm-6117494750",
@@ -1669,7 +1669,7 @@
     "type": "Guest House",
     "longitude": 76.6281357,
     "latitude": 12.3377104,
-    "pricePerNight": 4689
+    "pricePerNight": 2076
   },
   {
     "stayId": "osm-6117496107",
@@ -1677,7 +1677,7 @@
     "type": "Hotel",
     "longitude": 76.6525783,
     "latitude": 12.3180148,
-    "pricePerNight": 2704
+    "pricePerNight": 5223
   },
   {
     "stayId": "osm-6220049985",
@@ -1685,7 +1685,7 @@
     "type": "Hotel",
     "longitude": 76.6506485,
     "latitude": 12.3039903,
-    "pricePerNight": 4808
+    "pricePerNight": 3329
   },
   {
     "stayId": "osm-6237779940",
@@ -1693,7 +1693,7 @@
     "type": "Hostel",
     "longitude": 76.6344855,
     "latitude": 12.3225856,
-    "pricePerNight": 1655
+    "pricePerNight": 5376
   },
   {
     "stayId": "osm-6289226685",
@@ -1701,7 +1701,7 @@
     "type": "Hotel",
     "longitude": 76.6526219,
     "latitude": 12.3120033,
-    "pricePerNight": 1682
+    "pricePerNight": 2510
   },
   {
     "stayId": "osm-6362904185",
@@ -1709,7 +1709,7 @@
     "type": "Guest House",
     "longitude": 76.6407358,
     "latitude": 12.2962315,
-    "pricePerNight": 2943
+    "pricePerNight": 3593
   },
   {
     "stayId": "osm-6367812190",
@@ -1717,7 +1717,7 @@
     "type": "Hotel",
     "longitude": 76.4939735,
     "latitude": 11.4983105,
-    "pricePerNight": 2399
+    "pricePerNight": 1432
   },
   {
     "stayId": "osm-7006807722",
@@ -1725,7 +1725,7 @@
     "type": "Hostel",
     "longitude": 76.6390422,
     "latitude": 12.3249225,
-    "pricePerNight": 1634
+    "pricePerNight": 1707
   },
   {
     "stayId": "osm-7050279650",
@@ -1733,7 +1733,7 @@
     "type": "Hotel",
     "longitude": 76.2551881,
     "latitude": 11.9458304,
-    "pricePerNight": 3931
+    "pricePerNight": 4007
   },
   {
     "stayId": "osm-7096720185",
@@ -1741,7 +1741,7 @@
     "type": "Hotel",
     "longitude": 76.6591652,
     "latitude": 12.3175271,
-    "pricePerNight": 1509
+    "pricePerNight": 3268
   },
   {
     "stayId": "osm-7117361785",
@@ -1749,7 +1749,7 @@
     "type": "Hotel",
     "longitude": 76.6597044,
     "latitude": 12.3085054,
-    "pricePerNight": 2078
+    "pricePerNight": 4588
   },
   {
     "stayId": "osm-7123699234",
@@ -1757,7 +1757,7 @@
     "type": "Hotel",
     "longitude": 76.2542442,
     "latitude": 11.5854728,
-    "pricePerNight": 2401
+    "pricePerNight": 2752
   },
   {
     "stayId": "osm-7123699235",
@@ -1765,7 +1765,7 @@
     "type": "Hotel",
     "longitude": 76.2542849,
     "latitude": 11.585686,
-    "pricePerNight": 5308
+    "pricePerNight": 5664
   },
   {
     "stayId": "osm-7202918785",
@@ -1773,7 +1773,7 @@
     "type": "Guest House",
     "longitude": 76.2231554,
     "latitude": 11.6333762,
-    "pricePerNight": 5005
+    "pricePerNight": 2332
   },
   {
     "stayId": "osm-7227658349",
@@ -1781,7 +1781,7 @@
     "type": "Hostel",
     "longitude": 76.6398727,
     "latitude": 12.3253203,
-    "pricePerNight": 4068
+    "pricePerNight": 4851
   },
   {
     "stayId": "osm-7365863098",
@@ -1789,7 +1789,7 @@
     "type": "Hotel",
     "longitude": 76.2882383,
     "latitude": 11.6739893,
-    "pricePerNight": 2665
+    "pricePerNight": 3606
   },
   {
     "stayId": "osm-7449685494",
@@ -1797,7 +1797,7 @@
     "type": "Hotel",
     "longitude": 76.2387118,
     "latitude": 11.2855774,
-    "pricePerNight": 5833
+    "pricePerNight": 4906
   },
   {
     "stayId": "osm-7452477497",
@@ -1805,7 +1805,7 @@
     "type": "Hotel",
     "longitude": 76.2365476,
     "latitude": 11.2836106,
-    "pricePerNight": 5238
+    "pricePerNight": 1388
   },
   {
     "stayId": "osm-7452505651",
@@ -1813,7 +1813,7 @@
     "type": "Hotel",
     "longitude": 76.2350441,
     "latitude": 11.2831292,
-    "pricePerNight": 5741
+    "pricePerNight": 1437
   },
   {
     "stayId": "osm-7462651415",
@@ -1821,7 +1821,7 @@
     "type": "Hotel",
     "longitude": 76.2272021,
     "latitude": 11.2777098,
-    "pricePerNight": 3542
+    "pricePerNight": 2988
   },
   {
     "stayId": "osm-7467078448",
@@ -1829,7 +1829,7 @@
     "type": "Hotel",
     "longitude": 76.2272539,
     "latitude": 11.2757184,
-    "pricePerNight": 2971
+    "pricePerNight": 2373
   },
   {
     "stayId": "osm-7467084956",
@@ -1837,7 +1837,7 @@
     "type": "Hotel",
     "longitude": 76.2413376,
     "latitude": 11.2839749,
-    "pricePerNight": 4397
+    "pricePerNight": 2969
   },
   {
     "stayId": "osm-7475810035",
@@ -1845,7 +1845,7 @@
     "type": "Hostel",
     "longitude": 76.2661567,
     "latitude": 11.6822407,
-    "pricePerNight": 2138
+    "pricePerNight": 2082
   },
   {
     "stayId": "osm-7509601316",
@@ -1853,7 +1853,7 @@
     "type": "Hotel",
     "longitude": 76.2424739,
     "latitude": 11.1943137,
-    "pricePerNight": 2562
+    "pricePerNight": 4621
   },
   {
     "stayId": "osm-7515391439",
@@ -1861,7 +1861,7 @@
     "type": "Hotel",
     "longitude": 76.3117929,
     "latitude": 11.6077213,
-    "pricePerNight": 2902
+    "pricePerNight": 1322
   },
   {
     "stayId": "osm-7518219810",
@@ -1869,7 +1869,7 @@
     "type": "Hotel",
     "longitude": 76.2983534,
     "latitude": 11.6445279,
-    "pricePerNight": 3786
+    "pricePerNight": 3645
   },
   {
     "stayId": "osm-7538262276",
@@ -1877,7 +1877,7 @@
     "type": "Hotel",
     "longitude": 76.7635641,
     "latitude": 11.1115558,
-    "pricePerNight": 3611
+    "pricePerNight": 1771
   },
   {
     "stayId": "osm-7659967485",
@@ -1885,7 +1885,7 @@
     "type": "Hostel",
     "longitude": 76.6294283,
     "latitude": 12.3345386,
-    "pricePerNight": 5058
+    "pricePerNight": 2041
   },
   {
     "stayId": "osm-7661678441",
@@ -1893,7 +1893,7 @@
     "type": "Hotel",
     "longitude": 76.6299036,
     "latitude": 12.3239073,
-    "pricePerNight": 1887
+    "pricePerNight": 2528
   },
   {
     "stayId": "osm-7994210218",
@@ -1901,7 +1901,7 @@
     "type": "Hostel",
     "longitude": 76.2506913,
     "latitude": 11.6608106,
-    "pricePerNight": 1995
+    "pricePerNight": 4979
   },
   {
     "stayId": "osm-7994214381",
@@ -1909,7 +1909,7 @@
     "type": "Hotel",
     "longitude": 76.250268,
     "latitude": 11.6609241,
-    "pricePerNight": 2502
+    "pricePerNight": 1953
   },
   {
     "stayId": "osm-7997440065",
@@ -1917,7 +1917,7 @@
     "type": "Guest House",
     "longitude": 77.1327513,
     "latitude": 12.3118432,
-    "pricePerNight": 1439
+    "pricePerNight": 3116
   },
   {
     "stayId": "osm-8196822513",
@@ -1925,7 +1925,7 @@
     "type": "Hotel",
     "longitude": 76.6437474,
     "latitude": 12.3047814,
-    "pricePerNight": 5048
+    "pricePerNight": 4567
   },
   {
     "stayId": "osm-8196824673",
@@ -1933,7 +1933,7 @@
     "type": "Hotel",
     "longitude": 76.65178,
     "latitude": 12.296628,
-    "pricePerNight": 3767
+    "pricePerNight": 2238
   },
   {
     "stayId": "osm-8196824698",
@@ -1941,7 +1941,7 @@
     "type": "Hotel",
     "longitude": 76.7035538,
     "latitude": 12.2958441,
-    "pricePerNight": 5944
+    "pricePerNight": 5621
   },
   {
     "stayId": "osm-8196824714",
@@ -1949,7 +1949,7 @@
     "type": "Hotel",
     "longitude": 76.6046185,
     "latitude": 12.2949785,
-    "pricePerNight": 2988
+    "pricePerNight": 5822
   },
   {
     "stayId": "osm-8196824827",
@@ -1957,7 +1957,7 @@
     "type": "Hotel",
     "longitude": 76.648112,
     "latitude": 12.283312,
-    "pricePerNight": 5355
+    "pricePerNight": 5206
   },
   {
     "stayId": "osm-8196824910",
@@ -1965,7 +1965,7 @@
     "type": "Hotel",
     "longitude": 76.657111,
     "latitude": 12.26437,
-    "pricePerNight": 1734
+    "pricePerNight": 5556
   },
   {
     "stayId": "osm-8196825239",
@@ -1973,7 +1973,7 @@
     "type": "Hotel",
     "longitude": 76.5780011,
     "latitude": 12.4112633,
-    "pricePerNight": 2875
+    "pricePerNight": 3436
   },
   {
     "stayId": "osm-8196825608",
@@ -1981,7 +1981,7 @@
     "type": "Hotel",
     "longitude": 76.625377,
     "latitude": 12.347829,
-    "pricePerNight": 3769
+    "pricePerNight": 3303
   },
   {
     "stayId": "osm-8196825711",
@@ -1989,7 +1989,7 @@
     "type": "Hotel",
     "longitude": 76.6535322,
     "latitude": 12.3385612,
-    "pricePerNight": 3147
+    "pricePerNight": 5635
   },
   {
     "stayId": "osm-8196825820",
@@ -1997,7 +1997,7 @@
     "type": "Hotel",
     "longitude": 76.4538239,
     "latitude": 12.3367707,
-    "pricePerNight": 2461
+    "pricePerNight": 3554
   },
   {
     "stayId": "osm-8196825968",
@@ -2005,7 +2005,7 @@
     "type": "Hotel",
     "longitude": 76.6479645,
     "latitude": 12.3314722,
-    "pricePerNight": 2755
+    "pricePerNight": 5791
   },
   {
     "stayId": "osm-8196826722",
@@ -2013,7 +2013,7 @@
     "type": "Hotel",
     "longitude": 76.6454161,
     "latitude": 12.3078766,
-    "pricePerNight": 2394
+    "pricePerNight": 3994
   },
   {
     "stayId": "osm-8290352511",
@@ -2021,7 +2021,7 @@
     "type": "Hotel",
     "longitude": 76.3158542,
     "latitude": 11.0078018,
-    "pricePerNight": 1511
+    "pricePerNight": 3446
   },
   {
     "stayId": "osm-8293209602",
@@ -2029,7 +2029,7 @@
     "type": "Motel",
     "longitude": 76.2167335,
     "latitude": 11.2694306,
-    "pricePerNight": 4888
+    "pricePerNight": 1816
   },
   {
     "stayId": "osm-8293209615",
@@ -2037,7 +2037,7 @@
     "type": "Hotel",
     "longitude": 76.2162346,
     "latitude": 11.2691746,
-    "pricePerNight": 5751
+    "pricePerNight": 4774
   },
   {
     "stayId": "osm-8294062363",
@@ -2045,7 +2045,7 @@
     "type": "Guest House",
     "longitude": 76.2063736,
     "latitude": 11.2593314,
-    "pricePerNight": 4980
+    "pricePerNight": 4225
   },
   {
     "stayId": "osm-8321808717",
@@ -2053,7 +2053,7 @@
     "type": "Hotel",
     "longitude": 76.2608349,
     "latitude": 11.1894539,
-    "pricePerNight": 3714
+    "pricePerNight": 5442
   },
   {
     "stayId": "osm-8406838550",
@@ -2061,7 +2061,7 @@
     "type": "Motel",
     "longitude": 76.2300924,
     "latitude": 11.6302935,
-    "pricePerNight": 3253
+    "pricePerNight": 4375
   },
   {
     "stayId": "osm-8595994805",
@@ -2069,7 +2069,7 @@
     "type": "Hostel",
     "longitude": 76.9313221,
     "latitude": 11.0143566,
-    "pricePerNight": 4892
+    "pricePerNight": 5531
   },
   {
     "stayId": "osm-8875359827",
@@ -2077,7 +2077,7 @@
     "type": "Hotel",
     "longitude": 76.2233749,
     "latitude": 11.0901116,
-    "pricePerNight": 5272
+    "pricePerNight": 5968
   },
   {
     "stayId": "osm-8889652081",
@@ -2085,7 +2085,7 @@
     "type": "Hotel",
     "longitude": 76.3066489,
     "latitude": 11.3586163,
-    "pricePerNight": 1737
+    "pricePerNight": 5973
   },
   {
     "stayId": "osm-8921240632",
@@ -2093,7 +2093,7 @@
     "type": "Hotel",
     "longitude": 76.2249432,
     "latitude": 11.2750666,
-    "pricePerNight": 3589
+    "pricePerNight": 5703
   },
   {
     "stayId": "osm-8949277818",
@@ -2101,7 +2101,7 @@
     "type": "Hotel",
     "longitude": 76.2345932,
     "latitude": 11.1817597,
-    "pricePerNight": 5371
+    "pricePerNight": 1238
   },
   {
     "stayId": "osm-8991839287",
@@ -2109,7 +2109,7 @@
     "type": "Hotel",
     "longitude": 76.6225622,
     "latitude": 12.2759532,
-    "pricePerNight": 1763
+    "pricePerNight": 2597
   },
   {
     "stayId": "osm-9022877801",
@@ -2117,7 +2117,7 @@
     "type": "Hostel",
     "longitude": 76.2495795,
     "latitude": 11.5979572,
-    "pricePerNight": 2478
+    "pricePerNight": 2968
   },
   {
     "stayId": "osm-9237294502",
@@ -2125,7 +2125,7 @@
     "type": "Hostel",
     "longitude": 76.65759,
     "latitude": 12.344202,
-    "pricePerNight": 5182
+    "pricePerNight": 4205
   },
   {
     "stayId": "osm-9325713721",
@@ -2133,7 +2133,7 @@
     "type": "Hostel",
     "longitude": 76.612143,
     "latitude": 12.3100035,
-    "pricePerNight": 1278
+    "pricePerNight": 2637
   },
   {
     "stayId": "osm-9325713722",
@@ -2141,7 +2141,7 @@
     "type": "Hostel",
     "longitude": 76.6121802,
     "latitude": 12.3089706,
-    "pricePerNight": 3450
+    "pricePerNight": 2490
   },
   {
     "stayId": "osm-9325713723",
@@ -2149,7 +2149,7 @@
     "type": "Guest House",
     "longitude": 76.612398,
     "latitude": 12.3078702,
-    "pricePerNight": 5552
+    "pricePerNight": 5177
   },
   {
     "stayId": "osm-9325713724",
@@ -2157,7 +2157,7 @@
     "type": "Hostel",
     "longitude": 76.611394,
     "latitude": 12.3121419,
-    "pricePerNight": 5071
+    "pricePerNight": 3574
   },
   {
     "stayId": "osm-9325713725",
@@ -2165,7 +2165,7 @@
     "type": "Hostel",
     "longitude": 76.611989,
     "latitude": 12.3108391,
-    "pricePerNight": 1607
+    "pricePerNight": 5272
   },
   {
     "stayId": "osm-9587784517",
@@ -2173,7 +2173,7 @@
     "type": "Hotel",
     "longitude": 77.140387,
     "latitude": 11.9961445,
-    "pricePerNight": 4602
+    "pricePerNight": 4169
   },
   {
     "stayId": "osm-9778896821",
@@ -2181,7 +2181,7 @@
     "type": "Hotel",
     "longitude": 76.2572827,
     "latitude": 11.222323,
-    "pricePerNight": 4481
+    "pricePerNight": 3891
   },
   {
     "stayId": "osm-9779036112",
@@ -2189,7 +2189,7 @@
     "type": "Hotel",
     "longitude": 76.2584697,
     "latitude": 11.1905236,
-    "pricePerNight": 4793
+    "pricePerNight": 5557
   },
   {
     "stayId": "osm-9779129489",
@@ -2197,7 +2197,7 @@
     "type": "Hotel",
     "longitude": 76.2444979,
     "latitude": 11.1942367,
-    "pricePerNight": 1449
+    "pricePerNight": 3142
   },
   {
     "stayId": "osm-9824826145",
@@ -2205,7 +2205,7 @@
     "type": "Guest House",
     "longitude": 76.6807361,
     "latitude": 12.3116152,
-    "pricePerNight": 5249
+    "pricePerNight": 2805
   },
   {
     "stayId": "osm-9835826388",
@@ -2213,7 +2213,7 @@
     "type": "Hotel",
     "longitude": 76.3361825,
     "latitude": 11.062654,
-    "pricePerNight": 2790
+    "pricePerNight": 5332
   },
   {
     "stayId": "osm-9838389482",
@@ -2221,7 +2221,7 @@
     "type": "Guest House",
     "longitude": 76.3362017,
     "latitude": 11.0614461,
-    "pricePerNight": 1878
+    "pricePerNight": 1870
   },
   {
     "stayId": "osm-10003507982",
@@ -2229,7 +2229,7 @@
     "type": "Hostel",
     "longitude": 76.2345576,
     "latitude": 11.2876211,
-    "pricePerNight": 1669
+    "pricePerNight": 2620
   },
   {
     "stayId": "osm-10058071901",
@@ -2237,7 +2237,7 @@
     "type": "Hostel",
     "longitude": 76.2361386,
     "latitude": 11.2789467,
-    "pricePerNight": 3342
+    "pricePerNight": 2837
   },
   {
     "stayId": "osm-10267012210",
@@ -2245,7 +2245,7 @@
     "type": "Hotel",
     "longitude": 76.6589244,
     "latitude": 12.3140591,
-    "pricePerNight": 2639
+    "pricePerNight": 5688
   },
   {
     "stayId": "osm-10589680805",
@@ -2253,7 +2253,7 @@
     "type": "Hotel",
     "longitude": 76.8095951,
     "latitude": 12.2499246,
-    "pricePerNight": 5163
+    "pricePerNight": 5076
   },
   {
     "stayId": "osm-10709125706",
@@ -2261,7 +2261,7 @@
     "type": "Guest House",
     "longitude": 76.6798297,
     "latitude": 12.4228809,
-    "pricePerNight": 2040
+    "pricePerNight": 3563
   },
   {
     "stayId": "osm-10727144455",
@@ -2269,7 +2269,7 @@
     "type": "Guest House",
     "longitude": 76.8017668,
     "latitude": 11.355638,
-    "pricePerNight": 3578
+    "pricePerNight": 4151
   },
   {
     "stayId": "osm-10790423284",
@@ -2277,7 +2277,7 @@
     "type": "Hotel",
     "longitude": 76.6959238,
     "latitude": 11.4131519,
-    "pricePerNight": 1533
+    "pricePerNight": 3618
   },
   {
     "stayId": "osm-10895636343",
@@ -2285,7 +2285,7 @@
     "type": "Hostel",
     "longitude": 77.0242897,
     "latitude": 11.008378,
-    "pricePerNight": 2298
+    "pricePerNight": 2841
   },
   {
     "stayId": "osm-11499557974",
@@ -2293,7 +2293,7 @@
     "type": "Hotel",
     "longitude": 76.6542883,
     "latitude": 12.3422007,
-    "pricePerNight": 1743
+    "pricePerNight": 4863
   },
   {
     "stayId": "osm-12012848807",
@@ -2301,7 +2301,7 @@
     "type": "Hotel",
     "longitude": 76.6495943,
     "latitude": 12.3112926,
-    "pricePerNight": 3574
+    "pricePerNight": 4043
   },
   {
     "stayId": "osm-12106272976",
@@ -2309,7 +2309,7 @@
     "type": "Hotel",
     "longitude": 77.0465634,
     "latitude": 11.0436147,
-    "pricePerNight": 4441
+    "pricePerNight": 2886
   },
   {
     "stayId": "osm-12201843653",
@@ -2317,7 +2317,7 @@
     "type": "Hotel",
     "longitude": 77.002354,
     "latitude": 11.0685076,
-    "pricePerNight": 3611
+    "pricePerNight": 5432
   },
   {
     "stayId": "osm-12333533223",
@@ -2325,7 +2325,7 @@
     "type": "Hotel",
     "longitude": 76.7295868,
     "latitude": 11.4173844,
-    "pricePerNight": 4570
+    "pricePerNight": 3955
   },
   {
     "stayId": "osm-12556648001",
@@ -2333,7 +2333,7 @@
     "type": "Hotel",
     "longitude": 76.6840639,
     "latitude": 12.4236536,
-    "pricePerNight": 5715
+    "pricePerNight": 4025
   },
   {
     "stayId": "osm-12556648101",
@@ -2341,7 +2341,7 @@
     "type": "Hotel",
     "longitude": 76.6840391,
     "latitude": 12.4235189,
-    "pricePerNight": 5313
+    "pricePerNight": 5349
   },
   {
     "stayId": "osm-12718852861",
@@ -2349,7 +2349,7 @@
     "type": "Hotel",
     "longitude": 76.5851679,
     "latitude": 11.5809523,
-    "pricePerNight": 3033
+    "pricePerNight": 4019
   },
   {
     "stayId": "osm-12876957232",
@@ -2357,7 +2357,7 @@
     "type": "Hotel",
     "longitude": 76.6432866,
     "latitude": 12.3117993,
-    "pricePerNight": 1654
+    "pricePerNight": 1951
   },
   {
     "stayId": "osm-13336188649",
@@ -2365,7 +2365,7 @@
     "type": "Hotel",
     "longitude": 76.7074403,
     "latitude": 12.4034766,
-    "pricePerNight": 5721
+    "pricePerNight": 2013
   },
   {
     "stayId": "osm-13375292597",
@@ -2373,7 +2373,7 @@
     "type": "Hostel",
     "longitude": 76.6304517,
     "latitude": 12.3303331,
-    "pricePerNight": 2599
+    "pricePerNight": 5614
   },
   {
     "stayId": "osm-13390091801",
@@ -2381,7 +2381,7 @@
     "type": "Hotel",
     "longitude": 76.2119818,
     "latitude": 11.6190916,
-    "pricePerNight": 3646
+    "pricePerNight": 1988
   },
   {
     "stayId": "osm-13422436743",
@@ -2389,7 +2389,7 @@
     "type": "Hostel",
     "longitude": 76.6281594,
     "latitude": 12.335215,
-    "pricePerNight": 3025
+    "pricePerNight": 1973
   },
   {
     "stayId": "osm-13446539539",
@@ -2397,7 +2397,7 @@
     "type": "Hotel",
     "longitude": 76.7126337,
     "latitude": 11.4031478,
-    "pricePerNight": 3542
+    "pricePerNight": 1907
   },
   {
     "stayId": "osm-13607741687",
@@ -2405,7 +2405,7 @@
     "type": "Hotel",
     "longitude": 77.0065883,
     "latitude": 11.0245448,
-    "pricePerNight": 3967
+    "pricePerNight": 3126
   },
   {
     "stayId": "osm-13623448577",
@@ -2413,7 +2413,7 @@
     "type": "Hotel",
     "longitude": 76.5740455,
     "latitude": 12.4202303,
-    "pricePerNight": 4548
+    "pricePerNight": 3801
   },
   {
     "stayId": "osm-13625175929",
@@ -2421,7 +2421,7 @@
     "type": "Hotel",
     "longitude": 76.6503175,
     "latitude": 12.3061242,
-    "pricePerNight": 3305
+    "pricePerNight": 3742
   },
   {
     "stayId": "osm-13625217424",
@@ -2429,7 +2429,7 @@
     "type": "Hotel",
     "longitude": 76.6504902,
     "latitude": 12.3060991,
-    "pricePerNight": 4180
+    "pricePerNight": 5283
   },
   {
     "stayId": "osm-13644789118",
@@ -2437,7 +2437,7 @@
     "type": "Hostel",
     "longitude": 77.0263775,
     "latitude": 11.1012503,
-    "pricePerNight": 3952
+    "pricePerNight": 5664
   },
   {
     "stayId": "osm-13644789124",
@@ -2445,7 +2445,7 @@
     "type": "Hostel",
     "longitude": 77.0263698,
     "latitude": 11.1014853,
-    "pricePerNight": 1757
+    "pricePerNight": 4859
   },
   {
     "stayId": "osm-13644789126",
@@ -2453,7 +2453,7 @@
     "type": "Hostel",
     "longitude": 77.0267722,
     "latitude": 11.1016337,
-    "pricePerNight": 5440
+    "pricePerNight": 1487
   },
   {
     "stayId": "osm-13644789139",
@@ -2461,7 +2461,7 @@
     "type": "Hostel",
     "longitude": 77.0280119,
     "latitude": 11.1011868,
-    "pricePerNight": 4885
+    "pricePerNight": 1345
   },
   {
     "stayId": "osm-13644804488",
@@ -2469,7 +2469,7 @@
     "type": "Hostel",
     "longitude": 77.027947,
     "latitude": 11.1033717,
-    "pricePerNight": 4908
+    "pricePerNight": 5175
   },
   {
     "stayId": "osm-13645076001",
@@ -2477,7 +2477,7 @@
     "type": "Motel",
     "longitude": 77.0130962,
     "latitude": 11.0948085,
-    "pricePerNight": 2470
+    "pricePerNight": 4355
   },
   {
     "stayId": "osm-13680925303",
@@ -2485,7 +2485,7 @@
     "type": "Hostel",
     "longitude": 76.9855115,
     "latitude": 11.082923,
-    "pricePerNight": 2489
+    "pricePerNight": 2142
   },
   {
     "stayId": "osm-13680929901",
@@ -2493,7 +2493,7 @@
     "type": "Hostel",
     "longitude": 77.011695,
     "latitude": 11.0712923,
-    "pricePerNight": 1717
+    "pricePerNight": 5223
   },
   {
     "stayId": "osm-13737442602",
@@ -2501,7 +2501,7 @@
     "type": "Hotel",
     "longitude": 76.8707666,
     "latitude": 11.4332393,
-    "pricePerNight": 2366
+    "pricePerNight": 2671
   },
   {
     "stayId": "osm-13938017951",
@@ -2509,7 +2509,7 @@
     "type": "Hotel",
     "longitude": 76.6832706,
     "latitude": 11.4034237,
-    "pricePerNight": 2232
+    "pricePerNight": 2622
   },
   {
     "stayId": "osm-13963591601",
@@ -2517,7 +2517,7 @@
     "type": "Hotel",
     "longitude": 77.0252855,
     "latitude": 11.0245093,
-    "pricePerNight": 5489
+    "pricePerNight": 4017
   },
   {
     "stayId": "osm-14075956314",
@@ -2525,7 +2525,7 @@
     "type": "Guest House",
     "longitude": 76.6279276,
     "latitude": 12.3332625,
-    "pricePerNight": 4067
+    "pricePerNight": 3431
   },
   {
     "stayId": "osm-14076618565",
@@ -2533,6 +2533,6 @@
     "type": "Guest House",
     "longitude": 76.6301422,
     "latitude": 12.3353796,
-    "pricePerNight": 3329
+    "pricePerNight": 2828
   }
 ]

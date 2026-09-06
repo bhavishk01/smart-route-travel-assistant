@@ -34,6 +34,14 @@ const touristPlaceSchema = new mongoose.Schema({
         type: String,
         default: '',
     },
+    verified: {
+        type: Boolean,
+        default: false,
+    },
+    tagRichness: {
+        type: Number,
+        default: 0,
+    },
 });
 
 touristPlaceSchema.index({ location: '2dsphere' });

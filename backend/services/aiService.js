@@ -22,12 +22,11 @@ async function generateFromGemini(places, destination) {
             const reference = summary
                 ? summary
                 : 'No verified reference found for this specific place.';
-            return `Place: ${place.name} (${place.category}), located near ${destination}, India\nReference: ${reference}`;
+            return `Place name: ${place.name}\nCategory: ${place.category}\nLocation: near ${destination}, India\nReference: ${reference}`;
         })
         .join('\n\n');
 
-    const prompt = `You are a travel guide assistant. For each of the following tourist places near ${destination}, India, provide a short history, a short description, one practical travel tip, and the best time to visit. Use the provided reference information when available and stay strictly consistent with it. If a place has no verified reference, do NOT invent specific facts such as exact founding years or named artifacts — instead, write general, honestly-hedged content appropriate for a small local attraction of that category, without claiming false certainty. Places:\n\n${placeBlocks}\n\nRespond ONLY with a valid JSON array, no markdown formatting, no code fences. Each element must have exactly these keys: "name", "history", "description", "travelTips", "bestVisitingTime". Keep each text field to 2-3 sentences.`;
-
+    const prompt = `You are a travel guide assistant. For each of the following tourist places near ${destination}, India, provide a short history, a short description, one practical travel tip, and the best time to visit. Use the provided reference information when available and stay strictly consistent with it. If a place has no verified reference, do NOT invent specific facts such as exact founding years or named artifacts — instead, write general, honestly-hedged content appropriate for a small local attraction of that category, without claiming false certainty. IMPORTANT: In your JSON response, the "name" field must exactly match the "Place name" given above, with no category, parentheses, or extra text added. Places:\n\n${placeBlocks}\n\nRespond ONLY with a valid JSON array, no markdown formatting, no code fences. Each element must have exactly these keys: "name", "history", "description", "travelTips", "bestVisitingTime". Keep each text field to 2-3 sentences.`;
     const response = await getClient().models.generateContent({
         model: 'gemini-3.6-flash',
         contents: prompt,
@@ -38,6 +37,8 @@ async function generateFromGemini(places, destination) {
     if (rawText.startsWith('```')) {
         rawText = rawText.replace(/```json|```/g, '').trim();
     }
+
+    console.log('RAW GEMINI OUTPUT:', rawText);
 
     return JSON.parse(rawText);
 }
@@ -73,7 +74,9 @@ async function generateTouristInfo(places, destination) {
         const generated = await generateFromGemini(placesToGenerate, destination);
 
         for (const place of placesToGenerate) {
-            const match = generated.find((item) => item.name === place.name);
+            const match = generated.find(
+                (item) => item.name === place.name || item.name.startsWith(place.name)
+            );
             const enrichedPlace = {
                 ...place,
                 history: match ? match.history : '',

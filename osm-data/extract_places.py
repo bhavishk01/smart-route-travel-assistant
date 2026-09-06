@@ -49,6 +49,13 @@ class PlaceHandler(osmium.SimpleHandler):
 
         tourism_tag = n.tags.get('tourism')
         historic_tag = n.tags.get('historic')
+        is_verified = bool(n.tags.get('wikipedia')) or bool(n.tags.get('wikidata'))
+        tag_richness = sum([
+            1 if n.tags.get('opening_hours') else 0,
+            1 if n.tags.get('website') else 0,
+            1 if n.tags.get('phone') else 0,
+            1 if n.tags.get('description') else 0,
+        ])
 
         if tourism_tag in TOURIST_CATEGORIES:
             self.tourist_places.append({
@@ -57,6 +64,8 @@ class PlaceHandler(osmium.SimpleHandler):
                 "category": TOURIST_CATEGORIES[tourism_tag],
                 "longitude": lon,
                 "latitude": lat,
+                "verified": is_verified,
+                "tagRichness": tag_richness,
             })
         elif historic_tag:
             self.tourist_places.append({
@@ -65,6 +74,8 @@ class PlaceHandler(osmium.SimpleHandler):
                 "category": "Historic Site",
                 "longitude": lon,
                 "latitude": lat,
+                "verified": is_verified,
+                "tagRichness": tag_richness,
             })
         elif tourism_tag in STAY_CATEGORIES:
             self.stays.append({
