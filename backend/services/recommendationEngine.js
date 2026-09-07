@@ -1,6 +1,7 @@
 const touristPlaceService = require('./touristPlaceService');
 const { haversineDistanceKm, getBoundingBox, getPointBoundingBox } = require('../utils/geoUtils');
 const stayService = require('./stayService');
+const { kmeans } = require('ml-kmeans');
 
 const BOUNDING_BOX_BUFFER_KM = 10;
 const BASE_CORRIDOR_KM = 5;
@@ -33,6 +34,52 @@ function rankPlaces(places) {
         const scoreB = b.distanceFromRouteKm - qualityScore(b) * 0.5;
         return scoreA - scoreB;
     });
+}
+
+function diversifyByCluster(places, desiredCount) {
+    if (places.length <= desiredCount) {
+        return places;
+    }
+
+    const categories = [...new Set(places.map((place) => place.category))];
+
+    const lats = places.map((place) => place.latitude);
+    const lngs = places.map((place) => place.longitude);
+    const minLat = Math.min(...lats);
+    const maxLat = Math.max(...lats);
+    const minLng = Math.min(...lngs);
+    const maxLng = Math.max(...lngs);
+
+    const normalize = (value, min, max) => (max === min ? 0 : (value - min) / (max - min));
+
+    const vectors = places.map((place) => {
+        const categoryVector = categories.map((cat) => (place.category === cat ? 1 : 0));
+        return [
+            normalize(place.latitude, minLat, maxLat),
+            normalize(place.longitude, minLng, maxLng),
+            ...categoryVector,
+        ];
+    });
+
+    const k = Math.min(desiredCount, places.length);
+    const result = kmeans(vectors, k, { seed: 42 });
+
+    const clusterGroups = {};
+    places.forEach((place, index) => {
+        const clusterId = result.clusters[index];
+        if (!clusterGroups[clusterId]) {
+            clusterGroups[clusterId] = [];
+        }
+        clusterGroups[clusterId].push(place);
+    });
+
+    const representatives = Object.values(clusterGroups).map((group) =>
+        group.reduce((closest, place) =>
+            place.distanceFromRouteKm < closest.distanceFromRouteKm ? place : closest
+        )
+    );
+
+    return representatives.sort((a, b) => a.distanceFromRouteKm - b.distanceFromRouteKm);
 }
 
 async function findNearbyPlaces(routePoints) {
@@ -76,13 +123,15 @@ async function findNearbyPlaces(routePoints) {
         bestAttempt = withinCorridor;
 
         if (qualified.length >= DESIRED_CANDIDATE_COUNT) {
-            return rankPlaces(qualified);
+            console.log(`Clustering input: ${qualified.length} qualified places`);
+            return diversifyByCluster(rankPlaces(qualified), DESIRED_CANDIDATE_COUNT);
         }
 
         radius += CORRIDOR_STEP_KM;
     }
 
-    return rankPlaces(bestAttempt);
+    console.log(`Clustering input: ${bestAttempt.length} places (fallback)`);
+    return diversifyByCluster(rankPlaces(bestAttempt), DESIRED_CANDIDATE_COUNT);
 }
 
 async function findNearbyStays(destinationLat, destinationLng) {
