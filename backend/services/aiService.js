@@ -1,6 +1,6 @@
 const { GoogleGenAI } = require('@google/genai');
-const wikipediaService = require('./wikipediaService');
 const touristKnowledgeRepository = require('../repositories/touristKnowledgeRepository');
+const wikipediaService = require('./wikipediaService');
 
 let ai = null;
 
@@ -22,11 +22,12 @@ async function generateFromGemini(places, destination) {
             const reference = summary
                 ? summary
                 : 'No verified reference found for this specific place.';
-            return `Place name: ${place.name}\nCategory: ${place.category}\nLocation: near ${destination}, India\nReference: ${reference}`;
+            return `Place name: ${place.name}\nCategory: ${place.category}\nReference: ${reference}`;
         })
         .join('\n\n');
 
-    const prompt = `You are a travel guide assistant. For each of the following tourist places near ${destination}, India, provide a short history, a short description, one practical travel tip, and the best time to visit. Use the provided reference information when available and stay strictly consistent with it. If a place has no verified reference, do NOT invent specific facts such as exact founding years or named artifacts — instead, write general, honestly-hedged content appropriate for a small local attraction of that category, without claiming false certainty. IMPORTANT: In your JSON response, the "name" field must exactly match the "Place name" given above, with no category, parentheses, or extra text added. Places:\n\n${placeBlocks}\n\nRespond ONLY with a valid JSON array, no markdown formatting, no code fences. Each element must have exactly these keys: "name", "history", "description", "travelTips", "bestVisitingTime". Keep each text field to 2-3 sentences.`;
+    const prompt = `You are a travel guide assistant. For each of the following tourist places in India, provide a short history, a short description, one practical travel tip, and the best time to visit. Use the provided reference information when available and stay strictly consistent with it. If a place has no verified reference, do NOT invent specific facts such as exact founding years or named artifacts — instead, write general, honestly-hedged content appropriate for a small local attraction of that category, without claiming false certainty. IMPORTANT: Describe each place based only on its own identity and location. Do NOT mention or reference any traveler's destination, trip, or journey in your response — the generated text must remain accurate no matter which trip it is later shown for. In your JSON response, the "name" field must exactly match the "Place name" given above, with no category, parentheses, or extra text added. Places:\n\n${placeBlocks}\n\nRespond ONLY with a valid JSON array, no markdown formatting, no code fences. Each element must have exactly these keys: "name", "history", "description", "travelTips", "bestVisitingTime". Keep each text field to 2-3 sentences.`;
+
     const response = await getClient().models.generateContent({
         model: 'gemini-3.6-flash',
         contents: prompt,
@@ -38,13 +39,11 @@ async function generateFromGemini(places, destination) {
         rawText = rawText.replace(/```json|```/g, '').trim();
     }
 
-    console.log('RAW GEMINI OUTPUT:', rawText);
-
     return JSON.parse(rawText);
 }
 
 async function generateTouristInfo(places, destination) {
-    const topPlaces = places.slice(0, 5);
+    const topPlaces = places.slice(0, 10);
 
     if (topPlaces.length === 0) {
         return [];

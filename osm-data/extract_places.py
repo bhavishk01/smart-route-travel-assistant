@@ -4,10 +4,10 @@ import random
 
 PBF_FILE = "india-260823.osm.pbf"
 
-MIN_LAT = 11.0
-MAX_LAT = 12.5
-MIN_LON = 76.2
-MAX_LON = 77.2
+MIN_LAT = 8.0
+MAX_LAT = 18.5
+MIN_LON = 74.0
+MAX_LON = 80.5
 
 TOURIST_CATEGORIES = {
     "attraction": "Attraction",
