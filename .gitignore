@@ -3,3 +3,4 @@ node_modules/
 dist/
 osm-data/venv/
 osm-data/*.pbf
+frontend/.env

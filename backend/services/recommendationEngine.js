@@ -6,9 +6,21 @@ const BOUNDING_BOX_BUFFER_KM = 10;
 const BASE_CORRIDOR_KM = 5;
 const MAX_CORRIDOR_KM = 15;
 const CORRIDOR_STEP_KM = 5;
-const MIN_QUALITY_SCORE = 1;
 const DESIRED_CANDIDATE_COUNT = 8;
 const STAY_SEARCH_RADIUS_KM = 8;
+
+function distanceFromRoute(placeLat, placeLng, routePoints) {
+    let minDistance = Infinity;
+
+    for (const [routeLat, routeLng] of routePoints) {
+        const distance = haversineDistanceKm(placeLat, placeLng, routeLat, routeLng);
+        if (distance < minDistance) {
+            minDistance = distance;
+        }
+    }
+
+    return minDistance;
+}
 
 function computeCumulativeDistances(routePoints) {
     const cumulative = [0];
@@ -36,6 +48,20 @@ function distanceFromRouteWithProgress(placeLat, placeLng, routePoints, cumulati
     return {
         distanceFromRouteKm: minDistance,
         progressKm: cumulativeDistances[closestIndex],
+    };
+}
+
+function calculateDetour(originLat, originLng, destLat, destLng, placeLat, placeLng) {
+    const directDistance = haversineDistanceKm(originLat, originLng, destLat, destLng);
+    const toPlaceDistance = haversineDistanceKm(originLat, originLng, placeLat, placeLng);
+    const fromPlaceDistance = haversineDistanceKm(placeLat, placeLng, destLat, destLng);
+
+    const detourKm = toPlaceDistance + fromPlaceDistance - directDistance;
+    const deviationPercent = directDistance === 0 ? 0 : (detourKm / directDistance) * 100;
+
+    return {
+        detourKm: Number(Math.max(detourKm, 0).toFixed(2)),
+        deviationPercent: Number(Math.max(deviationPercent, 0).toFixed(1)),
     };
 }
 
@@ -114,9 +140,41 @@ function spreadAlongRoute(places, desiredCount, totalRouteKm) {
     return chosen.sort((a, b) => a.progressKm - b.progressKm);
 }
 
+function generateExplanation(place) {
+    const reasons = [];
+
+    if (place.distanceFromRouteKm <= 0.5) {
+        reasons.push("it's right along your route, barely any detour needed");
+    } else {
+        reasons.push(`it's a short detour of about ${place.detourKm} km off your route`);
+    }
+
+    if (place.verified) {
+        reasons.push('it\'s a well-known spot with plenty of verified information');
+    } else if (place.tagRichness >= 2) {
+        reasons.push('we have good details about it to help you plan your visit');
+    } else {
+        reasons.push('it looks like a hidden gem, with less online info but potentially a great find');
+    }
+
+    return {
+        summary: `We picked this because ${reasons.join(', and ')}.`,
+        factors: {
+            distanceFromRouteKm: place.distanceFromRouteKm,
+            detourKm: place.detourKm,
+            verified: place.verified,
+            tagRichness: place.tagRichness,
+            qualityScore: (place.verified ? 2 : 0) + place.tagRichness,
+        },
+    };
+}
+
 async function findNearbyPlaces(routePoints) {
     const cumulativeDistances = computeCumulativeDistances(routePoints);
     const totalRouteKm = cumulativeDistances[cumulativeDistances.length - 1];
+
+    const [originLat, originLng] = routePoints[0];
+    const [destLat, destLng] = routePoints[routePoints.length - 1];
 
     let radius = BASE_CORRIDOR_KM;
     let bestAttempt = [];
@@ -138,6 +196,14 @@ async function findNearbyPlaces(routePoints) {
                 routePoints,
                 cumulativeDistances
             );
+            const { detourKm, deviationPercent } = calculateDetour(
+                originLat,
+                originLng,
+                destLat,
+                destLng,
+                lat,
+                lng
+            );
 
             return {
                 placeId: place.placeId,
@@ -150,6 +216,8 @@ async function findNearbyPlaces(routePoints) {
                 longitude: lng,
                 distanceFromRouteKm: Number(distanceFromRouteKm.toFixed(2)),
                 progressKm: Number(progressKm.toFixed(2)),
+                detourKm,
+                deviationPercent,
             };
         });
 
@@ -157,15 +225,15 @@ async function findNearbyPlaces(routePoints) {
         bestAttempt = withinCorridor;
 
         if (withinCorridor.length >= DESIRED_CANDIDATE_COUNT) {
-            console.log(`Route spread input: ${withinCorridor.length} candidates (radius ${radius}km)`);
-            return spreadAlongRoute(withinCorridor, DESIRED_CANDIDATE_COUNT, totalRouteKm);
+            const selected = spreadAlongRoute(withinCorridor, DESIRED_CANDIDATE_COUNT, totalRouteKm);
+            return selected.map((place) => ({ ...place, explanation: generateExplanation(place) }));
         }
 
         radius += CORRIDOR_STEP_KM;
     }
 
-    console.log(`Route spread input: ${bestAttempt.length} candidates (fallback, radius ${radius}km)`);
-    return spreadAlongRoute(bestAttempt, DESIRED_CANDIDATE_COUNT, totalRouteKm);
+    const selected = spreadAlongRoute(bestAttempt, DESIRED_CANDIDATE_COUNT, totalRouteKm);
+    return selected.map((place) => ({ ...place, explanation: generateExplanation(place) }));
 }
 
 async function findNearbyStays(destinationLat, destinationLng) {
