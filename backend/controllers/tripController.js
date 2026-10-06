@@ -1,4 +1,5 @@
 const tripPlanningService = require('../services/tripPlanningService');
+const tripRepository = require('../repositories/tripRepository');
 
 function validateTripInput(body) {
     const errors = [];
@@ -47,10 +48,74 @@ async function planTrip(req, res) {
 
     try {
         const result = await tripPlanningService.planTrip(req.body);
-        res.json({ status: 'ok', ...result });
+
+        const savedTrip = await tripRepository.saveTrip({
+            userId: req.userId,
+            startLocation: req.body.startLocation,
+            destination: req.body.destination,
+            tripDays: req.body.tripDays,
+            roundTrip: req.body.roundTrip,
+            numberOfTravellers: req.body.numberOfTravellers,
+            vehicleType: req.body.vehicleType,
+            fuelType: req.body.fuelType,
+            mileage: req.body.mileage,
+            fuelPrice: req.body.fuelPrice,
+            requiresStay: req.body.requiresStay,
+            availableTimeHours: req.body.availableTimeHours,
+            route: result.route,
+            recommendedPlaces: result.recommendedPlaces,
+            recommendedStays: result.recommendedStays,
+            cost: result.cost,
+            itinerary: result.itinerary,
+            dayPlan: result.dayPlan,
+        });
+
+        res.json({ status: 'ok', tripId: savedTrip._id, ...result });
     } catch (error) {
         res.status(502).json({ status: 'error', message: error.message });
     }
 }
 
-module.exports = { planTrip };
+async function getHistory(req, res) {
+    try {
+        const trips = await tripRepository.findTripsByUser(req.userId);
+        res.json({ status: 'ok', trips });
+    } catch (error) {
+        res.status(500).json({ status: 'error', message: error.message });
+    }
+}
+
+async function getHistoryDetail(req, res) {
+    try {
+        const trip = await tripRepository.findTripByIdAndUser(req.params.id, req.userId);
+
+        if (!trip) {
+            return res.status(404).json({ status: 'error', message: 'Trip not found' });
+        }
+
+        res.json({
+            status: 'ok',
+            trip: {
+                startLocation: trip.startLocation,
+                destination: trip.destination,
+                tripDays: trip.tripDays,
+                roundTrip: trip.roundTrip,
+                numberOfTravellers: trip.numberOfTravellers,
+                vehicleType: trip.vehicleType,
+                fuelType: trip.fuelType,
+                mileage: trip.mileage,
+                fuelPrice: trip.fuelPrice,
+                requiresStay: trip.requiresStay,
+            },
+            route: trip.route,
+            recommendedPlaces: trip.recommendedPlaces,
+            recommendedStays: trip.recommendedStays,
+            cost: trip.cost,
+            itinerary: trip.itinerary,
+        });
+    } catch (error) {
+        res.status(500).json({ status: 'error', message: error.message });
+    }
+}
+
+module.exports = { planTrip, getHistory, getHistoryDetail };

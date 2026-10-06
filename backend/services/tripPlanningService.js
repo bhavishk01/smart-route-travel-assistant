@@ -4,6 +4,7 @@ const costService = require('./costService');
 const aiService = require('./aiService');
 const { decodePolyline } = require('../utils/polyline');
 const itineraryOptimizerService = require('./itineraryOptimizerService');
+const dayPlannerService = require('./dayPlannerService');
 
 async function planTrip(tripDetails) {
     const route = await routeService.getRoute(tripDetails.startLocation, tripDetails.destination);
@@ -39,6 +40,8 @@ async function planTrip(tripDetails) {
         );
     }
 
+    const dayPlan = dayPlannerService.clusterPlacesByDay(placesWithAiInfo, tripDetails.tripDays);
+
     return {
         trip: tripDetails,
         route,
@@ -46,6 +49,7 @@ async function planTrip(tripDetails) {
         recommendedStays,
         cost,
         itinerary,
+        dayPlan,
     };
 }
 

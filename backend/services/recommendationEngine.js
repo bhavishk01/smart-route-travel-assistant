@@ -154,7 +154,7 @@ function generateExplanation(place) {
     } else if (place.tagRichness >= 2) {
         reasons.push('we have good details about it to help you plan your visit');
     } else {
-        reasons.push('it looks like a hidden gem, with less online info but potentially a great find');
+        reasons.push('it looks like a underrated place with less online info but potentially a great find');
     }
 
     return {

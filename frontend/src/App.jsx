@@ -58,6 +58,9 @@ function App() {
   const [errors, setErrors] = useState([]);
   const [loading, setLoading] = useState(false);
   const [categoryFilter, setCategoryFilter] = useState('All');
+  const [screen, setScreen] = useState('form');
+  const [historyTrips, setHistoryTrips] = useState([]);
+  const [historyLoading, setHistoryLoading] = useState(false);
 
   const [authUser, setAuthUser] = useState(null);
   const [authToken, setAuthToken] = useState(null);
@@ -139,6 +142,8 @@ function App() {
     googleLogout();
     setAuthToken(null);
     setAuthUser(null);
+    setScreen('form');
+    setResult(null);
     localStorage.removeItem('authToken');
     localStorage.removeItem('authUser');
   }
@@ -177,7 +182,10 @@ function App() {
     try {
       const response = await fetch('http://localhost:5000/api/trips/plan', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${authToken}`,
+        },
         body: JSON.stringify({
           ...formData,
           tripDays: Number(formData.tripDays),
@@ -195,12 +203,46 @@ function App() {
       } else {
         setResult(data);
         setCategoryFilter('All');
+        setScreen('results');
       }
     } catch (error) {
       setErrors(['Could not reach the server']);
     }
 
     setLoading(false);
+  }
+
+  async function openHistory() {
+    setScreen('history');
+    setHistoryLoading(true);
+    try {
+      const response = await fetch('http://localhost:5000/api/trips/history', {
+        headers: { Authorization: `Bearer ${authToken}` },
+      });
+      const data = await response.json();
+      if (response.ok) {
+        setHistoryTrips(data.trips);
+      }
+    } catch (error) {
+      setHistoryTrips([]);
+    }
+    setHistoryLoading(false);
+  }
+
+  async function openHistoryDetail(tripId) {
+    try {
+      const response = await fetch(`http://localhost:5000/api/trips/history/${tripId}`, {
+        headers: { Authorization: `Bearer ${authToken}` },
+      });
+      const data = await response.json();
+      if (response.ok) {
+        setResult(data);
+        setCategoryFilter('All');
+        setScreen('results');
+      }
+    } catch (error) {
+      // silently ignore, screen stays on history list
+    }
   }
 
   const categories = result
@@ -215,64 +257,74 @@ function App() {
 
   if (!authUser) {
     return (
-      <div className="min-h-screen bg-background font-body-md text-body-md text-on-surface flex items-center justify-center p-margin-mobile">
-        <div className="w-full max-w-md bg-surface-container-lowest rounded-xl shadow-xl p-space-xl">
-          <div className="flex items-center gap-2 justify-center mb-space-lg">
-            <Icon name="route" className="text-primary text-[28px]" />
-            <span className="font-title-lg text-title-lg text-primary">Smart Route</span>
+      <div className="min-h-screen bg-gradient-to-br from-primary via-primary-container to-primary flex items-center justify-center p-margin-mobile">
+        <div className="w-full max-w-md">
+          <div className="text-center mb-space-xl">
+            <h1 className="font-headline-lg text-headline-lg text-white leading-tight">
+              Plan your next <span className="text-limeAccent italic">road trip</span>
+            </h1>
+            <p className="font-body-md text-body-md text-white/70 mt-space-sm">
+              Routes, real recommendations, and honest costs, all in one place.
+            </p>
           </div>
-
-          <div className="flex items-center gap-1 p-1 bg-surface-container-low rounded-lg mb-space-lg">
-            <button type="button" onClick={() => { setAuthMode('login'); setAuthError(''); }}
-              className={`flex-1 py-2 rounded font-label-md text-label-md transition-all ${authMode === 'login' ? 'bg-primary text-white shadow-sm' : 'text-on-surface-variant'}`}>
-              Log in
-            </button>
-            <button type="button" onClick={() => { setAuthMode('signup'); setAuthError(''); }}
-              className={`flex-1 py-2 rounded font-label-md text-label-md transition-all ${authMode === 'signup' ? 'bg-primary text-white shadow-sm' : 'text-on-surface-variant'}`}>
-              Sign up
-            </button>
-          </div>
-
-          <form onSubmit={handleAuthSubmit} className="flex flex-col gap-space-md">
-            {authMode === 'signup' && (
-              <div>
-                <label className={fieldLabelClass}>Name</label>
-                <IconInput icon="person" name="name" value={authForm.name} onChange={handleAuthFormChange} required />
-              </div>
-            )}
-            <div>
-              <label className={fieldLabelClass}>Email</label>
-              <IconInput icon="mail" type="email" name="email" value={authForm.email} onChange={handleAuthFormChange} required />
+          <div className="w-full bg-surface-container-lowest rounded-xl shadow-2xl p-space-xl">
+            <div className="flex items-center gap-2 justify-center mb-space-lg">
+              <Icon name="route" className="text-primary text-[28px]" />
+              <span className="font-title-lg text-title-lg text-primary">Smart Route</span>
             </div>
-            <div>
-              <label className={fieldLabelClass}>Password</label>
-              <IconInput icon="lock" type="password" name="password" value={authForm.password} onChange={handleAuthFormChange} required />
+
+            <div className="flex items-center gap-1 p-1 bg-surface-container-low rounded-lg mb-space-lg">
+              <button type="button" onClick={() => { setAuthMode('login'); setAuthError(''); }}
+                className={`flex-1 py-2 rounded font-label-md text-label-md transition-all ${authMode === 'login' ? 'bg-primary text-white shadow-sm' : 'text-on-surface-variant'}`}>
+                Log in
+              </button>
+              <button type="button" onClick={() => { setAuthMode('signup'); setAuthError(''); }}
+                className={`flex-1 py-2 rounded font-label-md text-label-md transition-all ${authMode === 'signup' ? 'bg-primary text-white shadow-sm' : 'text-on-surface-variant'}`}>
+                Sign up
+              </button>
+            </div>
+
+            <form onSubmit={handleAuthSubmit} className="flex flex-col gap-space-md">
               {authMode === 'signup' && (
-                <p className="text-xs text-on-surface-variant mt-1">At least 8 characters</p>
+                <div>
+                  <label className={fieldLabelClass}>Name</label>
+                  <IconInput icon="person" name="name" value={authForm.name} onChange={handleAuthFormChange} required />
+                </div>
               )}
+              <div>
+                <label className={fieldLabelClass}>Email</label>
+                <IconInput icon="mail" type="email" name="email" value={authForm.email} onChange={handleAuthFormChange} required />
+              </div>
+              <div>
+                <label className={fieldLabelClass}>Password</label>
+                <IconInput icon="lock" type="password" name="password" value={authForm.password} onChange={handleAuthFormChange} required />
+                {authMode === 'signup' && (
+                  <p className="text-xs text-on-surface-variant mt-1">At least 8 characters</p>
+                )}
+              </div>
+
+              {authError && (
+                <p className="text-sm text-error flex items-center gap-1.5">
+                  <Icon name="error" className="text-[16px]" />
+                  {authError}
+                </p>
+              )}
+
+              <button type="submit" disabled={authLoading}
+                className="w-full py-3 rounded-lg bg-primary hover:bg-primary-container text-white font-label-lg text-label-lg shadow-md transition-all disabled:opacity-60">
+                {authLoading ? 'Please wait...' : authMode === 'login' ? 'Log in' : 'Create account'}
+              </button>
+            </form>
+
+            <div className="flex items-center gap-3 my-space-lg">
+              <div className="flex-1 h-px bg-outline-variant"></div>
+              <span className="text-xs text-on-surface-variant">or</span>
+              <div className="flex-1 h-px bg-outline-variant"></div>
             </div>
 
-            {authError && (
-              <p className="text-sm text-error flex items-center gap-1.5">
-                <Icon name="error" className="text-[16px]" />
-                {authError}
-              </p>
-            )}
-
-            <button type="submit" disabled={authLoading}
-              className="w-full py-3 rounded-lg bg-primary hover:bg-primary-container text-white font-label-lg text-label-lg shadow-md transition-all disabled:opacity-60">
-              {authLoading ? 'Please wait...' : authMode === 'login' ? 'Log in' : 'Create account'}
-            </button>
-          </form>
-
-          <div className="flex items-center gap-3 my-space-lg">
-            <div className="flex-1 h-px bg-outline-variant"></div>
-            <span className="text-xs text-on-surface-variant">or</span>
-            <div className="flex-1 h-px bg-outline-variant"></div>
-          </div>
-
-          <div className="flex justify-center">
-            <GoogleLogin onSuccess={handleGoogleSuccess} onError={() => setAuthError('Google sign-in failed')} />
+            <div className="flex justify-center">
+              <GoogleLogin onSuccess={handleGoogleSuccess} onError={() => setAuthError('Google sign-in failed')} />
+            </div>
           </div>
         </div>
       </div>
@@ -288,7 +340,15 @@ function App() {
             <span className="font-title-md text-title-md text-primary">Smart Route</span>
             <span className="font-label-sm text-label-sm text-on-surface-variant">Travel Assistant</span>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
+            <button onClick={() => { setResult(null); setScreen('form'); }}
+              className={`text-sm font-label-md transition-colors ${screen === 'form' ? 'text-primary font-semibold' : 'text-on-surface-variant hover:text-on-surface'}`}>
+              Plan a trip
+            </button>
+            <button onClick={openHistory}
+              className={`text-sm font-label-md transition-colors ${screen === 'history' ? 'text-primary font-semibold' : 'text-on-surface-variant hover:text-on-surface'}`}>
+              My trips
+            </button>
             <span className="font-label-md text-label-md text-on-surface-variant">{authUser.name}</span>
             <button onClick={handleLogout} className="text-sm text-secondary hover:text-primary transition-colors">
               Sign out
@@ -312,11 +372,56 @@ function App() {
         </div>
       )}
 
-      {!result ? (
+      {screen === 'history' && (
         <div className="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl">
-          <div className="max-w-2xl space-y-space-xs mb-space-lg">
-            <h1 className="font-headline-xl text-headline-xl text-primary">Plan your next road trip</h1>
-            <p className="font-body-lg text-body-lg text-on-surface-variant">
+          <h1 className="font-headline-lg text-headline-lg text-primary mb-space-lg">My trips</h1>
+
+          {historyLoading && <p className="text-on-surface-variant">Loading your trips...</p>}
+
+          {!historyLoading && historyTrips.length === 0 && (
+            <div className="bg-surface-container-lowest rounded-xl p-space-xl text-center">
+              <Icon name="map" className="text-on-surface-variant text-[40px]" />
+              <p className="text-on-surface-variant mt-space-sm">You haven't planned any trips yet.</p>
+              <button onClick={() => setScreen('form')} className="mt-space-md text-secondary hover:text-primary font-label-md transition-colors">
+                Plan your first trip
+              </button>
+            </div>
+          )}
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
+            {historyTrips.map((trip) => (
+              <button key={trip._id} onClick={() => openHistoryDetail(trip._id)}
+                className="text-left bg-surface-container-lowest rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center gap-1.5 font-title-md text-title-md text-on-surface">
+                  <Icon name="route" className="text-secondary text-[18px]" />
+                  {trip.startLocation} to {trip.destination}
+                </div>
+                <p className="text-xs text-on-surface-variant mt-1">
+                  {new Date(trip.createdAt).toLocaleDateString()} &middot; {trip.tripDays} days
+                </p>
+                {trip.route && (
+                  <p className="text-xs text-on-surface-variant mt-1">
+                    {(trip.route.distanceMeters / 1000).toFixed(1)} km
+                  </p>
+                )}
+                {trip.cost && (
+                  <p className="text-sm font-semibold text-primary mt-space-sm">
+                    ₹{trip.cost.estimatedTotalCost}
+                  </p>
+                )}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {screen === 'form' && (
+        <div className="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl">
+          <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary via-primary-container to-primary p-space-xl mb-space-lg">
+            <h1 className="font-headline-xl text-headline-xl text-white leading-tight">
+              Plan your <span className="text-limeAccent italic">dream</span> road trip
+            </h1>
+            <p className="font-body-lg text-body-lg text-white/70 mt-space-sm max-w-xl">
               Get a real route, tourist places worth the detour, an honest cost estimate, and an AI-written guide for each stop.
             </p>
           </div>
@@ -404,7 +509,7 @@ function App() {
                   </div>
                   <div>
                     <label className={fieldLabelClass}>{getFuelPriceLabel()}</label>
-                    <IconInput icon="attach_money" type="number" name="fuelPrice" value={formData.fuelPrice} onChange={handleChange} />
+                    <IconInput icon="currency_rupee" type="number" name="fuelPrice" value={formData.fuelPrice} onChange={handleChange} />
                   </div>
                 </div>
               </div>
@@ -492,14 +597,16 @@ function App() {
             </div>
           )}
         </div>
-      ) : (
+      )}
+
+      {screen === 'results' && result && (
         <div className="results-enter max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-md flex flex-col gap-space-lg">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
             <div className="flex flex-col gap-space-xs">
-              <button onClick={() => setResult(null)}
+              <button onClick={() => { setResult(null); setScreen('form'); }}
                 className="inline-flex items-center gap-space-xs text-secondary hover:text-primary font-label-lg text-label-lg transition-colors w-fit">
                 <Icon name="arrow_back" className="text-[18px]" />
-                Edit trip details
+                Plan another trip
               </button>
               <div className="flex flex-wrap items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant">
                 <span className="font-title-sm text-title-sm text-on-surface">{result.trip.startLocation} to {result.trip.destination}</span>
@@ -698,6 +805,30 @@ function App() {
             </section>
           )}
 
+          {result.dayPlan && (
+            <section className="flex flex-col gap-space-md">
+              <div className="flex items-center gap-2">
+                <Icon name="event_note" className="text-secondary text-[22px]" />
+                <h2 className="font-headline-md text-headline-md text-on-surface">Day-wise visit plan</h2>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
+                {result.dayPlan.map((dayGroup) => (
+                  <div key={dayGroup.day} className="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+                    <h3 className="font-title-md text-title-md text-primary mb-space-sm">Day {dayGroup.day}</h3>
+                    <div className="space-y-2">
+                      {dayGroup.places.map((place) => (
+                        <div key={place.placeId} className="flex items-center gap-2 text-sm text-on-surface">
+                          <Icon name="place" className="text-[16px] text-secondary" />
+                          {place.name}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           {result.recommendedStays.length > 0 && (
             <section className="flex flex-col gap-space-md">
               <div className="flex items-center gap-2">
@@ -725,7 +856,7 @@ function App() {
       )}
 
       <footer className="border-t border-outline-variant py-space-xl text-center mt-space-xxl">
-        <p className="font-body-sm text-body-sm text-on-surface-variant">Smart Route Travel Assistant — a student project</p>
+        <p className="font-body-sm text-body-sm text-on-surface-variant">Smart Route Travel Assistant</p>
       </footer>
     </div>
   );
